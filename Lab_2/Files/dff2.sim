@@ -1,0 +1,100 @@
+| units: 100 tech: scmos format: MIT
+p myClk myVdd not_0/myA 3 5 739 57
+n myClk myGnd not_0/myA 3 4 739 40
+p not_0/myA myVdd not_0/myOut 3 5 694 58
+n not_0/myA myGnd not_0/myOut 3 4 694 41
+p not_0/myOut myVdd dff1_0/not_0/myA 3 5 606 59
+n not_0/myOut myGnd dff1_0/not_0/myA 3 4 606 42
+p dff1_0/not_0/myA myVdd dff1_0/not_4/myOut 3 5 528 85
+n dff1_0/not_0/myA myGnd dff1_0/not_4/myOut 3 4 545 85
+p dff1_0/not_0/myA myVdd dff1_0/gate_0/myC 3 5 180 58
+n dff1_0/not_0/myA myGnd dff1_0/gate_0/myC 3 4 180 75
+p dff1_0/not_2/myA myVdd dff1_0/gate_1/myD 3 5 320 135
+n dff1_0/not_2/myA myGnd dff1_0/gate_1/myD 3 4 320 118
+p dff1_0/not_1/myA myVdd dff1_0/not_2/myA 3 5 317 177
+n dff1_0/not_1/myA myGnd dff1_0/not_2/myA 3 4 317 160
+p dff1_0/gate_1/a_3_46# dff1_0/gate_1/myD dff1_0/not_1/myA 3 5 257 176
+n dff1_0/not_0/myA dff1_0/gate_1/myD dff1_0/not_1/myA 3 4 257 162
+p dff1_0/not_0/myA myVdd dff1_0/gate_1/a_3_46# 3 5 257 147
+n dff1_0/not_0/myA myGnd dff1_0/gate_1/a_3_46# 3 4 257 130
+p dff1_0/gate_0/a_3_46# dff1_0/gate_0/myD dff1_0/not_1/myA 3 5 181 176
+n dff1_0/gate_0/myC dff1_0/gate_0/myD dff1_0/not_1/myA 3 4 181 162
+p dff1_0/gate_0/myC myVdd dff1_0/gate_0/a_3_46# 3 5 181 147
+n dff1_0/gate_0/myC myGnd dff1_0/gate_0/a_3_46# 3 4 181 130
+p dff1_0/clr_0/a_n13_27# myVdd dff1_0/clr_0/a_33_50# 3 7 90 174
+p myD dff1_0/clr_0/a_33_50# myVdd 3 7 102 174
+p dff1_0/clr_0/a_33_50# myVdd dff1_0/gate_0/myD 3 7 123 174
+p myClr myVdd dff1_0/clr_0/a_n13_27# 3 5 44 168
+n myClr myGnd dff1_0/clr_0/a_n13_27# 3 4 44 151
+n dff1_0/clr_0/a_n13_27# myGnd dff1_0/clr_0/a_33_8# 3 6 90 132
+n myD dff1_0/clr_0/a_33_8# dff1_0/clr_0/a_33_50# 3 6 102 132
+n dff1_0/clr_0/a_33_50# myGnd dff1_0/gate_0/myD 3 6 123 132
+p dff1_0/a_n133_170# dff1_0/not_2/myA myOut1 3 5 397 176
+n dff1_0/not_0/myA dff1_0/not_2/myA myOut1 3 4 397 162
+p dff1_0/a_n81_156# myOut1 dff1_0/a_n56_158# 3 5 471 176
+p myOut1 myVdd myOut2 3 5 533 177
+n dff1_0/not_4/myOut myOut1 dff1_0/a_n56_158# 3 4 471 162
+n myOut1 myGnd myOut2 3 4 533 160
+p dff1_0/not_0/myA myVdd dff1_0/a_n133_170# 3 5 397 147
+p dff1_0/not_4/myOut dff1_0/a_n81_156# myVdd 3 5 471 147
+p myOut2 dff1_0/a_n56_158# myVdd 3 5 534 135
+n dff1_0/not_0/myA myGnd dff1_0/a_n133_170# 3 4 397 130
+n dff1_0/not_4/myOut dff1_0/a_n81_156# myGnd 3 4 471 130
+n myOut2 dff1_0/a_n56_158# myGnd 3 4 534 118
+C myVdd dff1_0/not_2/myA 2.5
+C myVdd myGnd 11.4
+C myGnd dff1_0/gate_1/myD 2.9
+C myVdd myClr 2.7
+C myVdd myD 2.7
+C myVdd not_0/myOut 2.2
+C myGnd dff1_0/not_0/myA 5.9
+C myGnd dff1_0/a_n56_158# 2.2
+C myVdd myOut2 3.6
+C myVdd dff1_0/not_0/myA 5.6
+C myOut2 GND 58.2
+R myOut2 461
+C dff1_0/a_n56_158# GND 23.9
+R dff1_0/a_n56_158# 656
+C dff1_0/a_n81_156# GND 25.2
+R dff1_0/a_n81_156# 632
+C myOut1 GND 74.5
+R myOut1 938
+C dff1_0/a_n133_170# GND 25.2
+R dff1_0/a_n133_170# 632
+R dff1_0/clr_0/a_33_8# 40
+C myClr GND 14.9
+R myClr 249
+C dff1_0/clr_0/a_33_50# GND 25.2
+R dff1_0/clr_0/a_33_50# 545
+C myD GND 36.5
+R myD 437
+C dff1_0/clr_0/a_n13_27# GND 23.5
+R dff1_0/clr_0/a_n13_27# 648
+C dff1_0/gate_0/myC GND 42.5
+R dff1_0/gate_0/myC 572
+C dff1_0/gate_0/myD GND 17.8
+R dff1_0/gate_0/myD 590
+C dff1_0/gate_0/a_3_46# GND 25.2
+R dff1_0/gate_0/a_3_46# 632
+C dff1_0/not_0/myA GND 246.4
+R dff1_0/not_0/myA 1583
+C dff1_0/gate_1/a_3_46# GND 25.2
+R dff1_0/gate_1/a_3_46# 632
+C dff1_0/not_1/myA GND 43.3
+R dff1_0/not_1/myA 937
+C dff1_0/gate_1/myD GND 23.9
+R dff1_0/gate_1/myD 656
+C dff1_0/not_2/myA GND 48.7
+R dff1_0/not_2/myA 905
+C dff1_0/not_4/myOut GND 32.8
+R dff1_0/not_4/myOut 572
+C not_0/myOut GND 25.7
+R not_0/myOut 460
+C myGnd GND 249.2
+R myGnd 2080
+C not_0/myA GND 16.0
+R not_0/myA 460
+C myVdd GND 467.0
+R myVdd 4395
+C myClk GND 13.3
+R myClk 249

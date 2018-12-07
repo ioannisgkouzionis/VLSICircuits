@@ -1,0 +1,117 @@
+* SPICE3 file created from full_adder1bit.ext - technology: scmos
+
+.option scale=1u
+
+M1000 myVdd a_n33_61# a_n45_110# w_n48_110# pfet w=7 l=4
++ ad=574 pd=276 as=217 ps=90 
+M1001 a_n10_110# myB myVdd w_n48_110# pfet w=7 l=4
++ ad=84 pd=38 as=0 ps=0 
+M1002 a_n10_84# a_2_61# a_n10_110# w_n48_110# pfet w=7 l=4
++ ad=84 pd=38 as=0 ps=0 
+M1003 a_n45_110# myA a_n10_84# w_n48_110# pfet w=7 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1004 mySum a_n10_84# a_70_110# w_69_110# pfet w=7 l=4
++ ad=84 pd=38 as=217 ps=90 
+M1005 a_109_110# a_93_45# mySum w_69_110# pfet w=7 l=4
++ ad=84 pd=38 as=0 ps=0 
+M1006 myVdd myCin a_109_110# w_69_110# pfet w=7 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1007 a_70_110# a_125_45# myVdd w_69_110# pfet w=7 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1008 a_n29_84# a_n33_61# myGnd Gnd nfet w=6 l=4
++ ad=162 pd=78 as=700 ps=348 
+M1009 a_n10_84# myB a_n29_84# Gnd nfet w=6 l=4
++ ad=72 pd=36 as=0 ps=0 
+M1010 a_n29_84# a_2_61# a_n10_84# Gnd nfet w=6 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1011 myGnd myA a_n29_84# Gnd nfet w=6 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1012 a_93_84# a_n10_84# myGnd Gnd nfet w=6 l=4
++ ad=162 pd=78 as=0 ps=0 
+M1013 mySum a_93_45# a_93_84# Gnd nfet w=6 l=4
++ ad=72 pd=36 as=0 ps=0 
+M1014 a_93_84# myCin mySum Gnd nfet w=6 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1015 myGnd a_125_45# a_93_84# Gnd nfet w=6 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1016 myGnd myB a_n33_61# Gnd nfet w=6 l=4
++ ad=0 pd=0 as=48 ps=28 
+M1017 myGnd myA a_2_61# Gnd nfet w=6 l=4
++ ad=0 pd=0 as=48 ps=28 
+M1018 a_93_45# a_n10_84# myGnd Gnd nfet w=6 l=4
++ ad=48 pd=28 as=0 ps=0 
+M1019 a_125_45# myCin myGnd Gnd nfet w=6 l=4
++ ad=48 pd=28 as=0 ps=0 
+M1020 myVdd myB a_n33_61# w_n27_44# pfet w=6 l=4
++ ad=0 pd=0 as=42 ps=26 
+M1021 myVdd myA a_2_61# w_n27_44# pfet w=6 l=4
++ ad=0 pd=0 as=42 ps=26 
+M1022 a_93_45# a_n10_84# myVdd w_76_44# pfet w=6 l=4
++ ad=42 pd=26 as=0 ps=0 
+M1023 a_125_45# myCin myVdd w_76_44# pfet w=6 l=4
++ ad=42 pd=26 as=0 ps=0 
+M1024 a_12_n42# myB a_n1_n18# Vdd pfet w=7 l=3
++ ad=168 pd=76 as=175 ps=78 
+M1025 a_n1_n18# myCin a_12_n42# Vdd pfet w=7 l=3
++ ad=0 pd=0 as=0 ps=0 
+M1026 myVdd myA a_n1_n18# Vdd pfet w=7 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1027 a_67_n18# myB myVdd Vdd pfet w=7 l=3
++ ad=42 pd=26 as=0 ps=0 
+M1028 a_12_n42# myCin a_67_n18# Vdd pfet w=7 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1029 myCout a_12_n42# myVdd Vdd pfet w=7 l=4
++ ad=77 pd=36 as=0 ps=0 
+M1030 a_12_n42# myB a_n1_n42# Gnd nfet w=7 l=3
++ ad=175 pd=78 as=175 ps=78 
+M1031 a_n1_n42# myCin a_12_n42# Gnd nfet w=7 l=3
++ ad=0 pd=0 as=0 ps=0 
+M1032 myGnd myA a_n1_n42# Gnd nfet w=7 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1033 a_67_n42# myB myGnd Gnd nfet w=7 l=3
++ ad=42 pd=26 as=0 ps=0 
+M1034 a_12_n42# myCin a_67_n42# Gnd nfet w=7 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1035 myCout a_12_n42# myGnd Gnd nfet w=7 l=4
++ ad=77 pd=36 as=0 ps=0 
+C0 myA myVdd 2.2fF
+C1 a_n1_n42# gnd! 8.7fF
+C2 myCout gnd! 24.7fF
+C3 a_n1_n18# gnd! 5.5fF
+C4 a_12_n42# gnd! 37.4fF
+C5 a_93_84# gnd! 5.0fF
+C6 a_n29_84# gnd! 5.0fF
+C7 myGnd gnd! 160.0fF
+C8 mySum gnd! 52.8fF
+C9 a_70_110# gnd! 12.0fF
+C10 myVdd gnd! 122.0fF
+C11 a_n45_110# gnd! 12.0fF
+C12 a_125_45# gnd! 20.8fF
+C13 myCin gnd! 74.0fF
+C14 a_93_45# gnd! 19.7fF
+C15 a_n10_84# gnd! 41.0fF
+C16 myA gnd! 39.7fF
+C17 a_2_61# gnd! 19.7fF
+C18 myB gnd! 68.4fF
+C19 a_n33_61# gnd! 20.8fF
+
+
+
+.include ../usc-spice.usc-spice
+
+Vgnd1 myGnd 0 DC 0V
+Vgnd2 gnd! 0 DC 0V
+
+VVdd myVdd 0 DC 2.8V
+
+Vin1 myA 0 pulse(0 2.8v 0ns 0.1ns 0.1ns 64ns 128ns)
+Vin2 myB 0 pulse(0 2.8v 0ns 0.1ns 0.1ns 128ns 256ns)
+Vin3 myCin 0 pulse(0 2.8v 0ns 0.1ns 0.1ns 256ns 512ns)
+
+.tran 1ns 1000ns
+.probe
+.control
+run
+plot myA myB+4 myCin+8 myCout+12 mySum+16
+.endc
+.end

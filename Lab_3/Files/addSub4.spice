@@ -1,0 +1,142 @@
+* SPICE3 file created from addSub4.ext - technology: scmos
+
+.option scale=1u
+
+M1000 vdd B a_13_136# Vdd pfet w=6 l=2
++ ad=606 pd=334 as=54 ps=30 
+M1001 vdd AddSub a_43_136# Vdd pfet w=6 l=2
++ ad=0 pd=0 as=54 ps=30 
+M1002 gnd B a_13_136# Gnd nfet w=3 l=2
++ ad=431 pd=362 as=31 ps=26 
+M1003 gnd AddSub a_43_136# Gnd nfet w=3 l=2
++ ad=0 pd=0 as=31 ps=26 
+M1004 a_17_118# a_13_136# gnd Gnd nfet w=3 l=2
++ ad=68 pd=56 as=0 ps=0 
+M1005 XORB B a_17_118# Gnd nfet w=3 l=2
++ ad=52 pd=40 as=0 ps=0 
+M1006 a_17_118# a_43_136# XORB Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1007 a_96_107# XORB a_87_123# Gnd nfet w=3 l=2
++ ad=53 pd=46 as=59 ps=50 
+M1008 a_87_123# C a_96_107# Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1009 gnd A a_87_123# Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1010 a_131_123# XORB gnd Gnd nfet w=3 l=2
++ ad=15 pd=16 as=0 ps=0 
+M1011 a_96_107# C a_131_123# Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1012 Cout a_96_107# gnd Gnd nfet w=3 l=2
++ ad=25 pd=22 as=0 ps=0 
+M1013 gnd AddSub a_17_118# Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1014 a_96_107# XORB a_87_107# Vdd pfet w=6 l=2
++ ad=90 pd=54 as=102 ps=58 
+M1015 a_87_107# C a_96_107# Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1016 vdd A a_87_107# Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1017 a_131_107# XORB vdd Vdd pfet w=6 l=2
++ ad=30 pd=22 as=0 ps=0 
+M1018 a_96_107# C a_131_107# Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1019 Cout a_96_107# vdd Vdd pfet w=6 l=2
++ ad=42 pd=26 as=0 ps=0 
+M1020 vdd a_13_136# a_6_101# Vdd pfet w=6 l=2
++ ad=0 pd=0 as=108 ps=60 
+M1021 a_29_101# B vdd Vdd pfet w=6 l=2
++ ad=96 pd=44 as=0 ps=0 
+M1022 XORB a_43_136# a_29_101# Vdd pfet w=6 l=2
++ ad=60 pd=32 as=0 ps=0 
+M1023 a_6_101# AddSub XORB Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1024 vdd XORB a_72_55# Vdd pfet w=6 l=2
++ ad=0 pd=0 as=54 ps=30 
+M1025 vdd A a_102_55# Vdd pfet w=6 l=2
++ ad=0 pd=0 as=54 ps=30 
+M1026 a_145_55# a_88_37# vdd Vdd pfet w=6 l=2
++ ad=54 pd=30 as=0 ps=0 
+M1027 a_175_55# C vdd Vdd pfet w=6 l=2
++ ad=54 pd=30 as=0 ps=0 
+M1028 gnd XORB a_72_55# Gnd nfet w=3 l=2
++ ad=0 pd=0 as=31 ps=26 
+M1029 gnd A a_102_55# Gnd nfet w=3 l=2
++ ad=0 pd=0 as=31 ps=26 
+M1030 a_145_55# a_88_37# gnd Gnd nfet w=3 l=2
++ ad=31 pd=26 as=0 ps=0 
+M1031 a_175_55# C gnd Gnd nfet w=3 l=2
++ ad=31 pd=26 as=0 ps=0 
+M1032 a_76_37# a_72_55# gnd Gnd nfet w=3 l=2
++ ad=68 pd=56 as=0 ps=0 
+M1033 a_88_37# XORB a_76_37# Gnd nfet w=3 l=2
++ ad=52 pd=40 as=0 ps=0 
+M1034 a_76_37# a_102_55# a_88_37# Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1035 gnd A a_76_37# Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1036 a_145_37# a_88_37# gnd Gnd nfet w=3 l=2
++ ad=68 pd=56 as=0 ps=0 
+M1037 SUM a_145_55# a_145_37# Gnd nfet w=3 l=2
++ ad=52 pd=40 as=0 ps=0 
+M1038 vdd a_72_55# a_65_20# Vdd pfet w=6 l=2
++ ad=0 pd=0 as=108 ps=60 
+M1039 a_88_20# XORB vdd Vdd pfet w=6 l=2
++ ad=96 pd=44 as=0 ps=0 
+M1040 a_88_37# a_102_55# a_88_20# Vdd pfet w=6 l=2
++ ad=60 pd=32 as=0 ps=0 
+M1041 a_65_20# A a_88_37# Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1042 a_145_37# C SUM Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1043 gnd a_175_55# a_145_37# Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1044 SUM a_88_37# a_134_16# Vdd pfet w=6 l=2
++ ad=60 pd=32 as=108 ps=60 
+M1045 a_157_16# a_145_55# SUM Vdd pfet w=6 l=2
++ ad=96 pd=44 as=0 ps=0 
+M1046 vdd C a_157_16# Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1047 a_134_16# a_175_55# vdd Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+C0 vdd gnd 3.0fF
+C1 gnd SUM 2.2fF
+C2 a_134_16# gnd! 8.5fF
+C3 a_65_20# gnd! 8.5fF
+C4 SUM gnd! 32.0fF
+C5 a_145_37# gnd! 4.7fF
+C6 a_76_37# gnd! 4.5fF
+C7 a_175_55# gnd! 12.8fF
+C8 a_145_55# gnd! 12.8fF
+C9 a_102_55# gnd! 11.9fF
+C10 a_72_55# gnd! 11.9fF
+C11 a_88_37# gnd! 20.0fF
+C12 a_6_101# gnd! 8.5fF
+C13 a_87_107# gnd! 3.4fF
+C14 a_96_107# gnd! 14.1fF
+C15 a_87_123# gnd! 3.7fF
+C16 XORB gnd! 48.4fF
+C17 a_17_118# gnd! 4.7fF
+C18 gnd gnd! 61.3fF
+C19 a_43_136# gnd! 11.9fF
+C20 vdd gnd! 80.0fF
+C21 a_13_136# gnd! 11.9fF
+
+.include ../usc-spice.usc-spice
+
+Vgnd1 gnd 0 DC 0V
+Vgnd2 gnd! 0 DC 0V
+
+VVdd vdd 0 DC 2.8V
+
+Vin1 A 0 pulse(0 2.8v 0ns 0.1ns 0.1ns 100ns 200ns)
+Vin2 B 0 pulse(0 2.8v 0ns 0.1ns 0.1ns 200ns 400ns)
+Vin3 C 0 pulse(0 2.8v 0ns 0.1ns 0.1ns 400ns 800ns)
+Vin4 AddSub 0 pulse(0 2.8v 0ns 0.1ns 0.1ns 800ns 1600ns)
+
+.tran 1ns 1600ns
+.probe
+.control
+run
+plot A B+4 XORB+8 C+12 AddSub+16 Cout+20 SUM+24
+.endc
+.end

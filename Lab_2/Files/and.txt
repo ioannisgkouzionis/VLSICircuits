@@ -1,0 +1,20 @@
+h myVdd
+l myGnd
+
+ana myA myB myOut myVdd myGnd
+
+h myA
+h myB
+s 100
+
+h myA
+l myB
+s 100
+
+l myA 
+h myB
+s 100
+
+l myA 
+l myB
+s 100

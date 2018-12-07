@@ -1,0 +1,89 @@
+| units: 100 tech: scmos format: MIT
+p myClk myVdd not_0/myA 3 5 76 55
+n myClk myGnd not_0/myA 3 4 76 38
+p not_0/myA myVdd not_4/myOut 3 5 -2 81
+n not_0/myA myGnd not_4/myOut 3 4 15 81
+p not_0/myA myVdd gate_0/myC 3 5 -350 54
+n not_0/myA myGnd gate_0/myC 3 4 -350 71
+p not_2/myA myVdd gate_1/myD 3 5 -210 131
+n not_2/myA myGnd gate_1/myD 3 4 -210 114
+p not_1/myA myVdd not_2/myA 3 5 -213 173
+n not_1/myA myGnd not_2/myA 3 4 -213 156
+p gate_1/a_3_46# gate_1/myD not_1/myA 3 5 -273 172
+n not_0/myA gate_1/myD not_1/myA 3 4 -273 158
+p not_0/myA myVdd gate_1/a_3_46# 3 5 -273 143
+n not_0/myA myGnd gate_1/a_3_46# 3 4 -273 126
+p gate_0/a_3_46# gate_0/myD not_1/myA 3 5 -349 172
+n gate_0/myC gate_0/myD not_1/myA 3 4 -349 158
+p gate_0/myC myVdd gate_0/a_3_46# 3 5 -349 143
+n gate_0/myC myGnd gate_0/a_3_46# 3 4 -349 126
+p clr_0/a_n13_27# myVdd clr_0/a_33_50# 3 7 -440 170
+p myD clr_0/a_33_50# myVdd 3 7 -428 170
+p clr_0/a_33_50# myVdd gate_0/myD 3 7 -407 170
+p myClr myVdd clr_0/a_n13_27# 3 5 -486 164
+n myClr myGnd clr_0/a_n13_27# 3 4 -486 147
+n clr_0/a_n13_27# myGnd clr_0/a_33_8# 3 6 -440 128
+n myD clr_0/a_33_8# clr_0/a_33_50# 3 6 -428 128
+n clr_0/a_33_50# myGnd gate_0/myD 3 6 -407 128
+p a_n133_170# not_2/myA myOut1 3 5 -133 172
+n not_0/myA not_2/myA myOut1 3 4 -133 158
+p a_n81_156# myOut1 a_n56_158# 3 5 -59 172
+p myOut1 myVdd myOut2 3 5 3 173
+n not_4/myOut myOut1 a_n56_158# 3 4 -59 158
+n myOut1 myGnd myOut2 3 4 3 156
+p not_0/myA myVdd a_n133_170# 3 5 -133 143
+p not_4/myOut a_n81_156# myVdd 3 5 -59 143
+p myOut2 a_n56_158# myVdd 3 5 4 131
+n not_0/myA myGnd a_n133_170# 3 4 -133 126
+n not_4/myOut a_n81_156# myGnd 3 4 -59 126
+n myOut2 a_n56_158# myGnd 3 4 4 114
+C not_2/myA myVdd 2.5
+C gate_1/myD myGnd 2.9
+C myGnd not_0/myA 5.9
+C myVdd myGnd 2.7
+C myGnd a_n56_158# 2.2
+C myVdd myOut2 3.6
+C myVdd not_0/myA 5.6
+C myOut2 GND 47.5
+R myOut2 460
+C a_n56_158# GND 23.9
+R a_n56_158# 656
+C a_n81_156# GND 25.2
+R a_n81_156# 632
+C myOut1 GND 56.2
+R myOut1 938
+C a_n133_170# GND 25.2
+R a_n133_170# 632
+R clr_0/a_33_8# 40
+C myClr GND 12.6
+R myClr 249
+C clr_0/a_33_50# GND 25.2
+R clr_0/a_33_50# 545
+C myD GND 33.9
+R myD 437
+C clr_0/a_n13_27# GND 23.5
+R clr_0/a_n13_27# 648
+C gate_0/myC GND 42.5
+R gate_0/myC 572
+C gate_0/myD GND 17.8
+R gate_0/myD 590
+C gate_0/a_3_46# GND 25.2
+R gate_0/a_3_46# 632
+C not_0/myA GND 246.4
+R not_0/myA 1583
+C gate_1/a_3_46# GND 25.2
+R gate_1/a_3_46# 632
+C not_1/myA GND 43.3
+R not_1/myA 937
+C myGnd GND 186.2
+R myGnd 1806
+C gate_1/myD GND 23.9
+R gate_1/myD 656
+C myVdd GND 450.7
+R myVdd 3821
+C not_2/myA GND 48.7
+R not_2/myA 905
+C not_4/myOut GND 32.8
+R not_4/myOut 572
+C myClk GND 15.4
+R myClk 249

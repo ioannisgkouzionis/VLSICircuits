@@ -1,0 +1,39 @@
+| units: 100 tech: scmos format: MIT
+p S1 gate_5/Gin in4 2 6 74 4
+n gate_0/S gate_5/Gin in4 2 3 74 17
+p gate_0/S in3 gate_5/Gin 2 6 46 12
+n S1 in3 gate_5/Gin 2 3 46 -1
+p S1 in2 gate_4/Gin 2 6 19 4
+n gate_0/S in2 gate_4/Gin 2 3 19 17
+p gate_0/S in1 gate_4/Gin 2 6 -11 12
+n S1 in1 gate_4/Gin 2 3 -11 -1
+p S1 Vdd! gate_0/S 2 6 66 45
+n S1 GND gate_0/S 2 3 66 31
+p S0 Vdd! gate_4/S 2 6 46 45
+n S0 GND gate_4/S 2 3 46 31
+p S0 gate_5/Gin out 2 6 19 36
+n gate_4/S gate_5/Gin out 2 3 19 49
+p gate_4/S gate_4/Gin out 2 6 -11 44
+n S0 gate_4/Gin out 2 3 -11 31
+C out GND 5.4
+R out 638
+C gate_4/S GND 20.0
+R gate_4/S 1106
+C S0 GND 21.8
+R S0 1229
+R GND 171
+C Vdd! GND 5.6
+R Vdd! 428
+C in1 GND 2.3
+R in1 201
+C gate_4/Gin GND 9.0
+R gate_4/Gin 1054
+R in2 201
+R in3 201
+C gate_0/S GND 35.2
+R gate_0/S 1905
+R in4 201
+C S1 GND 47.1
+R S1 2386
+C gate_5/Gin GND 10.6
+R gate_5/Gin 1054

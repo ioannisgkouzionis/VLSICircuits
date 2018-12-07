@@ -1,0 +1,17 @@
+| units: 100 tech: scmos format: MIT
+p Vout inverter_2/Vdd out1 2 6 98 17
+n Vout GND! out1 2 3 98 3
+p Vout Vdd! out1 2 6 98 52
+n Vout GND! out1 2 3 98 38
+p Vin Vdd! Vout 2 6 5 35
+n Vin GND! Vout 2 3 5 21
+C Vin GND 5.2
+R Vin 322
+C Vdd! GND 17.6
+R Vdd! 429
+R GND! 288
+C out1 GND 11.6
+R out1 598
+R inverter_2/Vdd 131
+C Vout GND 25.8
+R Vout 834

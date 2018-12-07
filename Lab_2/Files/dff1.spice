@@ -1,0 +1,127 @@
+* SPICE3 file created from dff1.ext - technology: scmos
+
+.option scale=1u
+
+M1000 not_0/myA myClk myVdd Vdd pfet w=5 l=3
++ ad=55 pd=32 as=888 ps=484 
+M1001 not_0/myA myClk myGnd Gnd nfet w=4 l=3
++ ad=48 pd=32 as=636 ps=420 
+M1002 not_4/myOut not_0/myA myVdd Vdd pfet w=5 l=3
++ ad=55 pd=32 as=0 ps=0 
+M1003 not_4/myOut not_0/myA myGnd Gnd nfet w=4 l=3
++ ad=48 pd=32 as=0 ps=0 
+M1004 gate_0/myC not_0/myA myVdd Vdd pfet w=5 l=3
++ ad=55 pd=32 as=0 ps=0 
+M1005 gate_0/myC not_0/myA myGnd Gnd nfet w=4 l=3
++ ad=48 pd=32 as=0 ps=0 
+M1006 gate_1/myD not_2/myA myVdd Vdd pfet w=5 l=3
++ ad=110 pd=64 as=0 ps=0 
+M1007 gate_1/myD not_2/myA myGnd Gnd nfet w=4 l=3
++ ad=96 pd=64 as=0 ps=0 
+M1008 not_2/myA not_1/myA myVdd Vdd pfet w=5 l=3
++ ad=110 pd=64 as=0 ps=0 
+M1009 not_2/myA not_1/myA myGnd Gnd nfet w=4 l=3
++ ad=96 pd=64 as=0 ps=0 
+M1010 not_1/myA gate_1/a_3_46# gate_1/myD Vdd pfet w=5 l=3
++ ad=120 pd=68 as=0 ps=0 
+M1011 not_1/myA not_0/myA gate_1/myD Gnd nfet w=4 l=3
++ ad=104 pd=68 as=0 ps=0 
+M1012 gate_1/a_3_46# not_0/myA myVdd Vdd pfet w=5 l=3
++ ad=55 pd=32 as=0 ps=0 
+M1013 gate_1/a_3_46# not_0/myA myGnd Gnd nfet w=4 l=3
++ ad=48 pd=32 as=0 ps=0 
+M1014 not_1/myA gate_0/a_3_46# gate_0/myD Vdd pfet w=5 l=3
++ ad=0 pd=0 as=118 ps=64 
+M1015 not_1/myA gate_0/myC gate_0/myD Gnd nfet w=4 l=3
++ ad=0 pd=0 as=120 ps=68 
+M1016 gate_0/a_3_46# gate_0/myC myVdd Vdd pfet w=5 l=3
++ ad=55 pd=32 as=0 ps=0 
+M1017 gate_0/a_3_46# gate_0/myC myGnd Gnd nfet w=4 l=3
++ ad=48 pd=32 as=0 ps=0 
+M1018 clr_0/a_33_50# clr_0/a_n13_27# myVdd Vdd pfet w=7 l=3
++ ad=63 pd=32 as=0 ps=0 
+M1019 myVdd myD clr_0/a_33_50# Vdd pfet w=7 l=3
++ ad=0 pd=0 as=0 ps=0 
+M1020 gate_0/myD clr_0/a_33_50# myVdd Vdd pfet w=7 l=3
++ ad=0 pd=0 as=0 ps=0 
+M1021 clr_0/a_n13_27# myClr myVdd Vdd pfet w=5 l=3
++ ad=55 pd=32 as=0 ps=0 
+M1022 clr_0/a_n13_27# myClr myGnd Gnd nfet w=4 l=3
++ ad=48 pd=32 as=0 ps=0 
+M1023 clr_0/a_33_8# clr_0/a_n13_27# myGnd Gnd nfet w=6 l=3
++ ad=54 pd=30 as=0 ps=0 
+M1024 clr_0/a_33_50# myD clr_0/a_33_8# Gnd nfet w=6 l=3
++ ad=42 pd=26 as=0 ps=0 
+M1025 gate_0/myD clr_0/a_33_50# myGnd Gnd nfet w=6 l=3
++ ad=0 pd=0 as=0 ps=0 
+M1026 myOut1 a_n133_170# not_2/myA Vdd pfet w=5 l=3
++ ad=120 pd=68 as=0 ps=0 
+M1027 myOut1 not_0/myA not_2/myA Gnd nfet w=4 l=3
++ ad=104 pd=68 as=0 ps=0 
+M1028 a_n56_158# a_n81_156# myOut1 Vdd pfet w=5 l=3
++ ad=110 pd=64 as=0 ps=0 
+M1029 myOut2 myOut1 myVdd Vdd pfet w=5 l=3
++ ad=55 pd=32 as=0 ps=0 
+M1030 a_n56_158# not_4/myOut myOut1 Gnd nfet w=4 l=3
++ ad=96 pd=64 as=0 ps=0 
+M1031 myOut2 myOut1 myGnd Gnd nfet w=4 l=3
++ ad=48 pd=32 as=0 ps=0 
+M1032 a_n133_170# not_0/myA myVdd Vdd pfet w=5 l=3
++ ad=55 pd=32 as=0 ps=0 
+M1033 myVdd not_4/myOut a_n81_156# Vdd pfet w=5 l=3
++ ad=0 pd=0 as=55 ps=32 
+M1034 myVdd myOut2 a_n56_158# Vdd pfet w=5 l=3
++ ad=0 pd=0 as=0 ps=0 
+M1035 a_n133_170# not_0/myA myGnd Gnd nfet w=4 l=3
++ ad=48 pd=32 as=0 ps=0 
+M1036 myGnd not_4/myOut a_n81_156# Gnd nfet w=4 l=3
++ ad=0 pd=0 as=48 ps=32 
+M1037 myGnd myOut2 a_n56_158# Gnd nfet w=4 l=3
++ ad=0 pd=0 as=0 ps=0 
+C0 not_2/myA myVdd 2.5fF
+C1 gate_1/myD myGnd 2.9fF
+C2 myGnd not_0/myA 5.9fF
+C3 myVdd myGnd 2.7fF
+C4 myGnd a_n56_158# 2.2fF
+C5 myVdd myOut2 3.6fF
+C6 myVdd not_0/myA 5.6fF
+C7 myOut2 gnd! 47.5fF
+C8 a_n56_158# gnd! 23.9fF
+C9 a_n81_156# gnd! 25.2fF
+C10 myOut1 gnd! 56.2fF
+C11 a_n133_170# gnd! 25.2fF
+C12 myClr gnd! 12.6fF
+C13 clr_0/a_33_50# gnd! 25.2fF
+C14 myD gnd! 33.9fF
+C15 clr_0/a_n13_27# gnd! 23.5fF
+C16 gate_0/myC gnd! 42.5fF
+C17 gate_0/myD gnd! 17.8fF
+C18 gate_0/a_3_46# gnd! 25.2fF
+C19 not_0/myA gnd! 246.4fF
+C20 gate_1/a_3_46# gnd! 25.2fF
+C21 not_1/myA gnd! 43.3fF
+C22 myGnd gnd! 186.2fF
+C23 gate_1/myD gnd! 23.9fF
+C24 myVdd gnd! 450.7fF
+C25 not_2/myA gnd! 48.7fF
+C26 not_4/myOut gnd! 32.8fF
+C27 myClk gnd! 15.4fF
+
+.include ../usc-spice.usc-spice
+
+Vgnd1 myGnd 0 DC 0V
+Vgnd2 gnd! 0 DC 0V
+
+VVdd myVdd 0 DC 2.8V
+
+Vin1 myD 0 pulse(0 2.8v 0ns 0.1ns 0.1ns 100ns 200ns)
+Vin2 myClk 0 pulse(0 2.8v 0ns 0.1ns 0.1ns 32ns 64ns)
+Vin3 myClr 0 pulse(0 2.8v 0ns 0.1ns 0.1ns 250ns 500ns)
+
+.tran 1ns 1400ns
+.probe
+.control
+run
+plot myClk myD+4 myClr+8 myOut2+12 myOut1+16
+.endc
+.end

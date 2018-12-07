@@ -1,0 +1,92 @@
+timestamp 1477231015
+version 8.0
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+node "a_48_3#" 102 0 48 3 pdiff 0 0 84 38 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_9_3#" 430 12032 9 3 pdiff 0 0 217 90 0 0 0 0 0 0 0 0 320 202 0 0 0 0
+node "a_n71_3#" 102 0 -71 3 pdiff 0 0 84 38 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n106_3#" 430 12032 -106 3 pdiff 0 0 217 90 0 0 0 0 0 0 0 0 320 202 0 0 0 0
+node "myOut" 157 14335 32 3 pdiff 72 36 84 38 0 0 0 0 0 0 0 0 373 220 0 0 0 0
+node "a_32_30#" 194 4982 32 30 ndiff 162 78 0 0 0 0 0 0 0 0 0 0 170 110 0 0 0 0
+node "a_n90_30#" 194 4982 -90 30 ndiff 162 78 0 0 0 0 0 0 0 0 0 0 170 110 0 0 0 0
+node "myGnd" 871 48269 -106 30 ndiff 504 264 0 0 0 0 0 0 0 0 0 0 1347 584 0 0 0 0
+node "a_64_53#" 487 20772 64 53 ndiff 48 28 42 26 256 136 0 0 0 0 0 0 160 88 0 0 0 0
+node "a_32_53#" 487 19738 32 53 ndiff 48 28 42 26 256 136 0 0 0 0 0 0 138 82 0 0 0 0
+node "a_n59_n5#" 487 19738 -59 -5 p 48 28 42 26 256 136 0 0 0 0 0 0 138 82 0 0 0 0
+node "myVdd" 1336 87185 -90 3 pdiff 0 0 378 192 0 0 0 0 0 0 0 0 2083 972 0 0 0 0
+node "a_n94_n5#" 487 20772 -94 -5 p 48 28 42 26 256 136 0 0 0 0 0 0 160 88 0 0 0 0
+node "myCin" 549 20880 60 -5 p 0 0 0 0 368 192 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n71_30#" 646 40985 -71 30 ndiff 72 36 84 38 328 172 0 0 0 0 0 0 599 260 0 0 0 0
+node "myA" 549 20880 -43 -5 p 0 0 0 0 368 192 0 0 0 0 0 0 0 0 0 0 0 0
+node "myB" 549 20880 -75 -5 p 0 0 0 0 368 192 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_8_0#" 22552 0 8 0 nw 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 900 200
+node "w_n109_0#" 22552 0 -109 0 nw 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 900 200
+node "w_15_66#" 15536 0 15 66 nw 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 620 144
+node "w_n88_66#" 15536 0 -88 66 nw 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 620 144
+cap "a_64_53#" "myGnd" 600
+cap "w_n88_66#" "a_n59_n5#" 564
+cap "w_8_0#" "a_9_3#" 1128
+cap "a_n71_30#" "myOut" 360
+cap "myCin" "a_32_30#" 360
+cap "w_n109_0#" "a_n106_3#" 1128
+cap "a_n71_30#" "myGnd" 600
+cap "w_n88_66#" "myB" 1904
+cap "a_n71_30#" "a_n59_n5#" 600
+cap "myCin" "myVdd" 600
+cap "w_15_66#" "a_64_53#" 564
+cap "myB" "myVdd" 600
+cap "w_15_66#" "myVdd" 376
+cap "w_8_0#" "myCin" 1588
+cap "w_n109_0#" "a_n94_n5#" 1588
+cap "w_n109_0#" "myA" 1588
+cap "w_15_66#" "a_n71_30#" 1904
+cap "a_32_53#" "a_32_30#" 360
+cap "w_n88_66#" "a_n94_n5#" 564
+cap "a_n59_n5#" "myGnd" 600
+cap "myCin" "myGnd" 600
+cap "w_n88_66#" "myA" 1904
+cap "a_n94_n5#" "myVdd" 360
+cap "myB" "myGnd" 600
+cap "myA" "myVdd" 600
+cap "w_8_0#" "a_32_53#" 1588
+cap "myA" "a_n71_30#" 600
+cap "w_15_66#" "myCin" 1904
+cap "a_32_53#" "myOut" 360
+cap "a_n59_n5#" "a_n90_30#" 360
+cap "a_32_53#" "myGnd" 600
+cap "w_n88_66#" "myVdd" 376
+cap "myVdd" "a_64_53#" 360
+cap "a_n94_n5#" "myGnd" 600
+cap "myB" "a_n90_30#" 360
+cap "myA" "myGnd" 600
+cap "w_8_0#" "a_64_53#" 1588
+cap "w_15_66#" "a_32_53#" 564
+cap "w_n109_0#" "a_n59_n5#" 1588
+cap "w_8_0#" "a_n71_30#" 1588
+cap "w_n109_0#" "myB" 1588
+device mosfet pfet 79 3 80 4 4 7 "w_8_0#" "a_64_53#" 8 0 "myVdd" 7 0 "a_9_3#" 7 0
+device mosfet pfet 60 3 61 4 4 7 "w_8_0#" "myCin" 8 0 "a_48_3#" 7 0 "myVdd" 7 0
+device mosfet pfet 44 3 45 4 4 7 "w_8_0#" "a_32_53#" 8 0 "myOut" 7 0 "a_48_3#" 7 0
+device mosfet pfet 28 3 29 4 4 7 "w_8_0#" "a_n71_30#" 8 0 "a_9_3#" 7 0 "myOut" 7 0
+device mosfet pfet -43 3 -42 4 4 7 "w_n109_0#" "myA" 8 0 "a_n71_30#" 7 0 "a_n106_3#" 7 0
+device mosfet pfet -59 3 -58 4 4 7 "w_n109_0#" "a_n59_n5#" 8 0 "a_n71_3#" 7 0 "a_n71_30#" 7 0
+device mosfet pfet -75 3 -74 4 4 7 "w_n109_0#" "myB" 8 0 "myVdd" 7 0 "a_n71_3#" 7 0
+device mosfet pfet -94 3 -93 4 4 7 "w_n109_0#" "a_n94_n5#" 8 0 "a_n106_3#" 7 0 "myVdd" 7 0
+device mosfet nfet 79 30 80 31 4 6 "Gnd!" "a_64_53#" 8 0 "a_32_30#" 6 0 "myGnd" 6 0
+device mosfet nfet 60 30 61 31 4 6 "Gnd!" "myCin" 8 0 "myOut" 6 0 "a_32_30#" 6 0
+device mosfet nfet 44 30 45 31 4 6 "Gnd!" "a_32_53#" 8 0 "a_32_30#" 6 0 "myOut" 6 0
+device mosfet nfet 28 30 29 31 4 6 "Gnd!" "a_n71_30#" 8 0 "myGnd" 6 0 "a_32_30#" 6 0
+device mosfet nfet -43 30 -42 31 4 6 "Gnd!" "myA" 8 0 "a_n90_30#" 6 0 "myGnd" 6 0
+device mosfet nfet -59 30 -58 31 4 6 "Gnd!" "a_n59_n5#" 8 0 "a_n71_30#" 6 0 "a_n90_30#" 6 0
+device mosfet nfet -75 30 -74 31 4 6 "Gnd!" "myB" 8 0 "a_n90_30#" 6 0 "a_n71_30#" 6 0
+device mosfet nfet -94 30 -93 31 4 6 "Gnd!" "a_n94_n5#" 8 0 "myGnd" 6 0 "a_n90_30#" 6 0
+device mosfet nfet 60 53 61 54 4 6 "Gnd!" "myCin" 8 0 "myGnd" 6 0 "a_64_53#" 6 0
+device mosfet nfet 28 53 29 54 4 6 "Gnd!" "a_n71_30#" 8 0 "myGnd" 6 0 "a_32_53#" 6 0
+device mosfet nfet -43 53 -42 54 4 6 "Gnd!" "myA" 8 0 "a_n59_n5#" 6 0 "myGnd" 6 0
+device mosfet nfet -75 53 -74 54 4 6 "Gnd!" "myB" 8 0 "a_n94_n5#" 6 0 "myGnd" 6 0
+device mosfet pfet 60 69 61 70 4 6 "w_15_66#" "myCin" 8 0 "myVdd" 6 0 "a_64_53#" 6 0
+device mosfet pfet 28 69 29 70 4 6 "w_15_66#" "a_n71_30#" 8 0 "myVdd" 6 0 "a_32_53#" 6 0
+device mosfet pfet -43 69 -42 70 4 6 "w_n88_66#" "myA" 8 0 "a_n59_n5#" 6 0 "myVdd" 6 0
+device mosfet pfet -75 69 -74 70 4 6 "w_n88_66#" "myB" 8 0 "a_n94_n5#" 6 0 "myVdd" 6 0

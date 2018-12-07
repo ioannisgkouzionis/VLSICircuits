@@ -1,0 +1,57 @@
+* SPICE3 file created from cout.ext - technology: scmos
+
+.option scale=1u
+
+M1000 a_n10_n9# myB a_n23_15# Vdd pfet w=7 l=3
++ ad=168 pd=76 as=175 ps=78 
+M1001 a_n23_15# myCin a_n10_n9# Vdd pfet w=7 l=3
++ ad=0 pd=0 as=0 ps=0 
+M1002 myVdd myA a_n23_15# Vdd pfet w=7 l=4
++ ad=196 pd=84 as=0 ps=0 
+M1003 a_45_15# myB myVdd Vdd pfet w=7 l=3
++ ad=42 pd=26 as=0 ps=0 
+M1004 a_n10_n9# myCin a_45_15# Vdd pfet w=7 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1005 myOut a_n10_n9# myVdd Vdd pfet w=7 l=4
++ ad=77 pd=36 as=0 ps=0 
+M1006 a_n10_n9# myB a_n23_n9# Gnd nfet w=7 l=3
++ ad=175 pd=78 as=175 ps=78 
+M1007 a_n23_n9# myCin a_n10_n9# Gnd nfet w=7 l=3
++ ad=0 pd=0 as=0 ps=0 
+M1008 myGnd myA a_n23_n9# Gnd nfet w=7 l=4
++ ad=196 pd=84 as=0 ps=0 
+M1009 a_45_n9# myB myGnd Gnd nfet w=7 l=3
++ ad=42 pd=26 as=0 ps=0 
+M1010 a_n10_n9# myCin a_45_n9# Gnd nfet w=7 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1011 myOut a_n10_n9# myGnd Gnd nfet w=7 l=4
++ ad=77 pd=36 as=0 ps=0 
+C0 a_n23_n9# gnd! 8.7fF
+C1 myGnd gnd! 28.2fF
+C2 myOut gnd! 6.3fF
+C3 myVdd gnd! 17.1fF
+C4 a_n23_15# gnd! 5.5fF
+C5 a_n10_n9# gnd! 37.4fF
+C6 myCin gnd! 34.0fF
+C7 myA gnd! 11.6fF
+C8 myB gnd! 35.9fF
+
+
+.include ../usc-spice.usc-spice
+
+Vgnd1 myGnd 0 DC 0V
+Vgnd2 gnd! 0 DC 0V
+
+VVdd myVdd 0 DC 2.8V
+
+Vin1 myA 0 pulse(0 2.8v 0ns 0.1ns 0.1ns 64ns 128ns)
+Vin2 myB 0 pulse(0 2.8v 0ns 0.1ns 0.1ns 128ns 256ns)
+Vin3 myCin 0 pulse(0 2.8v 0ns 0.1ns 0.1ns 256ns 512ns)
+
+.tran 1ns 1000ns
+.probe
+.control
+run
+plot myA myB+4 myCin+8 myOut+12
+.endc
+.end

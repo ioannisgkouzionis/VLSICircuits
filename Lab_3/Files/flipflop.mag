@@ -1,0 +1,197 @@
+magic
+tech scmos
+timestamp 1414520249
+<< polysilicon >>
+rect -86 34 -84 46
+rect -55 35 -53 46
+rect -10 26 8 28
+rect -10 -10 -8 26
+rect 6 24 8 26
+rect 83 25 103 27
+rect 34 9 63 11
+rect 5 -2 8 0
+rect 5 -8 7 -2
+rect 5 -10 33 -8
+rect 74 -9 76 9
+rect 5 -22 7 -10
+rect 56 -11 76 -9
+rect -10 -39 -8 -34
+rect 31 -39 33 -29
+rect -10 -41 33 -39
+rect 31 -53 33 -41
+rect 83 -42 85 25
+rect 125 12 173 14
+rect 142 6 144 12
+rect 185 3 187 10
+rect 198 3 200 4
+rect 185 1 200 3
+rect 101 -1 103 1
+rect 97 -2 103 -1
+rect 97 -4 149 -2
+rect 31 -55 40 -53
+rect 97 -53 99 -4
+rect 147 -12 149 -4
+rect 185 -11 187 1
+rect 185 -13 200 -11
+rect 185 -29 187 -13
+rect 173 -31 187 -29
+rect 113 -53 115 -32
+rect 147 -42 149 -35
+rect 55 -55 115 -53
+rect 113 -68 115 -55
+<< metal1 >>
+rect -38 33 197 36
+rect -107 30 -87 33
+rect -107 -12 -104 30
+rect 58 22 61 33
+rect 81 15 95 16
+rect -25 12 -9 15
+rect 81 13 96 15
+rect 109 14 123 17
+rect -13 9 0 12
+rect 14 9 30 12
+rect 66 9 73 12
+rect 81 12 84 13
+rect 77 9 84 12
+rect 23 -1 26 9
+rect 46 3 59 6
+rect 117 3 120 14
+rect 46 1 49 3
+rect 17 -4 26 -1
+rect 117 0 136 3
+rect -107 -15 -35 -12
+rect -31 -15 -13 -12
+rect 17 -20 20 -4
+rect 100 -13 109 -11
+rect 62 -14 109 -13
+rect 62 -16 103 -14
+rect -4 -26 3 -23
+rect 17 -23 26 -20
+rect 38 -25 52 -22
+rect 63 -33 67 -30
+rect 75 -44 78 -16
+rect 119 -22 120 -21
+rect 133 -22 136 0
+rect 154 -7 157 33
+rect 166 22 169 33
+rect 194 22 197 33
+rect 204 14 209 17
+rect 177 10 183 13
+rect 166 -1 169 5
+rect 193 -1 196 7
+rect 166 -4 196 -1
+rect 154 -10 179 -7
+rect 176 -21 179 -10
+rect 119 -23 126 -22
+rect 117 -25 126 -23
+rect 133 -25 140 -22
+rect 154 -24 163 -21
+rect 108 -30 111 -29
+rect 95 -33 111 -30
+rect 108 -35 111 -33
+rect 60 -48 73 -45
+rect 77 -48 78 -44
+rect 123 -43 126 -25
+rect 160 -29 163 -24
+rect 160 -32 168 -29
+rect 87 -46 146 -43
+rect 44 -55 50 -52
+rect 176 -60 179 -38
+rect 193 -60 196 -4
+rect 204 -13 207 -10
+rect 58 -76 61 -63
+rect 111 -63 196 -60
+rect 108 -76 111 -64
+rect -55 -79 111 -76
+rect -51 -87 -48 -79
+<< metal2 >>
+rect -26 -3 45 -1
+rect -26 -4 48 -3
+rect -59 -75 -56 -5
+rect -34 -66 -31 -16
+rect 72 -33 91 -30
+rect 74 -66 77 -48
+rect 108 -60 111 -39
+rect -34 -69 77 -66
+<< polycontact >>
+rect 30 9 34 13
+rect 73 9 77 13
+rect 3 -26 7 -22
+rect 123 14 127 18
+rect 183 10 187 14
+rect 83 -46 87 -42
+rect 40 -55 44 -51
+rect 200 -13 204 -9
+rect 146 -46 150 -42
+<< m2contact >>
+rect -60 -5 -56 -1
+rect -30 -5 -26 -1
+rect 45 -3 49 1
+rect -35 -16 -31 -12
+rect 67 -33 72 -29
+rect 91 -33 95 -29
+rect 108 -39 112 -35
+rect 73 -48 77 -44
+rect -59 -79 -55 -75
+rect 107 -64 111 -60
+use clear_module  clear_module_0
+timestamp 1414509933
+transform 1 0 -78 0 1 1
+box -13 -5 54 35
+use gate  gate_0
+timestamp 1353094667
+transform 1 0 7 0 1 5
+box -9 -5 9 20
+use inverter  inverter_1
+timestamp 1351319193
+transform 1 0 62 0 1 10
+box -5 -10 7 15
+use gate  gate_2
+timestamp 1353094667
+transform 1 0 102 0 1 6
+box -9 -5 9 20
+use inverter  inverter_5
+timestamp 1351319193
+transform 1 0 171 0 1 10
+box -5 -10 7 15
+use inverter  inverter_7
+timestamp 1351319193
+transform 1 0 198 0 1 13
+box -5 -10 7 15
+use inverter  inverter_0
+timestamp 1351319193
+transform 1 0 -10 0 1 -25
+box -5 -10 7 15
+use gate  gate_1
+timestamp 1353094667
+transform 1 0 32 0 1 -29
+box -9 -5 9 20
+use inverter  inverter_2
+timestamp 1351319193
+transform -1 0 58 0 1 -26
+box -5 -10 7 15
+use inverter  inverter_4
+timestamp 1351319193
+transform 1 0 113 0 1 -23
+box -5 -10 7 15
+use gate  gate_3
+timestamp 1353094667
+transform 1 0 148 0 1 -31
+box -9 -5 9 20
+use inverter  inverter_3
+timestamp 1351319193
+transform -1 0 56 0 1 -57
+box -5 -10 7 15
+use inverter  inverter_6
+timestamp 1351319193
+transform -1 0 174 0 1 -33
+box -5 -10 7 15
+<< labels >>
+rlabel metal1 -105 -13 -105 -13 3 Vdd
+rlabel polysilicon 114 -66 114 -66 1 clk
+rlabel polysilicon -85 44 -85 44 5 clr
+rlabel polysilicon -54 44 -54 44 5 d
+rlabel metal1 -50 -86 -50 -86 1 Gnd
+rlabel metal1 208 15 208 15 7 qb
+rlabel metal1 206 -12 206 -12 7 q
+<< end >>

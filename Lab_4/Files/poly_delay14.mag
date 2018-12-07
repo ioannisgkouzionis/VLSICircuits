@@ -1,0 +1,126 @@
+magic
+tech scmos
+timestamp 1357831364
+<< polysilicon >>
+rect 5 24 7 31
+rect 15 11 3090 13
+rect 3099 11 6174 13
+rect 6183 11 9258 13
+rect 9267 11 12342 13
+rect 12351 11 15426 13
+rect 15435 11 18510 13
+rect 18519 11 21594 13
+rect 21603 11 24678 13
+rect 24687 11 27762 13
+rect 27771 11 30848 13
+rect 30857 11 33929 13
+rect 33938 11 37017 13
+rect 37026 11 40098 13
+<< metal1 >>
+rect 0 26 40095 29
+rect 0 20 3 26
+rect 3084 20 3087 26
+rect 6168 20 6171 26
+rect 9252 20 9255 26
+rect 12336 20 12339 26
+rect 15420 20 15423 26
+rect 18504 20 18507 26
+rect 21588 20 21591 26
+rect 24672 20 24675 26
+rect 27756 20 27759 26
+rect 30842 21 30845 26
+rect 33923 21 33926 26
+rect 37011 21 37014 26
+rect 40092 21 40095 26
+rect 40103 11 40108 14
+rect 0 0 3 5
+rect 3084 0 3087 5
+rect 6168 0 6171 5
+rect 9252 0 9255 5
+rect 12336 0 12339 5
+rect 15420 0 15423 5
+rect 18504 0 18507 5
+rect 21588 0 21591 5
+rect 24672 0 24675 5
+rect 27756 0 27759 5
+rect 30842 0 30845 5
+rect 33923 0 33926 5
+rect 37011 0 37014 5
+rect 40092 0 40095 5
+rect 0 -3 40095 0
+<< polycontact >>
+rect 11 10 15 14
+rect 3095 10 3099 14
+rect 6179 10 6183 14
+rect 9263 10 9267 14
+rect 12347 10 12351 14
+rect 15431 10 15435 14
+rect 18515 10 18519 14
+rect 21599 10 21603 14
+rect 24683 10 24687 14
+rect 27767 10 27771 14
+rect 30853 10 30857 14
+rect 33934 10 33938 14
+rect 37022 10 37026 14
+use inverter inverter_0
+timestamp 1351319193
+transform 1 0 5 0 1 10
+box -5 -10 7 15
+use inverter inverter_1
+timestamp 1351319193
+transform 1 0 3089 0 1 10
+box -5 -10 7 15
+use inverter inverter_2
+timestamp 1351319193
+transform 1 0 6173 0 1 10
+box -5 -10 7 15
+use inverter inverter_3
+timestamp 1351319193
+transform 1 0 9257 0 1 10
+box -5 -10 7 15
+use inverter inverter_4
+timestamp 1351319193
+transform 1 0 12341 0 1 10
+box -5 -10 7 15
+use inverter inverter_5
+timestamp 1351319193
+transform 1 0 15425 0 1 10
+box -5 -10 7 15
+use inverter inverter_6
+timestamp 1351319193
+transform 1 0 18509 0 1 10
+box -5 -10 7 15
+use inverter inverter_7
+timestamp 1351319193
+transform 1 0 21593 0 1 10
+box -5 -10 7 15
+use inverter inverter_8
+timestamp 1351319193
+transform 1 0 24677 0 1 10
+box -5 -10 7 15
+use inverter inverter_9
+timestamp 1351319193
+transform 1 0 27761 0 1 10
+box -5 -10 7 15
+use inverter inverter_10
+timestamp 1351319193
+transform 1 0 30847 0 1 10
+box -5 -10 7 15
+use inverter inverter_11
+timestamp 1351319193
+transform 1 0 33928 0 1 10
+box -5 -10 7 15
+use inverter inverter_12
+timestamp 1351319193
+transform 1 0 37016 0 1 10
+box -5 -10 7 15
+use inverter inverter_13
+timestamp 1351319193
+transform 1 0 40097 0 1 10
+box -5 -10 7 15
+<< labels >>
+rlabel metal1 1 -2 1 -2 2 GND!
+rlabel metal1 40107 13 40107 13 7 output
+rlabel metal1 2 27 2 27 4 Vdd!
+rlabel polysilicon 6 30 6 30 5 input
+<< end >>

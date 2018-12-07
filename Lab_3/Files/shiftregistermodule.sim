@@ -1,0 +1,102 @@
+| units: 100 tech: scmos format: MIT
+p mux4x1_0/in4 Vdd! flipflop_0/gate_3/Gout 2 6 280 61
+n mux4x1_0/in4 GND flipflop_0/gate_3/Gout 2 3 280 47
+p flipflop_0/clk Vdd! flipflop_0/gate_0/S 2 6 162 37
+n flipflop_0/clk GND flipflop_0/gate_0/S 2 3 162 23
+p flipflop_0/clk flipflop_0/gate_3/Gin flipflop_0/gate_3/Gout 2 6 254 67
+n flipflop_0/gate_2/S flipflop_0/gate_3/Gin flipflop_0/gate_3/Gout 2 3 254 54
+p flipflop_0/clk Vdd! flipflop_0/gate_2/S 2 6 220 71
+n flipflop_0/clk GND flipflop_0/gate_2/S 2 3 220 57
+p flipflop_0/gate_2/Gin Vdd! flipflop_0/gate_1/Gout 2 6 164 68
+n flipflop_0/gate_2/Gin GND flipflop_0/gate_1/Gout 2 3 164 54
+p flipflop_0/gate_1/S flipflop_0/gate_1/Gin flipflop_0/gate_1/Gout 2 6 138 69
+n flipflop_0/gate_0/S flipflop_0/gate_1/Gin flipflop_0/gate_1/Gout 2 3 138 56
+p flipflop_0/gate_0/S Vdd! flipflop_0/gate_1/S 2 6 97 69
+n flipflop_0/gate_0/S GND flipflop_0/gate_1/S 2 3 97 55
+p mux4x1_0/in4 Vdd! flipflop_0/qb 2 6 305 107
+n mux4x1_0/in4 GND flipflop_0/qb 2 3 305 93
+p flipflop_0/gate_3/Gin Vdd! mux4x1_0/in4 2 6 278 104
+n flipflop_0/gate_3/Gin GND mux4x1_0/in4 2 3 278 90
+p flipflop_0/gate_2/S flipflop_0/gate_2/Gin flipflop_0/gate_3/Gin 2 6 208 104
+n flipflop_0/clk flipflop_0/gate_2/Gin flipflop_0/gate_3/Gin 2 3 208 91
+p flipflop_0/gate_1/Gin Vdd! flipflop_0/gate_2/Gin 2 6 169 104
+n flipflop_0/gate_1/Gin GND flipflop_0/gate_2/Gin 2 3 169 90
+p flipflop_0/gate_0/S flipflop_0/gate_0/Gin flipflop_0/gate_1/Gin 2 6 113 103
+n flipflop_0/gate_1/S flipflop_0/gate_0/Gin flipflop_0/gate_1/Gin 2 3 113 90
+p flipflop_0/clear_module_0/nand_0/out Vdd! flipflop_0/gate_0/Gin 2 6 73 106
+n flipflop_0/clear_module_0/nand_0/out GND flipflop_0/gate_0/Gin 2 3 73 92
+p flipflop_0/clear_module_0/nand_0/in1 Vdd! flipflop_0/clear_module_0/nand_0/out 2 6 42 106
+p mux4x1_0/out flipflop_0/clear_module_0/nand_0/out Vdd! 2 6 52 106
+n flipflop_0/clear_module_0/nand_0/in1 GND flipflop_0/clear_module_0/nand_0/a_n19_2# 2 3 42 92
+n mux4x1_0/out flipflop_0/clear_module_0/nand_0/a_n19_2# flipflop_0/clear_module_0/nand_0/out 2 3 52 92
+p flipflop_0/clr Vdd! flipflop_0/clear_module_0/nand_0/in1 2 6 21 106
+n flipflop_0/clr GND flipflop_0/clear_module_0/nand_0/in1 2 3 21 92
+p mux4x1_0/S1 mux4x1_0/in4 mux4x1_0/mux2x1_2/Min2 2 6 -83 10
+n mux4x1_0/mux2x1_0/Smb mux4x1_0/in4 mux4x1_0/mux2x1_2/Min2 2 3 -70 10
+p mux4x1_0/mux2x1_0/Smb mux4x1_0/in3 mux4x1_0/mux2x1_2/Min2 2 6 -75 39
+n mux4x1_0/S1 mux4x1_0/in3 mux4x1_0/mux2x1_2/Min2 2 3 -88 39
+p mux4x1_0/S0 mux4x1_0/mux2x1_2/Min2 mux4x1_0/out 2 6 -42 66
+n mux4x1_0/mux2x1_2/Smb mux4x1_0/mux2x1_2/Min2 mux4x1_0/out 2 3 -29 66
+p mux4x1_0/mux2x1_2/Smb mux4x1_0/mux2x1_0/Mout mux4x1_0/out 2 6 -34 95
+n mux4x1_0/S0 mux4x1_0/mux2x1_0/Mout mux4x1_0/out 2 3 -47 95
+p mux4x1_0/S1 mux4x1_0/in2 mux4x1_0/mux2x1_0/Mout 2 6 -83 66
+n mux4x1_0/mux2x1_0/Smb mux4x1_0/in2 mux4x1_0/mux2x1_0/Mout 2 3 -70 66
+p mux4x1_0/mux2x1_0/Smb mux4x1_0/in1 mux4x1_0/mux2x1_0/Mout 2 6 -75 95
+n mux4x1_0/S1 mux4x1_0/in1 mux4x1_0/mux2x1_0/Mout 2 3 -88 95
+p mux4x1_0/S0 Vdd! mux4x1_0/mux2x1_2/Smb 2 6 -52 122
+n mux4x1_0/S0 GND mux4x1_0/mux2x1_2/Smb 2 3 -52 108
+p mux4x1_0/S1 Vdd! mux4x1_0/mux2x1_0/Smb 2 6 -93 122
+n mux4x1_0/S1 GND mux4x1_0/mux2x1_0/Smb 2 3 -93 108
+C mux4x1_0/mux2x1_0/Smb GND 38.8
+R mux4x1_0/mux2x1_0/Smb 1989
+C mux4x1_0/S1 GND 36.6
+R mux4x1_0/S1 2040
+C mux4x1_0/mux2x1_2/Smb GND 19.1
+R mux4x1_0/mux2x1_2/Smb 963
+C mux4x1_0/S0 GND 19.8
+R mux4x1_0/S0 1121
+C mux4x1_0/in1 GND 4.6
+R mux4x1_0/in1 201
+C mux4x1_0/in2 GND 3.2
+R mux4x1_0/in2 201
+C mux4x1_0/mux2x1_0/Mout GND 10.5
+R mux4x1_0/mux2x1_0/Mout 1054
+C mux4x1_0/in3 GND 3.2
+R mux4x1_0/in3 201
+C mux4x1_0/mux2x1_2/Min2 GND 12.1
+R mux4x1_0/mux2x1_2/Min2 1054
+C flipflop_0/clr GND 9.3
+R flipflop_0/clr 525
+R flipflop_0/clear_module_0/nand_0/a_n19_2# 71
+C mux4x1_0/out GND 33.4
+R mux4x1_0/out 1164
+C flipflop_0/clear_module_0/nand_0/in1 GND 10.0
+R flipflop_0/clear_module_0/nand_0/in1 604
+C flipflop_0/clear_module_0/nand_0/out GND 11.0
+R flipflop_0/clear_module_0/nand_0/out 552
+C flipflop_0/gate_0/S GND 42.5
+R flipflop_0/gate_0/S 2299
+C flipflop_0/gate_0/Gin GND 6.6
+R flipflop_0/gate_0/Gin 603
+C flipflop_0/gate_3/Gin GND 31.4
+R flipflop_0/gate_3/Gin 1605
+C flipflop_0/gate_2/S GND 37.0
+R flipflop_0/gate_2/S 1405
+C flipflop_0/gate_2/Gin GND 19.5
+R flipflop_0/gate_2/Gin 1355
+R flipflop_0/qb 176
+C mux4x1_0/in4 GND 64.8
+R mux4x1_0/in4 2229
+R GND 1439
+C flipflop_0/gate_1/S GND 19.2
+R flipflop_0/gate_1/S 1046
+C flipflop_0/gate_1/Gin GND 24.5
+R flipflop_0/gate_1/Gin 1271
+C flipflop_0/gate_1/Gout GND 4.4
+R flipflop_0/gate_1/Gout 603
+C flipflop_0/clk GND 65.2
+R flipflop_0/clk 3424
+C flipflop_0/gate_3/Gout GND 5.5
+R flipflop_0/gate_3/Gout 603
+C Vdd! GND 116.4
+R Vdd! 3692

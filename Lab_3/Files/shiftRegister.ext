@@ -1,0 +1,88 @@
+timestamp 1415315269
+version 8.0
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use shiftregistermodule shiftregistermodule_0 0 1 0 -1 0 316
+use shiftregistermodule shiftregistermodule_1 0 1 140 -1 0 316
+node "m1_23_323#" 3 16552 23 323 v 0 0 0 0 0 0 0 0 0 0 0 0 32 32 824 554 0 0
+node "m1_257_333#" 0 1436 257 333 v 0 0 0 0 0 0 0 0 0 0 0 0 16 16 52 40 0 0
+node "m1_117_333#" 1 5437 117 333 v 0 0 0 0 0 0 0 0 0 0 0 0 32 32 239 164 0 0
+node "m1_50_333#" 1 3545 50 333 v 0 0 0 0 0 0 0 0 0 0 0 0 16 16 163 114 0 0
+node "m1_215_415#" 1 7896 215 415 m1 0 0 0 0 0 0 0 0 0 0 0 0 168 118 0 0 0 0
+node "m1_62_416#" 1 4172 62 416 v 0 0 0 0 0 0 0 0 0 0 0 0 16 16 196 136 0 0
+node "m1_75_415#" 1 12549 75 415 m1 0 0 0 0 0 0 0 0 0 0 0 0 267 184 0 0 0 0
+node "m1_19_424#" 2 9718 19 424 m1 0 0 0 0 0 0 0 0 0 0 0 0 77 62 566 382 0 0
+node "m1_3_424#" 0 846 3 424 m1 0 0 0 0 0 0 0 0 0 0 0 0 18 18 0 0 0 0
+node "a_31_107#" 291 57573 31 107 pc 0 0 0 0 56 56 0 0 0 0 0 0 909 620 574 392 0 0
+node "a_133_308#" 632 18538 133 308 p 0 0 0 0 114 114 0 0 0 0 0 0 82 64 170 118 0 0
+node "a_n1_308#" 501 15920 -1 308 p 0 0 0 0 92 92 0 0 0 0 0 0 82 64 170 118 0 0
+node "a_56_353#" 93 8026 56 353 p 0 0 0 0 32 28 0 0 0 0 0 0 41 32 193 134 0 0
+node "a_254_380#" 188 8050 254 380 p 0 0 0 0 40 40 0 0 0 0 0 0 86 62 16 16 0 0
+node "a_112_380#" 370 17600 112 380 p 0 0 0 0 70 70 0 0 0 0 0 0 131 96 275 188 0 0
+node "a_113_412#" 537 11030 113 412 p 0 0 0 0 90 94 0 0 0 0 0 0 0 0 0 0 0 0
+cap "m1_75_415#" "m1_19_424#" 9585
+cap "a_31_107#" "shiftregistermodule_0/flipflop_0/Gnd" 405
+cap "shiftregistermodule_0/flipflop_0/Gnd" "a_31_107#" 405
+cap "a_31_107#" "shiftregistermodule_0/m1_n108_3#" 405
+cap "shiftregistermodule_1/m1_n108_3#" "a_31_107#" 405
+cap "a_n1_308#" "shiftregistermodule_0/m1_n108_3#" 57
+cap "shiftregistermodule_0/m1_n61_23#" "a_n1_308#" 270
+cap "shiftregistermodule_1/m1_n61_23#" "a_133_308#" 270
+cap "a_133_308#" "shiftregistermodule_1/m1_n108_3#" 57
+cap "shiftregistermodule_0/flipflop_0/Vdd" "shiftregistermodule_0/m1_n108_3#" 405
+cap "shiftregistermodule_0/m1_n61_23#" "a_n1_308#" 135
+cap "shiftregistermodule_0/flipflop_0/Vdd" "shiftregistermodule_0/mux4x1_0/S0" 405
+cap "shiftregistermodule_0/m1_n108_3#" "a_n1_308#" 57
+cap "shiftregistermodule_0/m1_n61_23#" "shiftregistermodule_0/m1_n108_3#" 405
+cap "shiftregistermodule_0/m1_n61_23#" "shiftregistermodule_0/mux4x1_0/S0" 405
+cap "shiftregistermodule_0/m1_n108_3#" "shiftregistermodule_0/mux4x1_0/S0" 405
+cap "shiftregistermodule_0/flipflop_0/Vdd" "shiftregistermodule_0/m1_n61_23#" 810
+cap "shiftregistermodule_0/flipflop_0/Vdd" "a_n1_308#" 180
+cap "shiftregistermodule_0/flipflop_0/clear_module_0/GND" "a_n1_308#" 180
+cap "shiftregistermodule_0/mux4x1_0/gate_4/Gin" "shiftregistermodule_0/mux4x1_0/gate_4/Sb" 180
+cap "shiftregistermodule_1/m1_n108_3#" "shiftregistermodule_0/flipflop_0/clear_module_0/Vdd" 405
+cap "shiftregistermodule_1/m1_n108_3#" "shiftregistermodule_0/mux4x1_0/gate_4/Sb" 405
+cap "shiftregistermodule_0/flipflop_0/clr" "shiftregistermodule_1/mux4x1_0/inverter_0/GND" 135
+cap "shiftregistermodule_1/mux4x1_0/inverter_0/GND" "shiftregistermodule_0/mux4x1_0/out" 405
+cap "shiftregistermodule_0/flipflop_0/clear_module_0/Vdd" "shiftregistermodule_0/mux4x1_0/gate_4/Sb" 405
+cap "shiftregistermodule_1/m1_n108_3#" "shiftregistermodule_0/flipflop_0/clr" 57
+cap "shiftregistermodule_1/m1_n108_3#" "shiftregistermodule_1/mux4x1_0/inverter_0/GND" 405
+cap "shiftregistermodule_0/flipflop_0/clear_module_0/Vdd" "shiftregistermodule_0/mux4x1_0/out" 405
+cap "shiftregistermodule_0/mux4x1_0/gate_4/Sb" "shiftregistermodule_0/mux4x1_0/out" 540
+cap "shiftregistermodule_0/flipflop_0/clear_module_0/Vdd" "shiftregistermodule_1/mux4x1_0/inverter_0/GND" 810
+cap "shiftregistermodule_1/mux4x1_0/inverter_0/GND" "shiftregistermodule_0/mux4x1_0/gate_4/Sb" 405
+cap "shiftregistermodule_1/flipflop_0/Vdd" "shiftregistermodule_1/flipflop_0/clr" 180
+cap "shiftregistermodule_1/mux4x1_0/out" "m1_23_323#" 405
+cap "shiftregistermodule_1/mux4x1_0/gate_4/Gin" "shiftregistermodule_1/mux4x1_0/S0" 180
+cap "shiftregistermodule_1/mux4x1_0/out" "shiftregistermodule_1/flipflop_0/Vdd" 405
+cap "shiftregistermodule_1/flipflop_0/clear_module_0/GND" "shiftregistermodule_1/flipflop_0/clr" 180
+cap "m1_23_323#" "shiftregistermodule_1/flipflop_0/Vdd" 810
+cap "shiftregistermodule_0/mux4x1_0/in3" "shiftregistermodule_0/mux4x1_0/in4" 810
+cap "shiftregistermodule_1/m1_n108_3#" "shiftregistermodule_0/mux4x1_0/gate_0/Sb" 180
+cap "shiftregistermodule_0/mux4x1_0/in1" "shiftregistermodule_0/mux4x1_0/gate_0/Sb" 180
+merge "shiftregistermodule_1/flipflop_0/clk" "shiftregistermodule_0/flipflop_0/clk" -1116 0 0 0 0 -4 -12 0 0 0 0 0 0 0 0 0 0 0 0
+merge "shiftregistermodule_0/flipflop_0/clk" "a_31_107#"
+merge "shiftregistermodule_1/mux4x1_0/S0" "shiftregistermodule_0/mux4x1_0/gate_4/Sb" -956 0 0 0 0 -4 -10 0 0 0 0 0 0 0 0 0 0 0 0
+merge "shiftregistermodule_0/mux4x1_0/gate_4/Sb" "a_112_380#"
+merge "a_112_380#" "a_254_380#"
+merge "shiftregistermodule_1/mux4x1_0/inverter_0/Vdd" "shiftregistermodule_0/flipflop_0/clear_module_0/Vdd" -1359 0 0 0 0 0 0 0 0 0 0 0 0 -18 -24 0 0 0 0
+merge "shiftregistermodule_0/flipflop_0/clear_module_0/Vdd" "m1_117_333#"
+merge "shiftregistermodule_0/mux4x1_0/S0" "a_56_353#" -833 0 0 0 0 0 -4 0 0 0 0 0 0 0 0 0 0 0 0
+merge "shiftregistermodule_1/flipflop_0/clr" "shiftregistermodule_0/flipflop_0/clr" -935 0 0 0 0 -2 -10 0 0 0 0 0 0 0 0 0 0 0 0
+merge "shiftregistermodule_0/flipflop_0/clr" "a_133_308#"
+merge "shiftregistermodule_1/mux4x1_0/inverter_0/GND" "shiftregistermodule_0/m1_n61_23#" -6315 0 0 0 0 0 0 0 0 0 0 0 0 -24 -28 -228 -155 0 0
+merge "shiftregistermodule_0/m1_n61_23#" "m1_23_323#"
+merge "shiftregistermodule_1/mux4x1_0/in3" "shiftregistermodule_0/mux4x1_0/in4" -423 0 0 0 0 0 0 0 0 0 0 0 0 -9 -24 0 0 0 0
+merge "shiftregistermodule_0/mux4x1_0/in4" "m1_3_424#"
+merge "m1_3_424#" "m1_19_424#"
+merge "shiftregistermodule_1/flipflop_0/Vdd" "m1_257_333#" -876 0 0 0 0 0 0 0 0 0 0 0 0 -9 -12 0 0 0 0
+merge "shiftregistermodule_1/mux4x1_0/a_n11_n5#" "shiftregistermodule_0/mux4x1_0/gate_0/Sb" -2544 0 0 0 0 -16 -24 0 0 0 0 0 0 0 0 0 0 0 0
+merge "shiftregistermodule_0/mux4x1_0/gate_0/Sb" "a_113_412#"
+merge "shiftregistermodule_1/m1_n108_3#" "shiftregistermodule_0/mux4x1_0/in2" -987 0 0 0 0 0 0 0 0 0 0 0 0 -15 -22 0 0 0 0
+merge "shiftregistermodule_0/mux4x1_0/in2" "m1_75_415#"
+merge "shiftregistermodule_0/mux4x1_0/in3" "m1_62_416#" -483 0 0 0 0 0 0 0 0 0 0 0 0 -3 -8 0 0 0 0
+merge "shiftregistermodule_0/flipflop_0/Vdd" "m1_50_333#" -1188 0 0 0 0 0 0 0 0 0 0 0 0 -12 -14 0 0 0 0
+merge "shiftregistermodule_0/flipflop_0/clear_module_0/inverter_0/in" "a_n1_308#" -615 0 0 0 0 -2 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "shiftregistermodule_1/mux4x1_0/in2" "m1_215_415#" -282 0 0 0 0 0 0 0 0 0 0 0 0 -6 -10 0 0 0 0

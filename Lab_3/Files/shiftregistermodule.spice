@@ -1,0 +1,125 @@
+* SPICE3 file created from shiftregistermodule.ext - technology: scmos
+
+.option scale=1u
+
+M1000 flipflop_0/gate_3/Gout mux4x1_0/in4 Vdd Vdd pfet w=6 l=2
++ ad=75 pd=52 as=372 ps=308 
+M1001 flipflop_0/gate_3/Gout mux4x1_0/in4 GND Gnd nfet w=3 l=2
++ ad=47 pd=42 as=247 ps=234 
+M1002 flipflop_0/gate_0/S flipflop_0/clk Vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1003 flipflop_0/gate_0/S flipflop_0/clk GND Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1004 flipflop_0/gate_3/Gout flipflop_0/clk flipflop_0/gate_3/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=98 ps=60 
+M1005 flipflop_0/gate_3/Gout flipflop_0/gate_2/S flipflop_0/gate_3/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=56 ps=48 
+M1006 flipflop_0/gate_2/S flipflop_0/clk Vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1007 flipflop_0/gate_2/S flipflop_0/clk GND Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1008 flipflop_0/gate_1/Gout flipflop_0/gate_2/Gin Vdd Vdd pfet w=6 l=2
++ ad=75 pd=52 as=0 ps=0 
+M1009 flipflop_0/gate_1/Gout flipflop_0/gate_2/Gin GND Gnd nfet w=3 l=2
++ ad=47 pd=42 as=0 ps=0 
+M1010 flipflop_0/gate_1/Gout flipflop_0/gate_1/S flipflop_0/gate_1/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=98 ps=60 
+M1011 flipflop_0/gate_1/Gout flipflop_0/gate_0/S flipflop_0/gate_1/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=56 ps=48 
+M1012 flipflop_0/gate_1/S flipflop_0/gate_0/S Vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1013 flipflop_0/gate_1/S flipflop_0/gate_0/S GND Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1014 flipflop_0/qb mux4x1_0/in4 Vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1015 flipflop_0/qb mux4x1_0/in4 GND Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1016 mux4x1_0/in4 flipflop_0/gate_3/Gin Vdd Vdd pfet w=6 l=2
++ ad=75 pd=52 as=0 ps=0 
+M1017 mux4x1_0/in4 flipflop_0/gate_3/Gin GND Gnd nfet w=3 l=2
++ ad=47 pd=42 as=0 ps=0 
+M1018 flipflop_0/gate_3/Gin flipflop_0/gate_2/S flipflop_0/gate_2/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=75 ps=52 
+M1019 flipflop_0/gate_3/Gin flipflop_0/clk flipflop_0/gate_2/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=47 ps=42 
+M1020 flipflop_0/gate_2/Gin flipflop_0/gate_1/Gin Vdd Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1021 flipflop_0/gate_2/Gin flipflop_0/gate_1/Gin GND Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1022 flipflop_0/gate_1/Gin flipflop_0/gate_0/S flipflop_0/gate_0/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=75 ps=52 
+M1023 flipflop_0/gate_1/Gin flipflop_0/gate_1/S flipflop_0/gate_0/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=47 ps=42 
+M1024 flipflop_0/gate_0/Gin flipflop_0/clear_module_0/nand_0/out Vdd Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1025 flipflop_0/gate_0/Gin flipflop_0/clear_module_0/nand_0/out GND Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1026 flipflop_0/clear_module_0/nand_0/out flipflop_0/clear_module_0/nand_0/in1 Vdd Vdd pfet w=6 l=2
++ ad=48 pd=28 as=0 ps=0 
+M1027 Vdd mux4x1_0/out flipflop_0/clear_module_0/nand_0/out Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1028 flipflop_0/clear_module_0/nand_0/a_n19_2# flipflop_0/clear_module_0/nand_0/in1 GND Gnd nfet w=3 l=2
++ ad=24 pd=22 as=0 ps=0 
+M1029 flipflop_0/clear_module_0/nand_0/out mux4x1_0/out flipflop_0/clear_module_0/nand_0/a_n19_2# Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1030 flipflop_0/clear_module_0/nand_0/in1 flipflop_0/clr Vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1031 flipflop_0/clear_module_0/nand_0/in1 flipflop_0/clr GND Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1032 mux4x1_0/mux2x1_2/Min2 mux4x1_0/S1 mux4x1_0/in4 Vdd pfet w=6 l=2
++ ad=147 pd=90 as=0 ps=0 
+M1033 mux4x1_0/mux2x1_2/Min2 mux4x1_0/mux2x1_0/Smb mux4x1_0/in4 Gnd nfet w=3 l=2
++ ad=84 pd=72 as=0 ps=0 
+M1034 mux4x1_0/mux2x1_2/Min2 mux4x1_0/mux2x1_0/Smb mux4x1_0/in3 Vdd pfet w=6 l=2
++ ad=0 pd=0 as=49 ps=30 
+M1035 mux4x1_0/mux2x1_2/Min2 mux4x1_0/S1 mux4x1_0/in3 Gnd nfet w=3 l=2
++ ad=0 pd=0 as=28 ps=24 
+M1036 mux4x1_0/out mux4x1_0/S0 mux4x1_0/mux2x1_2/Min2 Vdd pfet w=6 l=2
++ ad=98 pd=60 as=0 ps=0 
+M1037 mux4x1_0/out mux4x1_0/mux2x1_2/Smb mux4x1_0/mux2x1_2/Min2 Gnd nfet w=3 l=2
++ ad=56 pd=48 as=0 ps=0 
+M1038 mux4x1_0/out mux4x1_0/mux2x1_2/Smb mux4x1_0/mux2x1_0/Mout Vdd pfet w=6 l=2
++ ad=0 pd=0 as=147 ps=90 
+M1039 mux4x1_0/out mux4x1_0/S0 mux4x1_0/mux2x1_0/Mout Gnd nfet w=3 l=2
++ ad=0 pd=0 as=84 ps=72 
+M1040 mux4x1_0/mux2x1_0/Mout mux4x1_0/S1 mux4x1_0/in2 Vdd pfet w=6 l=2
++ ad=0 pd=0 as=49 ps=30 
+M1041 mux4x1_0/mux2x1_0/Mout mux4x1_0/mux2x1_0/Smb mux4x1_0/in2 Gnd nfet w=3 l=2
++ ad=0 pd=0 as=28 ps=24 
+M1042 mux4x1_0/mux2x1_0/Mout mux4x1_0/mux2x1_0/Smb mux4x1_0/in1 Vdd pfet w=6 l=2
++ ad=0 pd=0 as=49 ps=30 
+M1043 mux4x1_0/mux2x1_0/Mout mux4x1_0/S1 mux4x1_0/in1 Gnd nfet w=3 l=2
++ ad=0 pd=0 as=28 ps=24 
+M1044 mux4x1_0/mux2x1_2/Smb mux4x1_0/S0 Vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1045 mux4x1_0/mux2x1_2/Smb mux4x1_0/S0 GND Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1046 mux4x1_0/mux2x1_0/Smb mux4x1_0/S1 Vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1047 mux4x1_0/mux2x1_0/Smb mux4x1_0/S1 GND Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+C0 mux4x1_0/mux2x1_0/Smb gnd! 38.8fF
+C1 mux4x1_0/S1 gnd! 36.6fF
+C2 mux4x1_0/mux2x1_2/Smb gnd! 19.1fF
+C3 mux4x1_0/S0 gnd! 19.8fF
+C4 mux4x1_0/in1 gnd! 4.6fF
+C5 mux4x1_0/in2 gnd! 3.2fF
+C6 mux4x1_0/mux2x1_0/Mout gnd! 10.5fF
+C7 mux4x1_0/in3 gnd! 3.2fF
+C8 mux4x1_0/mux2x1_2/Min2 gnd! 12.1fF
+C9 flipflop_0/clr gnd! 9.3fF
+C10 mux4x1_0/out gnd! 33.4fF
+C11 flipflop_0/clear_module_0/nand_0/in1 gnd! 10.0fF
+C12 flipflop_0/clear_module_0/nand_0/out gnd! 11.0fF
+C13 flipflop_0/gate_0/S gnd! 42.5fF
+C14 flipflop_0/gate_0/Gin gnd! 6.6fF
+C15 flipflop_0/gate_3/Gin gnd! 31.4fF
+C16 flipflop_0/gate_2/S gnd! 37.0fF
+C17 flipflop_0/gate_2/Gin gnd! 19.5fF
+C18 mux4x1_0/in4 gnd! 64.8fF
+C19 flipflop_0/gate_1/S gnd! 19.2fF
+C20 flipflop_0/gate_1/Gin gnd! 24.5fF
+C21 flipflop_0/gate_1/Gout gnd! 4.4fF
+C22 flipflop_0/clk gnd! 65.2fF
+C23 flipflop_0/gate_3/Gout gnd! 5.5fF
+C24 Vdd gnd! 116.4fF

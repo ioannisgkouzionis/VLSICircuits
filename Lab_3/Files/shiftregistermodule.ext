@@ -1,0 +1,22 @@
+timestamp 1415310808
+version 8.0
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use mux4x1 mux4x1_0 0 1 -93 -1 0 103
+use flipflop flipflop_0 1 0 87 0 1 87
+node "m1_n108_3#" 6 47514 -108 3 m1 0 0 0 0 0 0 0 0 0 0 0 0 656 448 910 610 0 0
+node "m1_n61_23#" 2 15087 -61 23 m1 0 0 0 0 0 0 0 0 0 0 0 0 321 220 0 0 0 0
+node "m1_n42_51#" 1 6486 -42 51 m1 0 0 0 0 0 0 0 0 0 0 0 0 138 98 0 0 0 0
+node "a_28_127#" 64 15493 28 127 pc 0 0 0 0 20 20 0 0 0 0 0 0 295 202 0 0 0 0
+cap "m1_n108_3#" "flipflop_0/Gnd" 405
+cap "flipflop_0/clr" "flipflop_0/d" 180
+merge "flipflop_0/q" "mux4x1_0/in4" -27244 0 0 0 0 0 0 0 0 0 0 0 0 -346 -252 -594 -398 0 0
+merge "mux4x1_0/in4" "m1_n108_3#"
+merge "flipflop_0/Gnd" "mux4x1_0/inverter_0/GND" -423 0 0 0 0 0 0 0 0 0 0 0 0 -9 -18 0 0 0 0
+merge "mux4x1_0/inverter_0/GND" "m1_n61_23#"
+merge "flipflop_0/Vdd" "mux4x1_0/inverter_0/Vdd" -423 0 0 0 0 0 0 0 0 0 0 0 0 -9 -18 0 0 0 0
+merge "mux4x1_0/inverter_0/Vdd" "m1_n42_51#"
+merge "flipflop_0/d" "mux4x1_0/out" -1539 0 0 0 0 -4 -12 0 0 0 0 0 0 -3 -9 0 0 0 0
+merge "mux4x1_0/out" "a_28_127#"

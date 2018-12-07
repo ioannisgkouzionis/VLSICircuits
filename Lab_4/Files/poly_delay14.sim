@@ -1,0 +1,61 @@
+| units: 100 tech: scmos format: MIT
+p inverter_13/in Vdd! output 2 6 40097 17
+n inverter_13/in GND! output 2 3 40097 3
+p inverter_12/in Vdd! inverter_13/in 2 6 37016 17
+n inverter_12/in GND! inverter_13/in 2 3 37016 3
+p inverter_11/in Vdd! inverter_12/in 2 6 33928 17
+n inverter_11/in GND! inverter_12/in 2 3 33928 3
+p inverter_9/out Vdd! inverter_11/in 2 6 30847 17
+n inverter_9/out GND! inverter_11/in 2 3 30847 3
+p inverter_9/in Vdd! inverter_9/out 2 6 27761 17
+n inverter_9/in GND! inverter_9/out 2 3 27761 3
+p inverter_8/in Vdd! inverter_9/in 2 6 24677 17
+n inverter_8/in GND! inverter_9/in 2 3 24677 3
+p inverter_7/in Vdd! inverter_8/in 2 6 21593 17
+n inverter_7/in GND! inverter_8/in 2 3 21593 3
+p inverter_6/in Vdd! inverter_7/in 2 6 18509 17
+n inverter_6/in GND! inverter_7/in 2 3 18509 3
+p inverter_5/in Vdd! inverter_6/in 2 6 15425 17
+n inverter_5/in GND! inverter_6/in 2 3 15425 3
+p inverter_4/in Vdd! inverter_5/in 2 6 12341 17
+n inverter_4/in GND! inverter_5/in 2 3 12341 3
+p inverter_3/in Vdd! inverter_4/in 2 6 9257 17
+n inverter_3/in GND! inverter_4/in 2 3 9257 3
+p inverter_2/in Vdd! inverter_3/in 2 6 6173 17
+n inverter_2/in GND! inverter_3/in 2 3 6173 3
+p inverter_1/in Vdd! inverter_2/in 2 6 3089 17
+n inverter_1/in GND! inverter_2/in 2 3 3089 3
+p input Vdd! inverter_1/in 2 6 5 17
+n input GND! inverter_1/in 2 3 5 3
+C input GND 6.2
+R input 370
+C inverter_1/in GND 739.2
+R inverter_1/in 37193
+C inverter_2/in GND 739.2
+R inverter_2/in 37193
+C inverter_3/in GND 739.2
+R inverter_3/in 37193
+C inverter_4/in GND 739.2
+R inverter_4/in 37193
+C inverter_5/in GND 739.2
+R inverter_5/in 37193
+C inverter_6/in GND 739.2
+R inverter_6/in 37193
+C inverter_7/in GND 739.2
+R inverter_7/in 37193
+C inverter_8/in GND 739.2
+R inverter_8/in 37193
+C inverter_9/in GND 739.2
+R inverter_9/in 37193
+C inverter_9/out GND 739.7
+R inverter_9/out 37217
+C inverter_11/in GND 738.5
+R inverter_11/in 37158
+C inverter_12/in GND 740.1
+R inverter_12/in 37241
+R GND! 2195
+R output 176
+C Vdd! GND 5659.0
+R Vdd! 4417
+C inverter_13/in GND 738.5
+R inverter_13/in 37158

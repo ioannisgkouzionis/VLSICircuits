@@ -1,0 +1,71 @@
+magic
+tech scmos
+timestamp 1355738816
+<< polysilicon >>
+rect 5 24 7 28
+rect 19 10 7962 12
+rect 7977 10 15985 12
+rect 15999 10 24008 12
+rect 24023 10 32031 12
+rect 32047 10 40026 12
+<< metal1 >>
+rect -3 27 40020 30
+rect -3 23 0 27
+rect -3 20 1 23
+rect 7955 21 7958 27
+rect 15978 20 15981 27
+rect 24001 21 24004 27
+rect 32024 21 32027 27
+rect 40017 22 40020 27
+rect 40017 19 40023 22
+rect 11 10 15 13
+rect 7966 10 7973 13
+rect 15989 10 15995 13
+rect 24012 10 24019 13
+rect 32035 10 32043 13
+rect 40030 9 40036 12
+rect -3 4 3 7
+rect -3 0 0 4
+rect 7955 0 7958 6
+rect 15978 0 15981 5
+rect 24001 0 24004 4
+rect 32024 0 32027 5
+rect 40017 2 40023 5
+rect 40017 0 40020 2
+rect -3 -3 40020 0
+<< polycontact >>
+rect 15 10 19 14
+rect 7973 9 7977 13
+rect 15995 10 15999 14
+rect 24019 10 24023 14
+rect 32043 10 32047 14
+use inverter inverter_0
+timestamp 1351319193
+transform 1 0 5 0 1 10
+box -5 -10 7 15
+use inverter inverter_2
+timestamp 1351319193
+transform 1 0 7960 0 1 10
+box -5 -10 7 15
+use inverter inverter_3
+timestamp 1351319193
+transform 1 0 15983 0 1 10
+box -5 -10 7 15
+use inverter inverter_4
+timestamp 1351319193
+transform 1 0 24006 0 1 10
+box -5 -10 7 15
+use inverter inverter_5
+timestamp 1351319193
+transform 1 0 32029 0 1 10
+box -5 -10 7 15
+use inverter inverter_1
+timestamp 1351319193
+transform 1 0 40025 0 1 9
+box -5 -10 7 15
+<< labels >>
+rlabel metal1 40034 10 40034 10 7 output
+rlabel polysilicon 6 26 6 26 5 input
+rlabel metal1 -2 21 -2 21 3 Vdd!
+rlabel metal1 -2 0 -2 0 2 GND!
+<< end >>

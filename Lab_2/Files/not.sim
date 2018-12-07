@@ -1,0 +1,9 @@
+| units: 100 tech: scmos format: MIT
+p myA myVdd myOut 3 5 -14 6
+n myA myGnd myOut 3 4 -14 -11
+R myGnd 73
+C myOut GND 3.9
+R myOut 211
+R myVdd 143
+C myA GND 10.3
+R myA 248

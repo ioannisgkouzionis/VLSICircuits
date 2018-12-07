@@ -1,0 +1,7 @@
+94 inverter_1/in.t1 4002600 1200 0;
+94 inverter_1/in.t0 700 400 0;
+94 input 500 2400 p;
+94 GND! -300 -300 m1;
+94 output 4003000 900 m1;
+94 Vdd! 0 1900 pdc;
+94 Gnd! 4002500 900 space;

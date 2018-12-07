@@ -1,0 +1,25 @@
+* SPICE3 file created from inverter.ext - technology: scmos
+
+
+.option scale=1u
+
+M1000 out in Vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=26 ps=22 
+M1001 out in GND Gnd nfet w=3 l=2
++ ad=19 pd=18 as=19 ps=18 
+C0 in gnd! 4.8fF
+
+.include ../usc-spice.usc-spice
+
+Vgnd1 GND 0 DC 0V
+Vgnd2 gnd! 0 DC 0V
+VVdd Vdd 0 DC 2.8V
+Vin in 0 pulse(0 2.8 0ns 0.1ns 0.1ns 10ns 20ns)
+.tran 5ns 40ns
+.probe
+.control
+run
+plot in out+4
+.endc
+.end
+

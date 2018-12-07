@@ -1,0 +1,172 @@
+magic
+tech scmos
+timestamp 1415317840
+<< polysilicon >>
+rect -41 415 -5 416
+rect -41 414 29 415
+rect -7 413 29 414
+rect 252 413 308 415
+rect 539 414 575 415
+rect 539 413 596 414
+rect 573 412 596 413
+rect 830 412 878 414
+rect 972 412 974 417
+rect -41 382 -21 384
+rect -23 376 -21 382
+rect 973 380 984 382
+rect 916 353 920 355
+rect -21 311 -19 317
+rect 272 311 274 316
+rect -21 309 1 311
+rect 272 309 293 311
+rect 563 310 565 316
+rect 563 308 579 310
+rect 850 309 852 315
+rect 928 313 952 315
+rect 990 313 993 315
+rect 850 307 868 309
+rect -26 285 -24 290
+rect 987 282 989 286
+rect -122 113 -120 116
+rect 892 109 894 114
+<< metal1 >>
+rect -144 425 -141 432
+rect -79 428 6 431
+rect -92 419 -89 428
+rect -79 417 -76 428
+rect -35 416 -32 425
+rect 19 422 22 437
+rect 159 422 162 435
+rect 258 428 297 431
+rect 119 415 122 420
+rect 259 416 262 424
+rect 310 422 313 436
+rect 434 423 437 435
+rect 545 428 584 431
+rect 410 416 413 421
+rect 550 415 553 423
+rect 597 420 600 435
+rect 737 422 740 433
+rect 830 427 866 430
+rect 697 415 700 420
+rect 837 414 840 424
+rect 863 416 866 427
+rect 878 422 882 430
+rect 935 414 938 420
+rect 979 415 982 420
+rect -22 364 -19 372
+rect 921 348 924 351
+rect -157 339 -154 343
+rect -160 325 -158 328
+rect 918 313 924 316
+rect 872 306 876 309
+rect -122 105 -119 109
+rect 892 100 895 105
+rect -166 10 -122 13
+rect -118 10 0 13
+rect 255 10 299 13
+rect 557 12 566 13
+rect 557 9 589 12
+rect 845 9 891 12
+rect 895 9 899 12
+<< metal2 >>
+rect -131 418 13 421
+rect 163 418 309 421
+rect 454 417 581 420
+rect 741 418 922 421
+rect -22 346 -19 360
+rect 267 346 270 358
+rect -22 343 2 346
+rect 267 343 303 346
+rect 558 345 561 359
+rect 846 347 849 357
+rect 558 342 594 345
+rect 846 344 920 347
+rect -154 335 -103 338
+rect -34 334 2 337
+rect 272 334 295 337
+rect 561 333 586 336
+rect 839 333 911 336
+rect -154 325 -133 328
+rect -128 325 20 328
+rect 271 325 294 328
+rect 561 324 587 327
+rect 850 324 882 327
+rect 914 309 917 313
+rect 880 306 917 309
+rect -122 14 -119 101
+rect 892 13 895 96
+<< polycontact >>
+rect -23 372 -19 376
+rect 920 351 924 355
+rect 924 313 928 317
+rect 868 306 872 310
+rect -123 109 -119 113
+rect 891 105 895 109
+<< m2contact >>
+rect -135 418 -131 422
+rect 159 418 163 422
+rect 450 417 454 421
+rect 737 418 741 422
+rect 922 417 926 421
+rect -23 360 -19 364
+rect 920 344 924 348
+rect -158 335 -154 339
+rect -103 335 -99 339
+rect -38 334 -34 338
+rect 911 333 915 337
+rect -158 325 -154 329
+rect -133 323 -128 328
+rect 882 323 886 327
+rect 914 313 918 317
+rect 876 306 880 310
+rect -123 101 -119 105
+rect 891 96 895 100
+rect -122 10 -118 14
+rect 891 9 895 13
+use shiftregistermodule  shiftregistermodule_1
+timestamp 1415310808
+transform 0 1 -154 -1 0 318
+box -108 0 296 133
+use shiftRegister  shiftRegister_0
+timestamp 1415315269
+transform 1 0 0 0 1 1
+box -3 9 273 431
+use shiftRegister  shiftRegister_1
+timestamp 1415315269
+transform 1 0 291 0 1 1
+box -3 9 273 431
+use shiftRegister  shiftRegister_2
+timestamp 1415315269
+transform 1 0 578 0 1 0
+box -3 9 273 431
+use shiftregistermodule  shiftregistermodule_0
+timestamp 1415310808
+transform 0 1 860 -1 0 316
+box -108 0 296 133
+<< labels >>
+rlabel metal1 -34 423 -34 423 1 in7
+rlabel metal1 120 418 120 418 1 in6
+rlabel metal1 260 423 260 423 1 in5
+rlabel metal1 411 419 411 419 1 in4
+rlabel metal1 551 422 551 422 1 in3
+rlabel metal1 698 417 698 417 1 in2
+rlabel metal1 838 422 838 422 1 in1
+rlabel metal1 981 418 981 418 1 in0
+rlabel polysilicon 973 416 973 416 1 S1
+rlabel polysilicon 983 381 983 381 1 S0
+rlabel metal1 937 418 937 418 1 sr
+rlabel metal1 -91 426 -91 426 1 sl
+rlabel metal1 -159 326 -159 326 1 gnd
+rlabel metal1 -156 341 -156 341 1 vdd
+rlabel metal1 897 11 897 11 1 CLK
+rlabel polysilicon 992 314 992 314 7 CLR
+rlabel metal1 880 429 880 429 5 q0
+rlabel metal1 738 431 738 431 5 q1
+rlabel metal1 598 433 598 433 5 q2
+rlabel metal1 436 433 436 433 5 q3
+rlabel metal1 312 434 312 434 5 q4
+rlabel metal1 160 433 160 433 5 q5
+rlabel metal1 20 435 20 435 5 q6
+rlabel metal1 -142 430 -142 430 1 q7
+<< end >>

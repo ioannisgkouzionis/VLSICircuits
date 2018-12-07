@@ -1,0 +1,206 @@
+| units: 100 tech: scmos format: MIT
+p inverter_49/in Vdd! output 2 6 40357 17
+n inverter_49/in GND! output 2 3 40357 3
+p inverter_48/in Vdd! inverter_49/in 2 6 39533 17
+n inverter_48/in GND! inverter_49/in 2 3 39533 3
+p inverter_47/in Vdd! inverter_48/in 2 6 38710 17
+n inverter_47/in GND! inverter_48/in 2 3 38710 3
+p inverter_46/in Vdd! inverter_47/in 2 6 37886 17
+n inverter_46/in GND! inverter_47/in 2 3 37886 3
+p inverter_45/in Vdd! inverter_46/in 2 6 37063 17
+n inverter_45/in GND! inverter_46/in 2 3 37063 3
+p inverter_44/in Vdd! inverter_45/in 2 6 36239 17
+n inverter_44/in GND! inverter_45/in 2 3 36239 3
+p inverter_43/in Vdd! inverter_44/in 2 6 35416 17
+n inverter_43/in GND! inverter_44/in 2 3 35416 3
+p inverter_42/in Vdd! inverter_43/in 2 6 34592 17
+n inverter_42/in GND! inverter_43/in 2 3 34592 3
+p inverter_41/in Vdd! inverter_42/in 2 6 33769 17
+n inverter_41/in GND! inverter_42/in 2 3 33769 3
+p inverter_40/in Vdd! inverter_41/in 2 6 32945 17
+n inverter_40/in GND! inverter_41/in 2 3 32945 3
+p inverter_39/in Vdd! inverter_40/in 2 6 32122 17
+n inverter_39/in GND! inverter_40/in 2 3 32122 3
+p inverter_38/in Vdd! inverter_39/in 2 6 31298 17
+n inverter_38/in GND! inverter_39/in 2 3 31298 3
+p inverter_37/in Vdd! inverter_38/in 2 6 30475 17
+n inverter_37/in GND! inverter_38/in 2 3 30475 3
+p inverter_36/in Vdd! inverter_37/in 2 6 29651 17
+n inverter_36/in GND! inverter_37/in 2 3 29651 3
+p inverter_35/in Vdd! inverter_36/in 2 6 28828 17
+n inverter_35/in GND! inverter_36/in 2 3 28828 3
+p inverter_34/in Vdd! inverter_35/in 2 6 28004 17
+n inverter_34/in GND! inverter_35/in 2 3 28004 3
+p inverter_33/in Vdd! inverter_34/in 2 6 27181 17
+n inverter_33/in GND! inverter_34/in 2 3 27181 3
+p inverter_32/in Vdd! inverter_33/in 2 6 26357 17
+n inverter_32/in GND! inverter_33/in 2 3 26357 3
+p inverter_31/in Vdd! inverter_32/in 2 6 25534 17
+n inverter_31/in GND! inverter_32/in 2 3 25534 3
+p inverter_30/in Vdd! inverter_31/in 2 6 24710 17
+n inverter_30/in GND! inverter_31/in 2 3 24710 3
+p inverter_29/in Vdd! inverter_30/in 2 6 23887 17
+n inverter_29/in GND! inverter_30/in 2 3 23887 3
+p inverter_28/in Vdd! inverter_29/in 2 6 23063 17
+n inverter_28/in GND! inverter_29/in 2 3 23063 3
+p inverter_27/in Vdd! inverter_28/in 2 6 22240 17
+n inverter_27/in GND! inverter_28/in 2 3 22240 3
+p inverter_26/in Vdd! inverter_27/in 2 6 21416 17
+n inverter_26/in GND! inverter_27/in 2 3 21416 3
+p inverter_25/in Vdd! inverter_26/in 2 6 20593 17
+n inverter_25/in GND! inverter_26/in 2 3 20593 3
+p inverter_24/in Vdd! inverter_25/in 2 6 19769 17
+n inverter_24/in GND! inverter_25/in 2 3 19769 3
+p inverter_23/in Vdd! inverter_24/in 2 6 18946 17
+n inverter_23/in GND! inverter_24/in 2 3 18946 3
+p inverter_22/in Vdd! inverter_23/in 2 6 18122 17
+n inverter_22/in GND! inverter_23/in 2 3 18122 3
+p inverter_21/in Vdd! inverter_22/in 2 6 17299 17
+n inverter_21/in GND! inverter_22/in 2 3 17299 3
+p inverter_20/in Vdd! inverter_21/in 2 6 16475 17
+n inverter_20/in GND! inverter_21/in 2 3 16475 3
+p inverter_19/in Vdd! inverter_20/in 2 6 15652 17
+n inverter_19/in GND! inverter_20/in 2 3 15652 3
+p inverter_18/in Vdd! inverter_19/in 2 6 14828 17
+n inverter_18/in GND! inverter_19/in 2 3 14828 3
+p inverter_17/in Vdd! inverter_18/in 2 6 14005 17
+n inverter_17/in GND! inverter_18/in 2 3 14005 3
+p inverter_16/in Vdd! inverter_17/in 2 6 13181 17
+n inverter_16/in GND! inverter_17/in 2 3 13181 3
+p inverter_15/in Vdd! inverter_16/in 2 6 12358 17
+n inverter_15/in GND! inverter_16/in 2 3 12358 3
+p inverter_14/in Vdd! inverter_15/in 2 6 11534 17
+n inverter_14/in GND! inverter_15/in 2 3 11534 3
+p inverter_13/in Vdd! inverter_14/in 2 6 10711 17
+n inverter_13/in GND! inverter_14/in 2 3 10711 3
+p inverter_12/in Vdd! inverter_13/in 2 6 9887 17
+n inverter_12/in GND! inverter_13/in 2 3 9887 3
+p inverter_11/in Vdd! inverter_12/in 2 6 9064 17
+n inverter_11/in GND! inverter_12/in 2 3 9064 3
+p inverter_9/out Vdd! inverter_11/in 2 6 8240 17
+n inverter_9/out GND! inverter_11/in 2 3 8240 3
+p inverter_9/in Vdd! inverter_9/out 2 6 7417 17
+n inverter_9/in GND! inverter_9/out 2 3 7417 3
+p inverter_8/in Vdd! inverter_9/in 2 6 6593 17
+n inverter_8/in GND! inverter_9/in 2 3 6593 3
+p inverter_7/in Vdd! inverter_8/in 2 6 5770 17
+n inverter_7/in GND! inverter_8/in 2 3 5770 3
+p inverter_6/in Vdd! inverter_7/in 2 6 4946 17
+n inverter_6/in GND! inverter_7/in 2 3 4946 3
+p inverter_5/in Vdd! inverter_6/in 2 6 4123 17
+n inverter_5/in GND! inverter_6/in 2 3 4123 3
+p inverter_4/in Vdd! inverter_5/in 2 6 3299 17
+n inverter_4/in GND! inverter_5/in 2 3 3299 3
+p inverter_3/in Vdd! inverter_4/in 2 6 2476 17
+n inverter_3/in GND! inverter_4/in 2 3 2476 3
+p inverter_2/in Vdd! inverter_3/in 2 6 1652 17
+n inverter_2/in GND! inverter_3/in 2 3 1652 3
+p inverter_1/in Vdd! inverter_2/in 2 6 829 17
+n inverter_1/in GND! inverter_2/in 2 3 829 3
+p input Vdd! inverter_1/in 2 6 5 17
+n input GND! inverter_1/in 2 3 5 3
+C input GND 6.2
+R input 370
+C inverter_1/in GND 201.3
+R inverter_1/in 10233
+C inverter_2/in GND 201.1
+R inverter_2/in 10221
+C inverter_3/in GND 201.3
+R inverter_3/in 10233
+C inverter_4/in GND 200.9
+R inverter_4/in 10197
+C inverter_5/in GND 201.3
+R inverter_5/in 10233
+C inverter_6/in GND 201.1
+R inverter_6/in 10221
+C inverter_7/in GND 201.3
+R inverter_7/in 10233
+C inverter_8/in GND 201.1
+R inverter_8/in 10221
+C inverter_9/in GND 201.3
+R inverter_9/in 10233
+C inverter_9/out GND 201.1
+R inverter_9/out 10221
+C inverter_11/in GND 201.3
+R inverter_11/in 10233
+C inverter_12/in GND 201.1
+R inverter_12/in 10221
+C inverter_13/in GND 201.3
+R inverter_13/in 10233
+C inverter_14/in GND 201.1
+R inverter_14/in 10221
+C inverter_15/in GND 201.3
+R inverter_15/in 10233
+C inverter_16/in GND 201.1
+R inverter_16/in 10221
+C inverter_17/in GND 200.9
+R inverter_17/in 10197
+C inverter_18/in GND 201.1
+R inverter_18/in 10221
+C inverter_19/in GND 201.3
+R inverter_19/in 10233
+C inverter_20/in GND 201.1
+R inverter_20/in 10221
+C inverter_21/in GND 201.1
+R inverter_21/in 10209
+C inverter_22/in GND 201.1
+R inverter_22/in 10221
+C inverter_23/in GND 201.3
+R inverter_23/in 10233
+C inverter_24/in GND 201.1
+R inverter_24/in 10221
+C inverter_25/in GND 201.3
+R inverter_25/in 10233
+C inverter_26/in GND 201.1
+R inverter_26/in 10220
+C inverter_27/in GND 201.3
+R inverter_27/in 10233
+C inverter_28/in GND 201.1
+R inverter_28/in 10221
+C inverter_29/in GND 201.3
+R inverter_29/in 10233
+C inverter_30/in GND 201.1
+R inverter_30/in 10221
+C inverter_31/in GND 201.3
+R inverter_31/in 10233
+C inverter_32/in GND 201.1
+R inverter_32/in 10221
+C inverter_33/in GND 201.3
+R inverter_33/in 10233
+C inverter_34/in GND 200.4
+R inverter_34/in 10173
+C inverter_35/in GND 201.3
+R inverter_35/in 10233
+C inverter_36/in GND 201.1
+R inverter_36/in 10221
+C inverter_37/in GND 201.3
+R inverter_37/in 10233
+C inverter_38/in GND 201.1
+R inverter_38/in 10221
+C inverter_39/in GND 201.3
+R inverter_39/in 10233
+C inverter_40/in GND 201.1
+R inverter_40/in 10221
+C inverter_41/in GND 201.3
+R inverter_41/in 10233
+C inverter_42/in GND 201.1
+R inverter_42/in 10221
+C inverter_43/in GND 201.0
+R inverter_43/in 10185
+C inverter_44/in GND 201.1
+R inverter_44/in 10221
+C inverter_45/in GND 201.3
+R inverter_45/in 10233
+C inverter_46/in GND 201.1
+R inverter_46/in 10221
+C inverter_47/in GND 201.3
+R inverter_47/in 10233
+C inverter_48/in GND 201.1
+R inverter_48/in 10221
+R GND! 6296
+C output GND 2.1
+R output 176
+C Vdd! GND 5710.9
+R Vdd! 14403
+C inverter_49/in GND 201.3
+R inverter_49/in 10233

@@ -1,0 +1,20 @@
+| units: 100 tech: scmos format: MIT
+p myB myVdd a_1_10# 3 7 -2 10
+p myA a_1_10# myVdd 3 7 10 10
+p a_1_10# myVdd myOut 3 7 31 10
+n myB myGnd a_1_n32# 3 6 -2 -32
+n myA a_1_n32# a_1_10# 3 6 10 -32
+n a_1_10# myGnd myOut 3 6 31 -32
+R a_1_n32# 40
+C myGnd GND 9.3
+R myGnd 166
+C myOut GND 8.3
+R myOut 131
+C myVdd GND 5.4
+R myVdd 384
+C a_1_10# GND 25.2
+R a_1_10# 545
+C myA GND 19.8
+R myA 437
+C myB GND 17.3
+R myB 437

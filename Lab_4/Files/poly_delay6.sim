@@ -1,0 +1,29 @@
+| units: 100 tech: scmos format: MIT
+p inverter_1/in Vdd! output 2 6 40025 16
+n inverter_1/in GND! output 2 3 40025 2
+p inverter_5/in Vdd! inverter_1/in 2 6 32029 17
+n inverter_5/in GND! inverter_1/in 2 3 32029 3
+p inverter_4/in Vdd! inverter_5/in 2 6 24006 17
+n inverter_4/in GND! inverter_5/in 2 3 24006 3
+p inverter_3/in Vdd! inverter_4/in 2 6 15983 17
+n inverter_3/in GND! inverter_4/in 2 3 15983 3
+p inverter_2/in Vdd! inverter_3/in 2 6 7960 17
+n inverter_2/in GND! inverter_3/in 2 3 7960 3
+p input Vdd! inverter_2/in 2 6 5 17
+n input GND! inverter_2/in 2 3 5 3
+C input GND 5.5
+R input 334
+C inverter_2/in GND 1898.1
+R inverter_2/in 95258
+C inverter_3/in GND 1914.0
+R inverter_3/in 96034
+C inverter_4/in GND 1914.1
+R inverter_4/in 96046
+C inverter_5/in GND 1914.0
+R inverter_5/in 96034
+R GND! 1282
+R output 176
+C Vdd! GND 5647.5
+R Vdd! 2196
+C inverter_1/in GND 1907.5
+R inverter_1/in 95700

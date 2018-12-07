@@ -1,0 +1,21 @@
+h myVdd
+l myGnd
+
+ana myIna myInb myOut
+
+h myIna
+h myInb
+s 100
+
+l myIna
+h myInb
+s 100
+
+l myIna
+l myInb
+s 100
+
+h myIna
+l myInb
+s 100
+

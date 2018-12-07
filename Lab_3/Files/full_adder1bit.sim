@@ -1,0 +1,84 @@
+| units: 100 tech: scmos format: MIT
+p a_n33_61# a_n45_110# myVdd 4 7 -33 110
+p myB myVdd a_n10_110# 4 7 -14 110
+p a_2_61# a_n10_110# a_n10_84# 4 7 2 110
+p myA a_n10_84# a_n45_110# 4 7 18 110
+p a_n10_84# a_70_110# mySum 4 7 89 110
+p a_93_45# mySum a_109_110# 4 7 105 110
+p myCin a_109_110# myVdd 4 7 121 110
+p a_125_45# myVdd a_70_110# 4 7 140 110
+n a_n33_61# myGnd a_n29_84# 4 6 -33 84
+n myB a_n29_84# a_n10_84# 4 6 -14 84
+n a_2_61# a_n10_84# a_n29_84# 4 6 2 84
+n myA a_n29_84# myGnd 4 6 18 84
+n a_n10_84# myGnd a_93_84# 4 6 89 84
+n a_93_45# a_93_84# mySum 4 6 105 84
+n myCin mySum a_93_84# 4 6 121 84
+n a_125_45# a_93_84# myGnd 4 6 140 84
+n myB a_n33_61# myGnd 4 6 -14 61
+n myA a_2_61# myGnd 4 6 18 61
+n a_n10_84# myGnd a_93_45# 4 6 89 61
+n myCin myGnd a_125_45# 4 6 121 61
+p myB a_n33_61# myVdd 4 6 -14 45
+p myA a_2_61# myVdd 4 6 18 45
+p a_n10_84# myVdd a_93_45# 4 6 89 45
+p myCin myVdd a_125_45# 4 6 121 45
+p myB a_n1_n18# a_12_n42# 3 7 9 -18
+p myCin a_12_n42# a_n1_n18# 3 7 24 -18
+p myA a_n1_n18# myVdd 4 7 42 -18
+p myB myVdd a_67_n18# 3 7 64 -18
+p myCin a_67_n18# a_12_n42# 4 7 73 -18
+p a_12_n42# myVdd myCout 4 7 115 -18
+n myB a_n1_n42# a_12_n42# 3 7 9 -42
+n myCin a_12_n42# a_n1_n42# 3 7 24 -42
+n myA a_n1_n42# myGnd 4 7 42 -42
+n myB myGnd a_67_n42# 3 7 64 -42
+n myCin a_67_n42# a_12_n42# 4 7 73 -42
+n a_12_n42# myGnd myCout 4 7 115 -41
+C myA myVdd 2.2
+R a_67_n42# 31
+C a_n1_n42# GND 8.7
+R a_n1_n42# 175
+C myCout GND 24.7
+R myCout 137
+R a_67_n18# 69
+C a_n1_n18# GND 5.5
+R a_n1_n18# 390
+C a_12_n42# GND 37.4
+R a_12_n42# 792
+C a_93_84# GND 5.0
+R a_93_84# 194
+C a_n29_84# GND 5.0
+R a_n29_84# 194
+C myGnd GND 160.0
+R myGnd 1106
+R a_109_110# 102
+C mySum GND 52.8
+R mySum 158
+C a_70_110# GND 12.0
+R a_70_110# 430
+R a_n10_110# 102
+C myVdd GND 122.0
+R myVdd 1864
+C a_n45_110# GND 12.0
+R a_n45_110# 430
+C a_125_45# GND 20.8
+R a_125_45# 487
+C myCin GND 74.0
+R myCin 1722
+C a_93_45# GND 19.7
+R a_93_45# 487
+C a_n10_84# GND 41.0
+R a_n10_84# 646
+C myA GND 39.7
+R myA 850
+C a_2_61# GND 19.7
+R a_2_61# 487
+C myB GND 68.4
+R myB 1749
+C a_n33_61# GND 20.8
+R a_n33_61# 487
+R w_76_44# 15536
+R w_n27_44# 15536
+R w_69_110# 22552
+R w_n48_110# 22552

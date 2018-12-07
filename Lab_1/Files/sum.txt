@@ -1,0 +1,44 @@
+h myVdd
+l myGnd
+
+ana myA myB myCin myOut
+
+l myA
+l myB
+l myCin
+s 1000
+
+h myA
+l myB
+l myCin
+s 1000
+
+l myA
+h myB
+l myCin
+s 100
+
+h myA
+h myB
+l myCin
+s 100
+
+l myA
+l myB
+h myCin
+s 100
+
+h myA
+l myB
+h myCin
+s 100
+
+l myA
+h myB
+h myCin
+s 100
+
+h myA
+h myB
+h myCin
+s 100

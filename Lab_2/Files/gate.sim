@@ -1,0 +1,16 @@
+| units: 100 tech: scmos format: MIT
+p a_3_46# myD myQ 3 5 3 48
+n myC myD myQ 3 4 3 34
+p myC myVdd a_3_46# 3 5 3 19
+n myC myGnd a_3_46# 3 4 3 2
+R myGnd 73
+C myVdd GND 4.4
+R myVdd 144
+C myC GND 13.6
+R myC 360
+C myQ GND 4.5
+R myQ 230
+C myD GND 3.8
+R myD 211
+C a_3_46# GND 25.2
+R a_3_46# 632

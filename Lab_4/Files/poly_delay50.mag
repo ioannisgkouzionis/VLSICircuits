@@ -1,0 +1,414 @@
+magic
+tech scmos
+timestamp 1357833981
+<< polysilicon >>
+rect 5 24 7 31
+rect 15 11 830 13
+rect 839 11 1653 13
+rect 1662 11 2477 13
+rect 2486 11 3300 13
+rect 3309 11 4124 13
+rect 4133 11 4947 13
+rect 4956 11 5771 13
+rect 5780 11 6594 13
+rect 6603 11 7418 13
+rect 7427 11 8241 13
+rect 8250 11 9065 13
+rect 9074 11 9888 13
+rect 9897 11 10712 13
+rect 10721 11 11535 13
+rect 11544 11 12359 13
+rect 12368 11 13182 13
+rect 13191 11 14006 13
+rect 14015 11 14829 13
+rect 14838 11 15653 13
+rect 15662 11 16476 13
+rect 16485 11 17300 13
+rect 17309 11 18123 13
+rect 18132 11 18947 13
+rect 18956 11 19770 13
+rect 19779 11 20594 13
+rect 20603 11 21417 13
+rect 21426 11 22241 13
+rect 22250 11 23064 13
+rect 23073 11 23888 13
+rect 23897 11 24711 13
+rect 24720 11 25535 13
+rect 25544 11 26358 13
+rect 26367 11 27182 13
+rect 27191 11 28005 13
+rect 28014 11 28829 13
+rect 28838 11 29652 13
+rect 29661 11 30476 13
+rect 30485 11 31299 13
+rect 31308 11 32123 13
+rect 32132 11 32946 13
+rect 32955 11 33770 13
+rect 33779 11 34593 13
+rect 34602 11 35417 13
+rect 35426 11 36240 13
+rect 36249 11 37064 13
+rect 37073 11 37887 13
+rect 37896 11 38711 13
+rect 38720 11 39534 13
+rect 39543 11 40358 13
+<< metal1 >>
+rect 0 26 40355 29
+rect 0 20 3 26
+rect 824 20 827 26
+rect 1647 20 1650 26
+rect 2471 20 2474 26
+rect 3294 20 3297 26
+rect 4118 20 4121 26
+rect 4941 20 4944 26
+rect 5765 20 5768 26
+rect 6588 20 6591 26
+rect 7412 20 7415 26
+rect 8235 20 8238 26
+rect 9059 20 9062 26
+rect 9882 20 9885 26
+rect 10706 20 10709 26
+rect 11529 20 11532 26
+rect 12353 20 12356 26
+rect 13176 20 13179 26
+rect 14000 20 14003 26
+rect 14823 20 14826 26
+rect 15647 20 15650 26
+rect 16470 20 16473 26
+rect 17294 20 17297 26
+rect 18117 20 18120 26
+rect 18941 20 18944 26
+rect 19764 20 19767 26
+rect 20588 20 20591 26
+rect 21411 20 21414 26
+rect 22235 20 22238 26
+rect 23058 20 23061 26
+rect 23882 20 23885 26
+rect 24705 20 24708 26
+rect 25529 20 25532 26
+rect 26352 20 26355 26
+rect 27176 20 27179 26
+rect 27999 20 28002 26
+rect 28823 20 28826 26
+rect 29646 20 29649 26
+rect 30470 20 30473 26
+rect 31293 20 31296 26
+rect 32117 20 32120 26
+rect 32940 20 32943 26
+rect 33764 20 33767 26
+rect 34587 20 34590 26
+rect 35411 20 35414 26
+rect 36234 20 36237 26
+rect 37058 20 37061 26
+rect 37881 20 37884 26
+rect 38705 20 38708 26
+rect 39528 20 39531 26
+rect 40352 20 40355 26
+rect 40363 10 40369 13
+rect 0 0 3 6
+rect 824 0 827 6
+rect 1647 0 1650 6
+rect 2471 0 2474 6
+rect 3294 0 3297 6
+rect 4118 0 4121 6
+rect 4941 0 4944 6
+rect 5765 0 5768 6
+rect 6588 0 6591 6
+rect 7412 0 7415 6
+rect 8235 0 8238 6
+rect 9059 0 9062 6
+rect 9882 0 9885 6
+rect 10706 0 10709 6
+rect 11529 0 11532 6
+rect 12353 0 12356 6
+rect 13176 0 13179 6
+rect 14000 0 14003 6
+rect 14823 0 14826 6
+rect 15647 0 15650 6
+rect 16470 0 16473 6
+rect 17294 0 17297 6
+rect 18117 0 18120 6
+rect 18941 0 18944 6
+rect 19764 0 19767 6
+rect 20588 0 20591 6
+rect 21411 0 21414 6
+rect 22235 0 22238 6
+rect 23058 0 23061 6
+rect 23882 0 23885 6
+rect 24705 0 24708 6
+rect 25529 0 25532 6
+rect 26352 0 26355 6
+rect 27176 0 27179 6
+rect 27999 0 28002 6
+rect 28823 0 28826 6
+rect 29646 0 29649 6
+rect 30470 0 30473 6
+rect 31293 0 31296 6
+rect 32117 0 32120 6
+rect 32940 0 32943 6
+rect 33764 0 33767 6
+rect 34587 0 34590 6
+rect 35411 0 35414 6
+rect 36234 0 36237 6
+rect 37058 0 37061 6
+rect 37881 0 37884 6
+rect 38705 0 38708 6
+rect 39528 0 39531 6
+rect 40352 0 40355 6
+rect 0 -3 40355 0
+<< polycontact >>
+rect 11 10 15 14
+rect 835 10 839 14
+rect 1658 10 1662 14
+rect 2482 10 2486 14
+rect 3305 10 3309 14
+rect 4129 10 4133 14
+rect 4952 10 4956 14
+rect 5776 10 5780 14
+rect 6599 10 6603 14
+rect 7423 10 7427 14
+rect 8246 10 8250 14
+rect 9070 10 9074 14
+rect 9893 10 9897 14
+rect 10717 10 10721 14
+rect 11540 10 11544 14
+rect 12364 10 12368 14
+rect 13187 10 13191 14
+rect 14011 10 14015 14
+rect 14834 10 14838 14
+rect 15658 10 15662 14
+rect 16481 10 16485 14
+rect 17305 10 17309 14
+rect 18128 10 18132 14
+rect 18952 10 18956 14
+rect 19775 10 19779 14
+rect 20599 10 20603 14
+rect 21422 10 21426 14
+rect 22246 10 22250 14
+rect 23069 10 23073 14
+rect 23893 10 23897 14
+rect 24716 10 24720 14
+rect 25540 10 25544 14
+rect 26363 10 26367 14
+rect 27187 10 27191 14
+rect 28010 10 28014 14
+rect 28834 10 28838 14
+rect 29657 10 29661 14
+rect 30481 10 30485 14
+rect 31304 10 31308 14
+rect 32128 10 32132 14
+rect 32951 10 32955 14
+rect 33775 10 33779 14
+rect 34598 10 34602 14
+rect 35422 10 35426 14
+rect 36245 10 36249 14
+rect 37069 10 37073 14
+rect 37892 10 37896 14
+rect 38716 10 38720 14
+rect 39539 10 39543 14
+use inverter inverter_0
+timestamp 1351319193
+transform 1 0 5 0 1 10
+box -5 -10 7 15
+use inverter inverter_1
+timestamp 1351319193
+transform 1 0 829 0 1 10
+box -5 -10 7 15
+use inverter inverter_2
+timestamp 1351319193
+transform 1 0 1652 0 1 10
+box -5 -10 7 15
+use inverter inverter_3
+timestamp 1351319193
+transform 1 0 2476 0 1 10
+box -5 -10 7 15
+use inverter inverter_4
+timestamp 1351319193
+transform 1 0 3299 0 1 10
+box -5 -10 7 15
+use inverter inverter_5
+timestamp 1351319193
+transform 1 0 4123 0 1 10
+box -5 -10 7 15
+use inverter inverter_6
+timestamp 1351319193
+transform 1 0 4946 0 1 10
+box -5 -10 7 15
+use inverter inverter_7
+timestamp 1351319193
+transform 1 0 5770 0 1 10
+box -5 -10 7 15
+use inverter inverter_8
+timestamp 1351319193
+transform 1 0 6593 0 1 10
+box -5 -10 7 15
+use inverter inverter_9
+timestamp 1351319193
+transform 1 0 7417 0 1 10
+box -5 -10 7 15
+use inverter inverter_10
+timestamp 1351319193
+transform 1 0 8240 0 1 10
+box -5 -10 7 15
+use inverter inverter_11
+timestamp 1351319193
+transform 1 0 9064 0 1 10
+box -5 -10 7 15
+use inverter inverter_12
+timestamp 1351319193
+transform 1 0 9887 0 1 10
+box -5 -10 7 15
+use inverter inverter_13
+timestamp 1351319193
+transform 1 0 10711 0 1 10
+box -5 -10 7 15
+use inverter inverter_14
+timestamp 1351319193
+transform 1 0 11534 0 1 10
+box -5 -10 7 15
+use inverter inverter_15
+timestamp 1351319193
+transform 1 0 12358 0 1 10
+box -5 -10 7 15
+use inverter inverter_16
+timestamp 1351319193
+transform 1 0 13181 0 1 10
+box -5 -10 7 15
+use inverter inverter_17
+timestamp 1351319193
+transform 1 0 14005 0 1 10
+box -5 -10 7 15
+use inverter inverter_18
+timestamp 1351319193
+transform 1 0 14828 0 1 10
+box -5 -10 7 15
+use inverter inverter_19
+timestamp 1351319193
+transform 1 0 15652 0 1 10
+box -5 -10 7 15
+use inverter inverter_20
+timestamp 1351319193
+transform 1 0 16475 0 1 10
+box -5 -10 7 15
+use inverter inverter_21
+timestamp 1351319193
+transform 1 0 17299 0 1 10
+box -5 -10 7 15
+use inverter inverter_22
+timestamp 1351319193
+transform 1 0 18122 0 1 10
+box -5 -10 7 15
+use inverter inverter_23
+timestamp 1351319193
+transform 1 0 18946 0 1 10
+box -5 -10 7 15
+use inverter inverter_24
+timestamp 1351319193
+transform 1 0 19769 0 1 10
+box -5 -10 7 15
+use inverter inverter_25
+timestamp 1351319193
+transform 1 0 20593 0 1 10
+box -5 -10 7 15
+use inverter inverter_26
+timestamp 1351319193
+transform 1 0 21416 0 1 10
+box -5 -10 7 15
+use inverter inverter_27
+timestamp 1351319193
+transform 1 0 22240 0 1 10
+box -5 -10 7 15
+use inverter inverter_28
+timestamp 1351319193
+transform 1 0 23063 0 1 10
+box -5 -10 7 15
+use inverter inverter_29
+timestamp 1351319193
+transform 1 0 23887 0 1 10
+box -5 -10 7 15
+use inverter inverter_30
+timestamp 1351319193
+transform 1 0 24710 0 1 10
+box -5 -10 7 15
+use inverter inverter_31
+timestamp 1351319193
+transform 1 0 25534 0 1 10
+box -5 -10 7 15
+use inverter inverter_32
+timestamp 1351319193
+transform 1 0 26357 0 1 10
+box -5 -10 7 15
+use inverter inverter_33
+timestamp 1351319193
+transform 1 0 27181 0 1 10
+box -5 -10 7 15
+use inverter inverter_34
+timestamp 1351319193
+transform 1 0 28004 0 1 10
+box -5 -10 7 15
+use inverter inverter_35
+timestamp 1351319193
+transform 1 0 28828 0 1 10
+box -5 -10 7 15
+use inverter inverter_36
+timestamp 1351319193
+transform 1 0 29651 0 1 10
+box -5 -10 7 15
+use inverter inverter_37
+timestamp 1351319193
+transform 1 0 30475 0 1 10
+box -5 -10 7 15
+use inverter inverter_38
+timestamp 1351319193
+transform 1 0 31298 0 1 10
+box -5 -10 7 15
+use inverter inverter_39
+timestamp 1351319193
+transform 1 0 32122 0 1 10
+box -5 -10 7 15
+use inverter inverter_40
+timestamp 1351319193
+transform 1 0 32945 0 1 10
+box -5 -10 7 15
+use inverter inverter_41
+timestamp 1351319193
+transform 1 0 33769 0 1 10
+box -5 -10 7 15
+use inverter inverter_42
+timestamp 1351319193
+transform 1 0 34592 0 1 10
+box -5 -10 7 15
+use inverter inverter_43
+timestamp 1351319193
+transform 1 0 35416 0 1 10
+box -5 -10 7 15
+use inverter inverter_44
+timestamp 1351319193
+transform 1 0 36239 0 1 10
+box -5 -10 7 15
+use inverter inverter_45
+timestamp 1351319193
+transform 1 0 37063 0 1 10
+box -5 -10 7 15
+use inverter inverter_46
+timestamp 1351319193
+transform 1 0 37886 0 1 10
+box -5 -10 7 15
+use inverter inverter_47
+timestamp 1351319193
+transform 1 0 38710 0 1 10
+box -5 -10 7 15
+use inverter inverter_48
+timestamp 1351319193
+transform 1 0 39533 0 1 10
+box -5 -10 7 15
+use inverter inverter_49
+timestamp 1351319193
+transform 1 0 40357 0 1 10
+box -5 -10 7 15
+<< labels >>
+rlabel metal1 40367 12 40367 12 7 output
+rlabel metal1 2 28 2 28 4 Vdd!
+rlabel metal1 1 -2 1 -2 2 GND!
+rlabel polysilicon 6 30 6 30 5 input
+<< end >>

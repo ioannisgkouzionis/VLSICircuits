@@ -1,0 +1,31 @@
+timestamp 1414509933
+version 8.0
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use inverter inverter_0 1 0 -8 0 1 11
+use nand nand_0 1 0 34 0 1 2
+use inverter inverter_1 1 0 44 0 1 11
+node "GND" 1 11985 -13 -5 m1 0 0 0 0 0 0 0 0 0 0 0 0 255 176 0 0 0 0
+node "out" 0 423 51 11 m1 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0
+node "Vdd" 1 11562 -13 29 m1 0 0 0 0 0 0 0 0 0 0 0 0 258 178 0 0 0 0
+node "a_33_11#" 139 4372 33 11 pc 0 0 0 0 32 32 0 0 0 0 0 0 28 24 0 0 0 0
+node "a_3_11#" 127 4275 3 11 pc 0 0 0 0 30 30 0 0 0 0 0 0 31 26 0 0 0 0
+node "d" 107 2462 23 26 p 0 0 0 0 18 22 0 0 0 0 0 0 0 0 0 0 0 0
+node "clr" 107 2462 -8 25 p 0 0 0 0 18 22 0 0 0 0 0 0 0 0 0 0 0 0
+cap "clr" "Vdd" 180
+cap "d" "Vdd" 180
+merge "inverter_1/Vdd" "nand_0/my_vdd" -1410 0 0 0 0 0 0 0 0 0 0 0 0 -30 -44 0 0 0 0
+merge "nand_0/my_vdd" "inverter_0/Vdd"
+merge "inverter_0/Vdd" "Vdd"
+merge "nand_0/in1" "inverter_0/out" -699 0 0 0 0 -2 -6 0 0 0 0 0 0 -3 -8 0 0 0 0
+merge "inverter_0/out" "a_3_11#"
+merge "nand_0/in2" "d" -558 0 0 0 0 -2 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "inverter_1/GND" "nand_0/my_gnd" -423 0 0 0 0 0 0 0 0 0 0 0 0 -9 -24 0 0 0 0
+merge "nand_0/my_gnd" "inverter_0/GND"
+merge "inverter_0/GND" "GND"
+merge "inverter_1/in" "nand_0/out" -699 0 0 0 0 -2 -6 0 0 0 0 0 0 -3 -8 0 0 0 0
+merge "nand_0/out" "a_33_11#"
+merge "inverter_1/out" "out" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0 0 0
+merge "inverter_0/in" "clr" -558 0 0 0 0 -2 -6 0 0 0 0 0 0 0 0 0 0 0 0

@@ -1,0 +1,125 @@
+l GND
+h Vdd!
+analyzer in1 in2 in3 in4 S1 S0 out
+s
+h in1
+l in2
+l in3
+h in4
+h S1
+l S0
+s
+h in1
+l in2
+h in3
+l in4
+h S1
+l S0
+s
+h in1
+l in2
+h in3
+l in4
+h S1
+h S0
+s
+h in1
+l in2
+h in3
+l in4
+l S1
+l S0
+s
+h in1
+l in2
+h in3
+l in4
+h S1
+l S0
+s
+h in1
+l in2
+h in3
+l in4
+l S1
+h S0
+s
+h in1
+l in2
+h in3
+l in4
+h S1
+h S0
+s
+l in1
+l in2
+l in3
+l in4
+h S1
+h S0
+s
+h in1
+l in2
+h in3
+l in4
+h S1
+l S0
+s
+h in1
+l in2
+l in3
+h in4
+h S1
+l S0
+s
+h in1
+l in2
+l in3
+l in4
+h S1
+h S0
+s
+l in1
+l in2
+h in3
+l in4
+h S1
+h S0
+s
+l in1
+h in2
+l in3
+l in4
+l S1
+h S0
+s
+l in1
+l in2
+h in3
+l in4
+l S1
+h S0
+s
+l in1
+l in2
+l in3
+h in4
+l S1
+h S0
+s
+l in1
+l in2
+l in3
+h in4
+l S1
+l S0
+s
+l in1
+l in2
+h in3
+l in4
+l S1
+l S0
+s
+stepsize 2 
+s

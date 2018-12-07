@@ -1,0 +1,20 @@
+h myVdd
+l myGnd
+
+ana myClr myIn myOut myVdd myGnd
+
+h myIn
+h myClr
+s 100
+
+h myIn
+l myClr
+s 100
+
+l myIn
+h myClr
+s 100
+
+l myIn
+l myClr
+s 100

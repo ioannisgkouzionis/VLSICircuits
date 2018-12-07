@@ -1,0 +1,710 @@
+| units: 100 tech: scmos format: MIT
+p q0 vdd shiftregistermodule_0/flipflop_0/gate_3/Gout 2 6 921 55
+n q0 gnd shiftregistermodule_0/flipflop_0/gate_3/Gout 2 3 907 55
+p CLK vdd shiftregistermodule_0/flipflop_0/gate_0/S 2 6 897 173
+n CLK gnd shiftregistermodule_0/flipflop_0/gate_0/S 2 3 883 173
+p CLK shiftregistermodule_0/flipflop_0/gate_3/Gin shiftregistermodule_0/flipflop_0/gate_3/Gout 2 6 927 81
+n shiftregistermodule_0/flipflop_0/gate_2/S shiftregistermodule_0/flipflop_0/gate_3/Gin shiftregistermodule_0/flipflop_0/gate_3/Gout 2 3 914 81
+p CLK vdd shiftregistermodule_0/flipflop_0/gate_2/S 2 6 931 115
+n CLK gnd shiftregistermodule_0/flipflop_0/gate_2/S 2 3 917 115
+p shiftregistermodule_0/flipflop_0/gate_2/Gin vdd shiftregistermodule_0/flipflop_0/gate_1/Gout 2 6 928 171
+n shiftregistermodule_0/flipflop_0/gate_2/Gin gnd shiftregistermodule_0/flipflop_0/gate_1/Gout 2 3 914 171
+p shiftregistermodule_0/flipflop_0/gate_1/S shiftregistermodule_0/flipflop_0/gate_1/Gin shiftregistermodule_0/flipflop_0/gate_1/Gout 2 6 929 197
+n shiftregistermodule_0/flipflop_0/gate_0/S shiftregistermodule_0/flipflop_0/gate_1/Gin shiftregistermodule_0/flipflop_0/gate_1/Gout 2 3 916 197
+p shiftregistermodule_0/flipflop_0/gate_0/S vdd shiftregistermodule_0/flipflop_0/gate_1/S 2 6 929 238
+n shiftregistermodule_0/flipflop_0/gate_0/S GND shiftregistermodule_0/flipflop_0/gate_1/S 2 3 915 238
+p q0 vdd shiftregistermodule_0/flipflop_0/qb 2 6 967 30
+n q0 gnd shiftregistermodule_0/flipflop_0/qb 2 3 953 30
+p shiftregistermodule_0/flipflop_0/gate_3/Gin vdd q0 2 6 964 57
+n shiftregistermodule_0/flipflop_0/gate_3/Gin gnd q0 2 3 950 57
+p shiftregistermodule_0/flipflop_0/gate_2/S shiftregistermodule_0/flipflop_0/gate_2/Gin shiftregistermodule_0/flipflop_0/gate_3/Gin 2 6 964 127
+n CLK shiftregistermodule_0/flipflop_0/gate_2/Gin shiftregistermodule_0/flipflop_0/gate_3/Gin 2 3 951 127
+p shiftregistermodule_0/flipflop_0/gate_1/Gin vdd shiftregistermodule_0/flipflop_0/gate_2/Gin 2 6 964 166
+n shiftregistermodule_0/flipflop_0/gate_1/Gin gnd shiftregistermodule_0/flipflop_0/gate_2/Gin 2 3 950 166
+p shiftregistermodule_0/flipflop_0/gate_0/S shiftregistermodule_0/flipflop_0/gate_0/Gin shiftregistermodule_0/flipflop_0/gate_1/Gin 2 6 963 222
+n shiftregistermodule_0/flipflop_0/gate_1/S shiftregistermodule_0/flipflop_0/gate_0/Gin shiftregistermodule_0/flipflop_0/gate_1/Gin 2 3 950 222
+p shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out vdd shiftregistermodule_0/flipflop_0/gate_0/Gin 2 6 966 262
+n shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out gnd shiftregistermodule_0/flipflop_0/gate_0/Gin 2 3 952 262
+p shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 vdd shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out 2 6 966 293
+p shiftregistermodule_0/mux4x1_0/out shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out vdd 2 6 966 283
+n shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 gnd shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/a_n19_2# 2 3 952 293
+n shiftregistermodule_0/mux4x1_0/out shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/a_n19_2# shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out 2 3 952 283
+p CLR vdd shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 2 6 966 314
+n CLR gnd shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 2 3 952 314
+p S1 shiftregistermodule_0/mux4x1_0/gate_5/Gin q0 2 6 888 404
+n shiftregistermodule_0/mux4x1_0/gate_0/S shiftregistermodule_0/mux4x1_0/gate_5/Gin q0 2 3 888 391
+p shiftregistermodule_0/mux4x1_0/gate_0/S q1 shiftregistermodule_0/mux4x1_0/gate_5/Gin 2 6 916 396
+n S1 q1 shiftregistermodule_0/mux4x1_0/gate_5/Gin 2 3 916 409
+p S1 sr shiftregistermodule_0/mux4x1_0/gate_4/Gin 2 6 943 404
+n shiftregistermodule_0/mux4x1_0/gate_0/S sr shiftregistermodule_0/mux4x1_0/gate_4/Gin 2 3 943 391
+p shiftregistermodule_0/mux4x1_0/gate_0/S in0 shiftregistermodule_0/mux4x1_0/gate_4/Gin 2 6 973 396
+n S1 in0 shiftregistermodule_0/mux4x1_0/gate_4/Gin 2 3 973 409
+p S1 vdd shiftregistermodule_0/mux4x1_0/gate_0/S 2 6 896 363
+n S1 gnd shiftregistermodule_0/mux4x1_0/gate_0/S 2 3 896 377
+p S0 vdd shiftregistermodule_0/mux4x1_0/gate_4/S 2 6 916 363
+n S0 gnd shiftregistermodule_0/mux4x1_0/gate_4/S 2 3 916 377
+p S0 shiftregistermodule_0/mux4x1_0/gate_5/Gin shiftregistermodule_0/mux4x1_0/out 2 6 943 372
+n shiftregistermodule_0/mux4x1_0/gate_4/S shiftregistermodule_0/mux4x1_0/gate_5/Gin shiftregistermodule_0/mux4x1_0/out 2 3 943 359
+p shiftregistermodule_0/mux4x1_0/gate_4/S shiftregistermodule_0/mux4x1_0/gate_4/Gin shiftregistermodule_0/mux4x1_0/out 2 6 973 364
+n S0 shiftregistermodule_0/mux4x1_0/gate_4/Gin shiftregistermodule_0/mux4x1_0/out 2 3 973 377
+p q1 vdd shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_3/Gout 2 6 779 55
+n q1 gnd shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_3/Gout 2 3 765 55
+p CLK vdd shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_0/S 2 6 755 173
+n CLK gnd shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_0/S 2 3 741 173
+p CLK shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_3/Gin shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_3/Gout 2 6 785 81
+n shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_2/S shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_3/Gin shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_3/Gout 2 3 772 81
+p CLK vdd shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_2/S 2 6 789 115
+n CLK gnd shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_2/S 2 3 775 115
+p shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_2/Gin vdd shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/Gout 2 6 786 171
+n shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_2/Gin gnd shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/Gout 2 3 772 171
+p shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/S shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/Gin shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/Gout 2 6 787 197
+n shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_0/S shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/Gin shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/Gout 2 3 774 197
+p shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_0/S vdd shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/S 2 6 787 238
+n shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_0/S GND shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/S 2 3 773 238
+p q1 vdd shiftRegister_2/shiftregistermodule_1/flipflop_0/qb 2 6 825 30
+n q1 gnd shiftRegister_2/shiftregistermodule_1/flipflop_0/qb 2 3 811 30
+p shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_3/Gin vdd q1 2 6 822 57
+n shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_3/Gin gnd q1 2 3 808 57
+p shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_2/S shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_2/Gin shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_3/Gin 2 6 822 127
+n CLK shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_2/Gin shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_3/Gin 2 3 809 127
+p shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/Gin vdd shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_2/Gin 2 6 822 166
+n shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/Gin gnd shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_2/Gin 2 3 808 166
+p shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_0/S shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_0/Gin shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/Gin 2 6 821 222
+n shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/S shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_0/Gin shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/Gin 2 3 808 222
+p shiftRegister_2/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out vdd shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_0/Gin 2 6 824 262
+n shiftRegister_2/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out gnd shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_0/Gin 2 3 810 262
+p shiftRegister_2/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 vdd shiftRegister_2/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out 2 6 824 293
+p shiftRegister_2/shiftregistermodule_1/mux4x1_0/out shiftRegister_2/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out vdd 2 6 824 283
+n shiftRegister_2/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 gnd shiftRegister_2/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/a_n19_2# 2 3 810 293
+n shiftRegister_2/shiftregistermodule_1/mux4x1_0/out shiftRegister_2/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/a_n19_2# shiftRegister_2/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out 2 3 810 283
+p CLR vdd shiftRegister_2/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 2 6 824 314
+n CLR gnd shiftRegister_2/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 2 3 810 314
+p S1 shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_5/Gin q1 2 6 746 404
+n shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_0/S shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_5/Gin q1 2 3 746 391
+p shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_0/S q2 shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_5/Gin 2 6 774 396
+n S1 q2 shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_5/Gin 2 3 774 409
+p S1 q0 shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_4/Gin 2 6 801 404
+n shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_0/S q0 shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_4/Gin 2 3 801 391
+p shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_0/S in1 shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_4/Gin 2 6 831 396
+n S1 in1 shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_4/Gin 2 3 831 409
+p S1 vdd shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_0/S 2 6 754 363
+n S1 gnd shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_0/S 2 3 754 377
+p S0 vdd shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_4/S 2 6 774 363
+n S0 gnd shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_4/S 2 3 774 377
+p S0 shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_5/Gin shiftRegister_2/shiftregistermodule_1/mux4x1_0/out 2 6 801 372
+n shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_4/S shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_5/Gin shiftRegister_2/shiftregistermodule_1/mux4x1_0/out 2 3 801 359
+p shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_4/S shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_4/Gin shiftRegister_2/shiftregistermodule_1/mux4x1_0/out 2 6 831 364
+n S0 shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_4/Gin shiftRegister_2/shiftregistermodule_1/mux4x1_0/out 2 3 831 377
+p q2 vdd shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_3/Gout 2 6 639 55
+n q2 gnd shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_3/Gout 2 3 625 55
+p CLK vdd shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_0/S 2 6 615 173
+n CLK gnd shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_0/S 2 3 601 173
+p CLK shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_3/Gin shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_3/Gout 2 6 645 81
+n shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_2/S shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_3/Gin shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_3/Gout 2 3 632 81
+p CLK vdd shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_2/S 2 6 649 115
+n CLK gnd shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_2/S 2 3 635 115
+p shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_2/Gin vdd shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/Gout 2 6 646 171
+n shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_2/Gin gnd shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/Gout 2 3 632 171
+p shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/S shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/Gin shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/Gout 2 6 647 197
+n shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_0/S shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/Gin shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/Gout 2 3 634 197
+p shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_0/S vdd shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/S 2 6 647 238
+n shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_0/S GND shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/S 2 3 633 238
+p q2 vdd shiftRegister_2/shiftregistermodule_0/flipflop_0/qb 2 6 685 30
+n q2 gnd shiftRegister_2/shiftregistermodule_0/flipflop_0/qb 2 3 671 30
+p shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_3/Gin vdd q2 2 6 682 57
+n shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_3/Gin gnd q2 2 3 668 57
+p shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_2/S shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_2/Gin shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_3/Gin 2 6 682 127
+n CLK shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_2/Gin shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_3/Gin 2 3 669 127
+p shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/Gin vdd shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_2/Gin 2 6 682 166
+n shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/Gin gnd shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_2/Gin 2 3 668 166
+p shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_0/S shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_0/Gin shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/Gin 2 6 681 222
+n shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/S shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_0/Gin shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/Gin 2 3 668 222
+p shiftRegister_2/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out vdd shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_0/Gin 2 6 684 262
+n shiftRegister_2/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out gnd shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_0/Gin 2 3 670 262
+p shiftRegister_2/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 vdd shiftRegister_2/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out 2 6 684 293
+p shiftRegister_2/shiftregistermodule_0/mux4x1_0/out shiftRegister_2/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out vdd 2 6 684 283
+n shiftRegister_2/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 gnd shiftRegister_2/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/a_n19_2# 2 3 670 293
+n shiftRegister_2/shiftregistermodule_0/mux4x1_0/out shiftRegister_2/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/a_n19_2# shiftRegister_2/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out 2 3 670 283
+p CLR vdd shiftRegister_2/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 2 6 684 314
+n CLR gnd shiftRegister_2/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 2 3 670 314
+p S1 shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_5/Gin q2 2 6 606 404
+n shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_0/S shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_5/Gin q2 2 3 606 391
+p shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_0/S q3 shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_5/Gin 2 6 634 396
+n S1 q3 shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_5/Gin 2 3 634 409
+p S1 q1 shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_4/Gin 2 6 661 404
+n shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_0/S q1 shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_4/Gin 2 3 661 391
+p shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_0/S in2 shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_4/Gin 2 6 691 396
+n S1 in2 shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_4/Gin 2 3 691 409
+p S1 vdd shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_0/S 2 6 614 363
+n S1 gnd shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_0/S 2 3 614 377
+p S0 vdd shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_4/S 2 6 634 363
+n S0 gnd shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_4/S 2 3 634 377
+p S0 shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_5/Gin shiftRegister_2/shiftregistermodule_0/mux4x1_0/out 2 6 661 372
+n shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_4/S shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_5/Gin shiftRegister_2/shiftregistermodule_0/mux4x1_0/out 2 3 661 359
+p shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_4/S shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_4/Gin shiftRegister_2/shiftregistermodule_0/mux4x1_0/out 2 6 691 364
+n S0 shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_4/Gin shiftRegister_2/shiftregistermodule_0/mux4x1_0/out 2 3 691 377
+p q3 vdd shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_3/Gout 2 6 492 56
+n q3 gnd shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_3/Gout 2 3 478 56
+p CLK vdd shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_0/S 2 6 468 174
+n CLK gnd shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_0/S 2 3 454 174
+p CLK shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_3/Gin shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_3/Gout 2 6 498 82
+n shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_2/S shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_3/Gin shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_3/Gout 2 3 485 82
+p CLK vdd shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_2/S 2 6 502 116
+n CLK gnd shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_2/S 2 3 488 116
+p shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_2/Gin vdd shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/Gout 2 6 499 172
+n shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_2/Gin gnd shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/Gout 2 3 485 172
+p shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/S shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/Gin shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/Gout 2 6 500 198
+n shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_0/S shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/Gin shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/Gout 2 3 487 198
+p shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_0/S vdd shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/S 2 6 500 239
+n shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_0/S GND shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/S 2 3 486 239
+p q3 vdd shiftRegister_1/shiftregistermodule_1/flipflop_0/qb 2 6 538 31
+n q3 gnd shiftRegister_1/shiftregistermodule_1/flipflop_0/qb 2 3 524 31
+p shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_3/Gin vdd q3 2 6 535 58
+n shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_3/Gin gnd q3 2 3 521 58
+p shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_2/S shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_2/Gin shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_3/Gin 2 6 535 128
+n CLK shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_2/Gin shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_3/Gin 2 3 522 128
+p shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/Gin vdd shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_2/Gin 2 6 535 167
+n shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/Gin gnd shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_2/Gin 2 3 521 167
+p shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_0/S shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_0/Gin shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/Gin 2 6 534 223
+n shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/S shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_0/Gin shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/Gin 2 3 521 223
+p shiftRegister_1/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out vdd shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_0/Gin 2 6 537 263
+n shiftRegister_1/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out gnd shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_0/Gin 2 3 523 263
+p shiftRegister_1/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 vdd shiftRegister_1/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out 2 6 537 294
+p shiftRegister_1/shiftregistermodule_1/mux4x1_0/out shiftRegister_1/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out vdd 2 6 537 284
+n shiftRegister_1/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 gnd shiftRegister_1/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/a_n19_2# 2 3 523 294
+n shiftRegister_1/shiftregistermodule_1/mux4x1_0/out shiftRegister_1/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/a_n19_2# shiftRegister_1/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out 2 3 523 284
+p CLR vdd shiftRegister_1/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 2 6 537 315
+n CLR gnd shiftRegister_1/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 2 3 523 315
+p S1 shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_5/Gin q3 2 6 459 405
+n shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_0/S shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_5/Gin q3 2 3 459 392
+p shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_0/S q4 shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_5/Gin 2 6 487 397
+n S1 q4 shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_5/Gin 2 3 487 410
+p S1 q2 shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_4/Gin 2 6 514 405
+n shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_0/S q2 shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_4/Gin 2 3 514 392
+p shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_0/S in3 shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_4/Gin 2 6 544 397
+n S1 in3 shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_4/Gin 2 3 544 410
+p S1 vdd shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_0/S 2 6 467 364
+n S1 gnd shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_0/S 2 3 467 378
+p S0 vdd shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_4/S 2 6 487 364
+n S0 gnd shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_4/S 2 3 487 378
+p S0 shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_5/Gin shiftRegister_1/shiftregistermodule_1/mux4x1_0/out 2 6 514 373
+n shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_4/S shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_5/Gin shiftRegister_1/shiftregistermodule_1/mux4x1_0/out 2 3 514 360
+p shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_4/S shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_4/Gin shiftRegister_1/shiftregistermodule_1/mux4x1_0/out 2 6 544 365
+n S0 shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_4/Gin shiftRegister_1/shiftregistermodule_1/mux4x1_0/out 2 3 544 378
+p q4 vdd shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_3/Gout 2 6 352 56
+n q4 gnd shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_3/Gout 2 3 338 56
+p CLK vdd shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_0/S 2 6 328 174
+n CLK gnd shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_0/S 2 3 314 174
+p CLK shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_3/Gin shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_3/Gout 2 6 358 82
+n shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_2/S shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_3/Gin shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_3/Gout 2 3 345 82
+p CLK vdd shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_2/S 2 6 362 116
+n CLK gnd shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_2/S 2 3 348 116
+p shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_2/Gin vdd shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/Gout 2 6 359 172
+n shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_2/Gin gnd shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/Gout 2 3 345 172
+p shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/S shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/Gin shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/Gout 2 6 360 198
+n shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_0/S shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/Gin shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/Gout 2 3 347 198
+p shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_0/S vdd shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/S 2 6 360 239
+n shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_0/S GND shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/S 2 3 346 239
+p q4 vdd shiftRegister_1/shiftregistermodule_0/flipflop_0/qb 2 6 398 31
+n q4 gnd shiftRegister_1/shiftregistermodule_0/flipflop_0/qb 2 3 384 31
+p shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_3/Gin vdd q4 2 6 395 58
+n shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_3/Gin gnd q4 2 3 381 58
+p shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_2/S shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_2/Gin shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_3/Gin 2 6 395 128
+n CLK shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_2/Gin shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_3/Gin 2 3 382 128
+p shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/Gin vdd shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_2/Gin 2 6 395 167
+n shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/Gin gnd shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_2/Gin 2 3 381 167
+p shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_0/S shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_0/Gin shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/Gin 2 6 394 223
+n shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/S shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_0/Gin shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/Gin 2 3 381 223
+p shiftRegister_1/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out vdd shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_0/Gin 2 6 397 263
+n shiftRegister_1/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out gnd shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_0/Gin 2 3 383 263
+p shiftRegister_1/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 vdd shiftRegister_1/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out 2 6 397 294
+p shiftRegister_1/shiftregistermodule_0/mux4x1_0/out shiftRegister_1/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out vdd 2 6 397 284
+n shiftRegister_1/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 gnd shiftRegister_1/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/a_n19_2# 2 3 383 294
+n shiftRegister_1/shiftregistermodule_0/mux4x1_0/out shiftRegister_1/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/a_n19_2# shiftRegister_1/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out 2 3 383 284
+p CLR vdd shiftRegister_1/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 2 6 397 315
+n CLR gnd shiftRegister_1/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 2 3 383 315
+p S1 shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_5/Gin q4 2 6 319 405
+n shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_0/S shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_5/Gin q4 2 3 319 392
+p shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_0/S q5 shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_5/Gin 2 6 347 397
+n S1 q5 shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_5/Gin 2 3 347 410
+p S1 q3 shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_4/Gin 2 6 374 405
+n shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_0/S q3 shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_4/Gin 2 3 374 392
+p shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_0/S in4 shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_4/Gin 2 6 404 397
+n S1 in4 shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_4/Gin 2 3 404 410
+p S1 vdd shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_0/S 2 6 327 364
+n S1 gnd shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_0/S 2 3 327 378
+p S0 vdd shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_4/S 2 6 347 364
+n S0 gnd shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_4/S 2 3 347 378
+p S0 shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_5/Gin shiftRegister_1/shiftregistermodule_0/mux4x1_0/out 2 6 374 373
+n shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_4/S shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_5/Gin shiftRegister_1/shiftregistermodule_0/mux4x1_0/out 2 3 374 360
+p shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_4/S shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_4/Gin shiftRegister_1/shiftregistermodule_0/mux4x1_0/out 2 6 404 365
+n S0 shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_4/Gin shiftRegister_1/shiftregistermodule_0/mux4x1_0/out 2 3 404 378
+p q5 vdd shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_3/Gout 2 6 201 56
+n q5 gnd shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_3/Gout 2 3 187 56
+p CLK vdd shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_0/S 2 6 177 174
+n CLK gnd shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_0/S 2 3 163 174
+p CLK shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_3/Gin shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_3/Gout 2 6 207 82
+n shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_2/S shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_3/Gin shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_3/Gout 2 3 194 82
+p CLK vdd shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_2/S 2 6 211 116
+n CLK gnd shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_2/S 2 3 197 116
+p shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_2/Gin vdd shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/Gout 2 6 208 172
+n shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_2/Gin gnd shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/Gout 2 3 194 172
+p shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/S shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/Gin shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/Gout 2 6 209 198
+n shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_0/S shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/Gin shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/Gout 2 3 196 198
+p shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_0/S vdd shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/S 2 6 209 239
+n shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_0/S GND shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/S 2 3 195 239
+p q5 vdd shiftRegister_0/shiftregistermodule_1/flipflop_0/qb 2 6 247 31
+n q5 gnd shiftRegister_0/shiftregistermodule_1/flipflop_0/qb 2 3 233 31
+p shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_3/Gin vdd q5 2 6 244 58
+n shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_3/Gin gnd q5 2 3 230 58
+p shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_2/S shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_2/Gin shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_3/Gin 2 6 244 128
+n CLK shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_2/Gin shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_3/Gin 2 3 231 128
+p shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/Gin vdd shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_2/Gin 2 6 244 167
+n shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/Gin gnd shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_2/Gin 2 3 230 167
+p shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_0/S shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_0/Gin shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/Gin 2 6 243 223
+n shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/S shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_0/Gin shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/Gin 2 3 230 223
+p shiftRegister_0/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out vdd shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_0/Gin 2 6 246 263
+n shiftRegister_0/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out gnd shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_0/Gin 2 3 232 263
+p shiftRegister_0/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 vdd shiftRegister_0/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out 2 6 246 294
+p shiftRegister_0/shiftregistermodule_1/mux4x1_0/out shiftRegister_0/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out vdd 2 6 246 284
+n shiftRegister_0/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 gnd shiftRegister_0/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/a_n19_2# 2 3 232 294
+n shiftRegister_0/shiftregistermodule_1/mux4x1_0/out shiftRegister_0/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/a_n19_2# shiftRegister_0/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out 2 3 232 284
+p CLR vdd shiftRegister_0/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 2 6 246 315
+n CLR gnd shiftRegister_0/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 2 3 232 315
+p S1 shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_5/Gin q5 2 6 168 405
+n shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_0/S shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_5/Gin q5 2 3 168 392
+p shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_0/S q6 shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_5/Gin 2 6 196 397
+n S1 q6 shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_5/Gin 2 3 196 410
+p S1 q4 shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_4/Gin 2 6 223 405
+n shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_0/S q4 shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_4/Gin 2 3 223 392
+p shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_0/S in5 shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_4/Gin 2 6 253 397
+n S1 in5 shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_4/Gin 2 3 253 410
+p S1 vdd shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_0/S 2 6 176 364
+n S1 gnd shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_0/S 2 3 176 378
+p S0 vdd shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_4/S 2 6 196 364
+n S0 gnd shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_4/S 2 3 196 378
+p S0 shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_5/Gin shiftRegister_0/shiftregistermodule_1/mux4x1_0/out 2 6 223 373
+n shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_4/S shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_5/Gin shiftRegister_0/shiftregistermodule_1/mux4x1_0/out 2 3 223 360
+p shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_4/S shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_4/Gin shiftRegister_0/shiftregistermodule_1/mux4x1_0/out 2 6 253 365
+n S0 shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_4/Gin shiftRegister_0/shiftregistermodule_1/mux4x1_0/out 2 3 253 378
+p q6 vdd shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_3/Gout 2 6 61 56
+n q6 gnd shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_3/Gout 2 3 47 56
+p CLK vdd shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_0/S 2 6 37 174
+n CLK gnd shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_0/S 2 3 23 174
+p CLK shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_3/Gin shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_3/Gout 2 6 67 82
+n shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_2/S shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_3/Gin shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_3/Gout 2 3 54 82
+p CLK vdd shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_2/S 2 6 71 116
+n CLK gnd shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_2/S 2 3 57 116
+p shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_2/Gin vdd shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/Gout 2 6 68 172
+n shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_2/Gin gnd shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/Gout 2 3 54 172
+p shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/S shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/Gin shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/Gout 2 6 69 198
+n shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_0/S shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/Gin shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/Gout 2 3 56 198
+p shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_0/S vdd shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/S 2 6 69 239
+n shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_0/S GND shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/S 2 3 55 239
+p q6 vdd shiftRegister_0/shiftregistermodule_0/flipflop_0/qb 2 6 107 31
+n q6 gnd shiftRegister_0/shiftregistermodule_0/flipflop_0/qb 2 3 93 31
+p shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_3/Gin vdd q6 2 6 104 58
+n shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_3/Gin gnd q6 2 3 90 58
+p shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_2/S shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_2/Gin shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_3/Gin 2 6 104 128
+n CLK shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_2/Gin shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_3/Gin 2 3 91 128
+p shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/Gin vdd shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_2/Gin 2 6 104 167
+n shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/Gin gnd shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_2/Gin 2 3 90 167
+p shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_0/S shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_0/Gin shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/Gin 2 6 103 223
+n shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/S shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_0/Gin shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/Gin 2 3 90 223
+p shiftRegister_0/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out vdd shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_0/Gin 2 6 106 263
+n shiftRegister_0/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out gnd shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_0/Gin 2 3 92 263
+p shiftRegister_0/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 vdd shiftRegister_0/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out 2 6 106 294
+p shiftRegister_0/shiftregistermodule_0/mux4x1_0/out shiftRegister_0/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out vdd 2 6 106 284
+n shiftRegister_0/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 gnd shiftRegister_0/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/a_n19_2# 2 3 92 294
+n shiftRegister_0/shiftregistermodule_0/mux4x1_0/out shiftRegister_0/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/a_n19_2# shiftRegister_0/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out 2 3 92 284
+p CLR vdd shiftRegister_0/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 2 6 106 315
+n CLR gnd shiftRegister_0/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 2 3 92 315
+p S1 shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_5/Gin q6 2 6 28 405
+n shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_0/S shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_5/Gin q6 2 3 28 392
+p shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_0/S q7 shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_5/Gin 2 6 56 397
+n S1 q7 shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_5/Gin 2 3 56 410
+p S1 q5 shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_4/Gin 2 6 83 405
+n shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_0/S q5 shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_4/Gin 2 3 83 392
+p shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_0/S in6 shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_4/Gin 2 6 113 397
+n S1 in6 shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_4/Gin 2 3 113 410
+p S1 vdd shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_0/S 2 6 36 364
+n S1 gnd shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_0/S 2 3 36 378
+p S0 vdd shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_4/S 2 6 56 364
+n S0 gnd shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_4/S 2 3 56 378
+p S0 shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_5/Gin shiftRegister_0/shiftregistermodule_0/mux4x1_0/out 2 6 83 373
+n shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_4/S shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_5/Gin shiftRegister_0/shiftregistermodule_0/mux4x1_0/out 2 3 83 360
+p shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_4/S shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_4/Gin shiftRegister_0/shiftregistermodule_0/mux4x1_0/out 2 6 113 365
+n S0 shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_4/Gin shiftRegister_0/shiftregistermodule_0/mux4x1_0/out 2 3 113 378
+p q7 vdd shiftregistermodule_1/flipflop_0/gate_3/Gout 2 6 -93 57
+n q7 gnd shiftregistermodule_1/flipflop_0/gate_3/Gout 2 3 -107 57
+p CLK vdd shiftregistermodule_1/flipflop_0/gate_0/S 2 6 -117 175
+n CLK gnd shiftregistermodule_1/flipflop_0/gate_0/S 2 3 -131 175
+p CLK shiftregistermodule_1/flipflop_0/gate_3/Gin shiftregistermodule_1/flipflop_0/gate_3/Gout 2 6 -87 83
+n shiftregistermodule_1/flipflop_0/gate_2/S shiftregistermodule_1/flipflop_0/gate_3/Gin shiftregistermodule_1/flipflop_0/gate_3/Gout 2 3 -100 83
+p CLK vdd shiftregistermodule_1/flipflop_0/gate_2/S 2 6 -83 117
+n CLK gnd shiftregistermodule_1/flipflop_0/gate_2/S 2 3 -97 117
+p shiftregistermodule_1/flipflop_0/gate_2/Gin vdd shiftregistermodule_1/flipflop_0/gate_1/Gout 2 6 -86 173
+n shiftregistermodule_1/flipflop_0/gate_2/Gin gnd shiftregistermodule_1/flipflop_0/gate_1/Gout 2 3 -100 173
+p shiftregistermodule_1/flipflop_0/gate_1/S shiftregistermodule_1/flipflop_0/gate_1/Gin shiftregistermodule_1/flipflop_0/gate_1/Gout 2 6 -85 199
+n shiftregistermodule_1/flipflop_0/gate_0/S shiftregistermodule_1/flipflop_0/gate_1/Gin shiftregistermodule_1/flipflop_0/gate_1/Gout 2 3 -98 199
+p shiftregistermodule_1/flipflop_0/gate_0/S vdd shiftregistermodule_1/flipflop_0/gate_1/S 2 6 -85 240
+n shiftregistermodule_1/flipflop_0/gate_0/S GND shiftregistermodule_1/flipflop_0/gate_1/S 2 3 -99 240
+p q7 vdd shiftregistermodule_1/flipflop_0/qb 2 6 -47 32
+n q7 gnd shiftregistermodule_1/flipflop_0/qb 2 3 -61 32
+p shiftregistermodule_1/flipflop_0/gate_3/Gin vdd q7 2 6 -50 59
+n shiftregistermodule_1/flipflop_0/gate_3/Gin gnd q7 2 3 -64 59
+p shiftregistermodule_1/flipflop_0/gate_2/S shiftregistermodule_1/flipflop_0/gate_2/Gin shiftregistermodule_1/flipflop_0/gate_3/Gin 2 6 -50 129
+n CLK shiftregistermodule_1/flipflop_0/gate_2/Gin shiftregistermodule_1/flipflop_0/gate_3/Gin 2 3 -63 129
+p shiftregistermodule_1/flipflop_0/gate_1/Gin vdd shiftregistermodule_1/flipflop_0/gate_2/Gin 2 6 -50 168
+n shiftregistermodule_1/flipflop_0/gate_1/Gin gnd shiftregistermodule_1/flipflop_0/gate_2/Gin 2 3 -64 168
+p shiftregistermodule_1/flipflop_0/gate_0/S shiftregistermodule_1/flipflop_0/gate_0/Gin shiftregistermodule_1/flipflop_0/gate_1/Gin 2 6 -51 224
+n shiftregistermodule_1/flipflop_0/gate_1/S shiftregistermodule_1/flipflop_0/gate_0/Gin shiftregistermodule_1/flipflop_0/gate_1/Gin 2 3 -64 224
+p shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out vdd shiftregistermodule_1/flipflop_0/gate_0/Gin 2 6 -48 264
+n shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out gnd shiftregistermodule_1/flipflop_0/gate_0/Gin 2 3 -62 264
+p shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 vdd shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out 2 6 -48 295
+p shiftregistermodule_1/mux4x1_0/out shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out vdd 2 6 -48 285
+n shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 gnd shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/a_n19_2# 2 3 -62 295
+n shiftregistermodule_1/mux4x1_0/out shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/a_n19_2# shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out 2 3 -62 285
+p CLR vdd shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 2 6 -48 316
+n CLR gnd shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 2 3 -62 316
+p S1 shiftregistermodule_1/mux4x1_0/gate_5/Gin q7 2 6 -126 406
+n shiftregistermodule_1/mux4x1_0/gate_0/S shiftregistermodule_1/mux4x1_0/gate_5/Gin q7 2 3 -126 393
+p shiftregistermodule_1/mux4x1_0/gate_0/S sl shiftregistermodule_1/mux4x1_0/gate_5/Gin 2 6 -98 398
+n S1 sl shiftregistermodule_1/mux4x1_0/gate_5/Gin 2 3 -98 411
+p S1 q6 shiftregistermodule_1/mux4x1_0/gate_4/Gin 2 6 -71 406
+n shiftregistermodule_1/mux4x1_0/gate_0/S q6 shiftregistermodule_1/mux4x1_0/gate_4/Gin 2 3 -71 393
+p shiftregistermodule_1/mux4x1_0/gate_0/S in7 shiftregistermodule_1/mux4x1_0/gate_4/Gin 2 6 -41 398
+n S1 in7 shiftregistermodule_1/mux4x1_0/gate_4/Gin 2 3 -41 411
+p S1 vdd shiftregistermodule_1/mux4x1_0/gate_0/S 2 6 -118 365
+n S1 gnd shiftregistermodule_1/mux4x1_0/gate_0/S 2 3 -118 379
+p S0 vdd shiftregistermodule_1/mux4x1_0/gate_4/S 2 6 -98 365
+n S0 gnd shiftregistermodule_1/mux4x1_0/gate_4/S 2 3 -98 379
+p S0 shiftregistermodule_1/mux4x1_0/gate_5/Gin shiftregistermodule_1/mux4x1_0/out 2 6 -71 374
+n shiftregistermodule_1/mux4x1_0/gate_4/S shiftregistermodule_1/mux4x1_0/gate_5/Gin shiftregistermodule_1/mux4x1_0/out 2 3 -71 361
+p shiftregistermodule_1/mux4x1_0/gate_4/S shiftregistermodule_1/mux4x1_0/gate_4/Gin shiftregistermodule_1/mux4x1_0/out 2 6 -41 366
+n S0 shiftregistermodule_1/mux4x1_0/gate_4/Gin shiftregistermodule_1/mux4x1_0/out 2 3 -41 379
+C vdd S0 2.8
+C gnd S0 2.8
+C q1 q2 10.4
+C q5 q6 10.4
+C q3 q4 10.0
+C gnd vdd 18.6
+C shiftregistermodule_1/mux4x1_0/gate_4/S GND 20.0
+R shiftregistermodule_1/mux4x1_0/gate_4/S 1106
+C in7 GND 2.8
+R in7 201
+C shiftregistermodule_1/mux4x1_0/gate_4/Gin GND 9.0
+R shiftregistermodule_1/mux4x1_0/gate_4/Gin 1054
+C sl GND 3.2
+R sl 201
+C shiftregistermodule_1/mux4x1_0/gate_0/S GND 35.0
+R shiftregistermodule_1/mux4x1_0/gate_0/S 1905
+C shiftregistermodule_1/mux4x1_0/gate_5/Gin GND 10.6
+R shiftregistermodule_1/mux4x1_0/gate_5/Gin 1054
+R CLR 9005
+R shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/a_n19_2# 71
+C shiftregistermodule_1/mux4x1_0/out GND 28.8
+R shiftregistermodule_1/mux4x1_0/out 1164
+C shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 GND 10.0
+R shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 604
+C shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out GND 11.0
+R shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out 552
+C shiftregistermodule_1/flipflop_0/gate_0/S GND 42.4
+R shiftregistermodule_1/flipflop_0/gate_0/S 2299
+C shiftregistermodule_1/flipflop_0/gate_0/Gin GND 6.6
+R shiftregistermodule_1/flipflop_0/gate_0/Gin 603
+C shiftregistermodule_1/flipflop_0/gate_3/Gin GND 31.6
+R shiftregistermodule_1/flipflop_0/gate_3/Gin 1605
+C shiftregistermodule_1/flipflop_0/gate_2/S GND 36.9
+R shiftregistermodule_1/flipflop_0/gate_2/S 1405
+C shiftregistermodule_1/flipflop_0/gate_2/Gin GND 19.5
+R shiftregistermodule_1/flipflop_0/gate_2/Gin 1355
+R shiftregistermodule_1/flipflop_0/qb 176
+C shiftregistermodule_1/flipflop_0/gate_1/S GND 19.1
+R shiftregistermodule_1/flipflop_0/gate_1/S 1046
+C shiftregistermodule_1/flipflop_0/gate_1/Gin GND 23.3
+R shiftregistermodule_1/flipflop_0/gate_1/Gin 1271
+C shiftregistermodule_1/flipflop_0/gate_1/Gout GND 4.4
+R shiftregistermodule_1/flipflop_0/gate_1/Gout 603
+C shiftregistermodule_1/flipflop_0/gate_3/Gout GND 5.5
+R shiftregistermodule_1/flipflop_0/gate_3/Gout 603
+C shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_4/S GND 20.0
+R shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_4/S 1106
+C in6 GND 2.5
+R in6 201
+C shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_4/Gin GND 9.0
+R shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_4/Gin 1054
+C q7 GND 69.9
+R q7 2643
+C shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_0/S GND 35.0
+R shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_0/S 1905
+C shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_5/Gin GND 10.6
+R shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_5/Gin 1054
+R shiftRegister_0/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/a_n19_2# 71
+C shiftRegister_0/shiftregistermodule_0/mux4x1_0/out GND 28.8
+R shiftRegister_0/shiftregistermodule_0/mux4x1_0/out 1164
+C shiftRegister_0/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 GND 10.0
+R shiftRegister_0/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 604
+C shiftRegister_0/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out GND 11.0
+R shiftRegister_0/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out 552
+C shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_0/S GND 42.4
+R shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_0/S 2299
+C shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_0/Gin GND 6.6
+R shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_0/Gin 603
+C shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_3/Gin GND 31.6
+R shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_3/Gin 1605
+C shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_2/S GND 36.9
+R shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_2/S 1405
+C shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_2/Gin GND 19.5
+R shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_2/Gin 1355
+R shiftRegister_0/shiftregistermodule_0/flipflop_0/qb 176
+C shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/S GND 19.1
+R shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/S 1046
+C shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/Gin GND 23.3
+R shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/Gin 1271
+C shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/Gout GND 4.4
+R shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/Gout 603
+C shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_3/Gout GND 5.5
+R shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_3/Gout 603
+C shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_4/S GND 20.0
+R shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_4/S 1106
+C in5 GND 2.8
+R in5 201
+C shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_4/Gin GND 9.0
+R shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_4/Gin 1054
+C q6 GND 83.9
+R q6 3057
+C shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_0/S GND 35.0
+R shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_0/S 1905
+C shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_5/Gin GND 10.6
+R shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_5/Gin 1054
+R shiftRegister_0/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/a_n19_2# 71
+C shiftRegister_0/shiftregistermodule_1/mux4x1_0/out GND 28.8
+R shiftRegister_0/shiftregistermodule_1/mux4x1_0/out 1164
+C shiftRegister_0/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 GND 10.0
+R shiftRegister_0/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 604
+C shiftRegister_0/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out GND 11.0
+R shiftRegister_0/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out 552
+C shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_0/S GND 42.4
+R shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_0/S 2299
+C shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_0/Gin GND 6.6
+R shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_0/Gin 603
+C shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_3/Gin GND 31.6
+R shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_3/Gin 1605
+C shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_2/S GND 36.9
+R shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_2/S 1405
+C shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_2/Gin GND 19.5
+R shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_2/Gin 1355
+R shiftRegister_0/shiftregistermodule_1/flipflop_0/qb 176
+C shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/S GND 19.1
+R shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/S 1046
+C shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/Gin GND 23.3
+R shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/Gin 1271
+C shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/Gout GND 4.4
+R shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/Gout 603
+C shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_3/Gout GND 5.5
+R shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_3/Gout 603
+C shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_4/S GND 20.0
+R shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_4/S 1106
+C in4 GND 2.7
+R in4 201
+C shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_4/Gin GND 9.0
+R shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_4/Gin 1054
+C q5 GND 83.9
+R q5 3057
+C shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_0/S GND 35.0
+R shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_0/S 1905
+C shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_5/Gin GND 10.6
+R shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_5/Gin 1054
+R shiftRegister_1/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/a_n19_2# 71
+C shiftRegister_1/shiftregistermodule_0/mux4x1_0/out GND 28.8
+R shiftRegister_1/shiftregistermodule_0/mux4x1_0/out 1164
+C shiftRegister_1/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 GND 10.0
+R shiftRegister_1/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 604
+C shiftRegister_1/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out GND 11.0
+R shiftRegister_1/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out 552
+C shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_0/S GND 42.4
+R shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_0/S 2299
+C shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_0/Gin GND 6.6
+R shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_0/Gin 603
+C shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_3/Gin GND 31.6
+R shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_3/Gin 1605
+C shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_2/S GND 36.9
+R shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_2/S 1405
+C shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_2/Gin GND 19.5
+R shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_2/Gin 1355
+R shiftRegister_1/shiftregistermodule_0/flipflop_0/qb 176
+C shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/S GND 19.1
+R shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/S 1046
+C shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/Gin GND 23.3
+R shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/Gin 1271
+C shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/Gout GND 4.4
+R shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/Gout 603
+C shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_3/Gout GND 5.5
+R shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_3/Gout 603
+C shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_4/S GND 20.0
+R shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_4/S 1106
+C in3 GND 2.7
+R in3 201
+C shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_4/Gin GND 9.0
+R shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_4/Gin 1054
+C q4 GND 83.2
+R q4 3057
+C shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_0/S GND 35.0
+R shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_0/S 1905
+C shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_5/Gin GND 10.6
+R shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_5/Gin 1054
+R shiftRegister_1/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/a_n19_2# 71
+C shiftRegister_1/shiftregistermodule_1/mux4x1_0/out GND 28.8
+R shiftRegister_1/shiftregistermodule_1/mux4x1_0/out 1164
+C shiftRegister_1/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 GND 10.0
+R shiftRegister_1/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 604
+C shiftRegister_1/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out GND 11.0
+R shiftRegister_1/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out 552
+C shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_0/S GND 42.4
+R shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_0/S 2299
+C shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_0/Gin GND 6.6
+R shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_0/Gin 603
+C shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_3/Gin GND 31.6
+R shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_3/Gin 1605
+C shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_2/S GND 36.9
+R shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_2/S 1405
+C shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_2/Gin GND 19.5
+R shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_2/Gin 1355
+R shiftRegister_1/shiftregistermodule_1/flipflop_0/qb 176
+C shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/S GND 19.1
+R shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/S 1046
+C shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/Gin GND 23.3
+R shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/Gin 1271
+C shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/Gout GND 4.4
+R shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/Gout 603
+C shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_3/Gout GND 5.5
+R shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_3/Gout 603
+C shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_4/S GND 20.0
+R shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_4/S 1106
+C in2 GND 2.7
+R in2 201
+C shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_4/Gin GND 9.0
+R shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_4/Gin 1054
+C q3 GND 82.9
+R q3 3056
+C shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_0/S GND 35.0
+R shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_0/S 1905
+C shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_5/Gin GND 10.6
+R shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_5/Gin 1054
+R shiftRegister_2/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/a_n19_2# 71
+C shiftRegister_2/shiftregistermodule_0/mux4x1_0/out GND 28.8
+R shiftRegister_2/shiftregistermodule_0/mux4x1_0/out 1164
+C shiftRegister_2/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 GND 10.0
+R shiftRegister_2/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 604
+C shiftRegister_2/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out GND 11.0
+R shiftRegister_2/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out 552
+C shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_0/S GND 42.4
+R shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_0/S 2299
+C shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_0/Gin GND 6.6
+R shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_0/Gin 603
+C shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_3/Gin GND 31.6
+R shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_3/Gin 1605
+C shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_2/S GND 36.9
+R shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_2/S 1405
+C shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_2/Gin GND 19.5
+R shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_2/Gin 1355
+R shiftRegister_2/shiftregistermodule_0/flipflop_0/qb 176
+C shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/S GND 19.1
+R shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/S 1046
+C shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/Gin GND 23.3
+R shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/Gin 1271
+C shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/Gout GND 4.4
+R shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/Gout 603
+C shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_3/Gout GND 5.5
+R shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_3/Gout 603
+C shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_4/S GND 20.0
+R shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_4/S 1106
+C in1 GND 3.0
+R in1 201
+C shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_4/Gin GND 9.0
+R shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_4/Gin 1054
+C q2 GND 82.7
+R q2 3057
+C shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_0/S GND 35.0
+R shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_0/S 1905
+C shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_5/Gin GND 10.6
+R shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_5/Gin 1054
+R shiftRegister_2/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/a_n19_2# 71
+C shiftRegister_2/shiftregistermodule_1/mux4x1_0/out GND 28.8
+R shiftRegister_2/shiftregistermodule_1/mux4x1_0/out 1164
+C shiftRegister_2/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 GND 10.0
+R shiftRegister_2/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 604
+C shiftRegister_2/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out GND 11.0
+R shiftRegister_2/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out 552
+C shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_0/S GND 42.4
+R shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_0/S 2299
+C shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_0/Gin GND 6.6
+R shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_0/Gin 603
+C shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_3/Gin GND 31.6
+R shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_3/Gin 1605
+C shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_2/S GND 36.9
+R shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_2/S 1405
+C shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_2/Gin GND 19.5
+R shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_2/Gin 1355
+R shiftRegister_2/shiftregistermodule_1/flipflop_0/qb 176
+C shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/S GND 19.1
+R shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/S 1046
+C shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/Gin GND 23.3
+R shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/Gin 1271
+C shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/Gout GND 4.4
+R shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/Gout 603
+C shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_3/Gout GND 5.5
+R shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_3/Gout 603
+C shiftregistermodule_0/mux4x1_0/gate_4/S GND 20.0
+R shiftregistermodule_0/mux4x1_0/gate_4/S 1106
+C S0 GND 294.7
+R S0 12682
+C in0 GND 2.7
+R in0 201
+C shiftregistermodule_0/mux4x1_0/gate_4/Gin GND 9.0
+R shiftregistermodule_0/mux4x1_0/gate_4/Gin 1054
+C sr GND 2.4
+R sr 201
+C q1 GND 83.4
+R q1 3057
+C shiftregistermodule_0/mux4x1_0/gate_0/S GND 35.0
+R shiftregistermodule_0/mux4x1_0/gate_0/S 1905
+C S1 GND 443.9
+R S1 22650
+C shiftregistermodule_0/mux4x1_0/gate_5/Gin GND 10.6
+R shiftregistermodule_0/mux4x1_0/gate_5/Gin 1054
+R shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/a_n19_2# 71
+C shiftregistermodule_0/mux4x1_0/out GND 28.8
+R shiftregistermodule_0/mux4x1_0/out 1164
+C shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 GND 10.0
+R shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 604
+C shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out GND 11.0
+R shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out 552
+C shiftregistermodule_0/flipflop_0/gate_0/S GND 42.4
+R shiftregistermodule_0/flipflop_0/gate_0/S 2299
+C shiftregistermodule_0/flipflop_0/gate_0/Gin GND 6.6
+R shiftregistermodule_0/flipflop_0/gate_0/Gin 603
+C shiftregistermodule_0/flipflop_0/gate_3/Gin GND 31.6
+R shiftregistermodule_0/flipflop_0/gate_3/Gin 1605
+C shiftregistermodule_0/flipflop_0/gate_2/S GND 36.9
+R shiftregistermodule_0/flipflop_0/gate_2/S 1405
+C shiftregistermodule_0/flipflop_0/gate_2/Gin GND 19.5
+R shiftregistermodule_0/flipflop_0/gate_2/Gin 1355
+R shiftregistermodule_0/flipflop_0/qb 176
+C vdd GND 905.6
+R vdd 30375
+C q0 GND 71.8
+R q0 2643
+R GND 857
+C shiftregistermodule_0/flipflop_0/gate_1/S GND 19.1
+R shiftregistermodule_0/flipflop_0/gate_1/S 1046
+C shiftregistermodule_0/flipflop_0/gate_1/Gin GND 23.3
+R shiftregistermodule_0/flipflop_0/gate_1/Gin 1271
+C shiftregistermodule_0/flipflop_0/gate_1/Gout GND 4.4
+R shiftregistermodule_0/flipflop_0/gate_1/Gout 603
+R CLK 27158
+C gnd GND 897.1
+R gnd 10988
+C shiftregistermodule_0/flipflop_0/gate_3/Gout GND 5.5
+R shiftregistermodule_0/flipflop_0/gate_3/Gout 603

@@ -1,0 +1,61 @@
+* SPICE3 file created from mux4x1.ext - technology: scmos
+
+.option scale=1u
+.option RSHUNT=100MEG
+
+M1000 in4 S1 gate_5/Gin Vdd pfet w=6 l=2
++ ad=49 pd=30 as=147 ps=90 
+M1001 in4 gate_0/S gate_5/Gin Gnd nfet w=3 l=2
++ ad=28 pd=24 as=84 ps=72 
+M1002 gate_5/Gin gate_0/S in3 Vdd pfet w=6 l=2
++ ad=0 pd=0 as=49 ps=30 
+M1003 gate_5/Gin S1 in3 Gnd nfet w=3 l=2
++ ad=0 pd=0 as=28 ps=24 
+M1004 gate_4/Gin S1 in2 Vdd pfet w=6 l=2
++ ad=147 pd=90 as=49 ps=30 
+M1005 gate_4/Gin gate_0/S in2 Gnd nfet w=3 l=2
++ ad=84 pd=72 as=28 ps=24 
+M1006 gate_4/Gin gate_0/S in1 Vdd pfet w=6 l=2
++ ad=0 pd=0 as=49 ps=30 
+M1007 gate_4/Gin S1 in1 Gnd nfet w=3 l=2
++ ad=0 pd=0 as=28 ps=24 
+M1008 gate_0/S S1 Vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=52 ps=44 
+M1009 gate_0/S S1 GND Gnd nfet w=3 l=2
++ ad=19 pd=18 as=38 ps=36 
+M1010 gate_4/S S0 Vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1011 gate_4/S S0 GND Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1012 out S0 gate_5/Gin Vdd pfet w=6 l=2
++ ad=98 pd=60 as=0 ps=0 
+M1013 out gate_4/S gate_5/Gin Gnd nfet w=3 l=2
++ ad=56 pd=48 as=0 ps=0 
+M1014 out gate_4/S gate_4/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1015 out S0 gate_4/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+C0 out gnd! 5.4fF
+C1 gate_4/S gnd! 20.0fF
+C2 S0 gnd! 21.8fF
+C3 Vdd gnd! 5.6fF
+C4 in1 gnd! 2.3fF
+C5 gate_4/Gin gnd! 9.0fF
+C6 gate_0/S gnd! 35.2fF
+C7 S1 gnd! 47.1fF
+C8 gate_5/Gin gnd! 10.6fF
+
+.include ../usc-spice
+
+Vgnd GND 0 DC 0V
+VVdd Vdd! 0 DC 2.8V
+
+Vin1 S0 0 pulse(0 2.8 0ns 0.1ns 0.1ns 8us 16ns)
+Vin2 S1 0 pulse(0 2.8 0ns 0.1ns 0.1ns 50ns 100ns)
+Vin3 in1 0 pulse(0 2.8 0ns 0.1ns 0.1ns 10ns 200ns)
+Vin4 in2 0 pulse(0 2.8 0ns 0.1ns 0.1ns 10ns 150ns)
+Vin5 in3 0 pulse(0 2.8 0ns 0.1ns 0.1ns 10ns 200ns)
+Vin6 in4 0 pulse(0 2.8 0ns 0.1ns 0.1ns 10ns 150ns)
+.tran 5ns 300ns
+.probe
+.end

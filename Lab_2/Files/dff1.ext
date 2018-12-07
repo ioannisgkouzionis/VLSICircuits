@@ -1,0 +1,94 @@
+timestamp 1478865149
+version 8.0
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use clr clr_0 1 0 -470 0 1 120
+use gate gate_0 1 0 -352 0 1 124
+use gate gate_1 -1 0 -269 0 1 124
+use not not_1 1 0 -199 0 1 167
+use not not_2 -1 0 -223 0 1 125
+use not not_0 -1 0 -363 0 -1 61
+use not not_4 0 -1 5 1 0 95
+use not not_3 -1 0 63 0 1 49
+node "myD" 0 1140 -512 128 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60 32 0 0
+node "myClk" 0 5076 92 46 m1 0 0 0 0 0 0 0 0 0 0 0 0 108 48 0 0 0 0
+node "m1_n376_58#" 1 25756 -376 58 m1 0 0 0 0 0 0 0 0 0 0 0 0 548 196 0 0 0 0
+node "myClr" 0 2444 -513 156 m1 0 0 0 0 0 0 0 0 0 0 0 0 52 34 0 0 0 0
+node "m1_n256_164#" 1 16732 -256 164 m1 0 0 0 0 0 0 0 0 0 0 0 0 356 148 0 0 0 0
+node "m1_n388_164#" 0 6204 -388 164 m1 0 0 0 0 0 0 0 0 0 0 0 0 132 56 0 0 0 0
+node "m1_n318_166#" 2 33088 -318 166 m1 0 0 0 0 0 0 0 0 0 0 0 0 704 320 0 0 0 0
+node "myGnd" 499 160829 -144 126 ndiff 176 120 0 0 0 0 0 0 0 0 0 0 2223 974 3812 1344 0 0
+node "a_n59_122#" 361 29187 -59 122 p 0 0 0 0 140 98 0 0 0 0 0 0 400 208 0 0 0 0
+node "myOut2" 460 47463 4 110 p 48 32 55 32 98 70 0 0 0 0 0 0 894 282 0 0 0 0
+node "myVdd" 1035 414258 -145 143 pdiff 0 0 240 136 0 0 0 0 0 0 0 0 6414 1840 7064 2124 0 0
+node "a_n56_158#" 656 23876 -56 158 ndiff 96 64 110 64 0 0 0 0 0 0 0 0 580 260 0 0 0 0
+node "a_n81_156#" 632 25155 -81 156 pc 48 32 55 32 208 128 0 0 0 0 0 0 220 118 0 0 0 0
+node "a_n135_135#" 364 209855 -135 135 pc 0 0 0 0 140 98 0 0 0 0 0 0 4244 1244 0 0 0 0
+node "myOut1" 938 56205 -130 158 ndiff 104 68 120 68 98 70 0 0 0 0 0 0 1148 536 0 0 0 0
+node "a_n145_158#" 212 34780 -145 158 ndiff 48 32 55 32 0 0 0 0 0 0 0 0 776 254 0 0 0 0
+node "a_n133_170#" 632 25155 -133 170 p 48 32 55 32 208 128 0 0 0 0 0 0 220 118 0 0 0 0
+cap "myGnd" "a_n56_158#" 2160
+cap "myGnd" "myVdd" 2700
+cap "myOut1" "a_n133_170#" 480
+cap "myGnd" "a_n135_135#" 5940
+cap "myVdd" "myOut1" 1800
+cap "myVdd" "a_n133_170#" 810
+cap "myVdd" "a_n135_135#" 4590
+cap "m1_n318_166#" "myVdd" 1080
+cap "myGnd" "a_n59_122#" 720
+cap "myOut2" "myVdd" 3600
+cap "m1_n376_58#" "myGnd" 1620
+cap "a_n59_122#" "myVdd" 990
+cap "a_n81_156#" "myOut1" 480
+cap "myVdd" "a_n145_158#" 2520
+cap "m1_n256_164#" "myGnd" 2880
+cap "myVdd" "a_n81_156#" 810
+device mosfet nfet 4 114 5 115 3 4 "Gnd!" "myOut2" 6 0 "a_n56_158#" 4 0 "myGnd" 4 0
+device mosfet nfet -59 126 -58 127 3 4 "Gnd!" "a_n59_122#" 6 0 "a_n81_156#" 4 0 "myGnd" 4 0
+device mosfet nfet -133 126 -132 127 3 4 "Gnd!" "a_n135_135#" 6 0 "myGnd" 4 0 "a_n133_170#" 4 0
+device mosfet pfet 4 131 5 132 3 5 "Vdd!" "myOut2" 6 0 "a_n56_158#" 5 0 "myVdd" 5 0
+device mosfet pfet -59 143 -58 144 3 5 "Vdd!" "a_n59_122#" 6 0 "a_n81_156#" 5 0 "myVdd" 5 0
+device mosfet pfet -133 143 -132 144 3 5 "Vdd!" "a_n135_135#" 6 0 "myVdd" 5 0 "a_n133_170#" 5 0
+device mosfet nfet 3 156 4 157 3 4 "Gnd!" "myOut1" 6 0 "myGnd" 4 0 "myOut2" 4 0
+device mosfet nfet -59 158 -58 159 3 4 "Gnd!" "a_n59_122#" 6 0 "myOut1" 4 0 "a_n56_158#" 4 0
+device mosfet pfet 3 173 4 174 3 5 "Vdd!" "myOut1" 6 0 "myVdd" 5 0 "myOut2" 5 0
+device mosfet pfet -59 172 -58 173 3 5 "Vdd!" "a_n81_156#" 6 0 "myOut1" 5 0 "a_n56_158#" 5 0
+device mosfet nfet -133 158 -132 159 3 4 "Gnd!" "a_n135_135#" 6 0 "a_n145_158#" 4 0 "myOut1" 4 0
+device mosfet pfet -133 172 -132 173 3 5 "Vdd!" "a_n133_170#" 6 0 "a_n145_158#" 5 0 "myOut1" 5 0
+merge "gate_1/myC" "not_3/myOut" -1692 0 0 0 0 0 0 0 0 0 0 0 0 -36 -50 0 0 0 0
+merge "not_3/myOut" "not_4/myA"
+merge "not_4/myA" "not_0/myA"
+merge "not_0/myA" "a_n135_135#"
+merge "not_2/myA" "not_1/myOut" -376 0 0 0 0 0 0 0 0 0 0 0 0 -8 -20 0 0 0 0
+merge "not_1/myOut" "a_n145_158#"
+merge "not_2/myGnd" "not_1/myGnd" -7154 0 0 0 0 0 0 0 0 0 0 0 0 -94 -110 -232 -74 0 0
+merge "not_1/myGnd" "gate_1/myGnd"
+merge "gate_1/myGnd" "gate_0/myGnd"
+merge "gate_0/myGnd" "clr_0/myGnd"
+merge "clr_0/myGnd" "not_3/myGnd"
+merge "not_3/myGnd" "not_4/myGnd"
+merge "not_4/myGnd" "not_0/myGnd"
+merge "not_0/myGnd" "myGnd"
+merge "gate_0/myD" "clr_0/myOut" -517 0 0 0 0 0 0 0 0 0 0 0 0 -11 -20 0 0 0 0
+merge "clr_0/myOut" "m1_n388_164#"
+merge "gate_0/myC" "not_0/myOut" -752 0 0 0 0 0 0 0 0 0 0 0 0 -16 -24 0 0 0 0
+merge "not_0/myOut" "m1_n376_58#"
+merge "not_3/myA" "myClk" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "not_2/myVdd" "not_1/myVdd" -2162 0 0 0 0 0 0 0 0 0 0 0 0 -46 -88 0 0 0 0
+merge "not_1/myVdd" "gate_1/myVdd"
+merge "gate_1/myVdd" "gate_0/myVdd"
+merge "gate_0/myVdd" "clr_0/myVdd"
+merge "clr_0/myVdd" "not_3/myVdd"
+merge "not_3/myVdd" "not_4/myVdd"
+merge "not_4/myVdd" "not_0/myVdd"
+merge "not_0/myVdd" "myVdd"
+merge "clr_0/myClr" "myClr" -188 0 0 0 0 0 0 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "not_4/myOut" "a_n59_122#" -376 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0 0 0
+merge "not_2/myOut" "gate_1/myD" -564 0 0 0 0 0 0 0 0 0 0 0 0 -12 -30 0 0 0 0
+merge "gate_1/myD" "m1_n256_164#"
+merge "not_1/myA" "gate_1/myQ" -9118 0 0 0 0 0 0 0 0 0 0 0 0 -194 -98 0 0 0 0
+merge "gate_1/myQ" "gate_0/myQ"
+merge "gate_0/myQ" "m1_n318_166#"
+merge "clr_0/myIn" "myD" -380 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -20 -18 0 0

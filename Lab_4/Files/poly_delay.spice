@@ -1,0 +1,32 @@
+* SPICE3 file created from poly_delay.ext - technology: scmos
+
+.option scale=1u
+
+M1000 output inverter_1/in.t1 Vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=52 ps=44 
+M1001 output inverter_1/in.t1 GND Gnd nfet w=3 l=2
++ ad=19 pd=18 as=38 ps=36 
+M1002 inverter_1/in.t0 input Vdd Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1003 inverter_1/in.t0 input GND Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+R0 inverter_1/in.t0 inverter_1/in.t1 477306
+C0 inverter_1/in.t1 gnd! 4758.1fF
+C1 inverter_1/in.t0 gnd! 4771.5fF
+C2 input gnd! 5.5fF
+C3 Vdd gnd! 5645.3fF
+
+
+.include ../usc-spice.usc-spice
+
+Vgnd1 GND 0 DC 0VZ
+Vgnd2 gnd! 0 DC 0V
+VVdd Vdd 0 DC 2.8V
+Vin input 0 pulse(0 2.8 0ns 0.1ns 0.1ns 5000ns 10000ns)
+.tran 5ns 20000ns
+.probe
+.control
+run
+plot input output+4
+.endc
+.end

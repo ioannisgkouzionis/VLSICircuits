@@ -1,0 +1,42 @@
+timestamp 1478866815
+version 8.0
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use dff1 dff1_0 1 0 530 0 1 4
+use not not_0 -1 0 681 0 1 52
+use not not_1 -1 0 726 0 1 51
+node "myGnd" 0 19646 104 11 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1034 210 0 0
+node "myD" 0 4104 -15 132 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 216 84 0 0
+node "m1_612_24#" 1 42394 612 24 v 0 0 0 0 0 0 0 0 0 0 0 0 902 306 35 24 0 0
+node "myClk" 0 3008 755 49 m1 0 0 0 0 0 0 0 0 0 0 0 0 64 40 0 0 0 0
+node "m1_710_50#" 0 2068 710 50 m1 0 0 0 0 0 0 0 0 0 0 0 0 44 30 0 0 0 0
+node "m1_639_51#" 0 7332 639 51 m1 0 0 0 0 0 0 0 0 0 0 0 0 156 86 0 0 0 0
+node "m1_701_67#" 1 15959 701 67 v 0 0 0 0 0 0 0 0 0 0 0 0 40 36 781 358 0 0
+node "myClr" 0 4624 17 160 v 0 0 0 0 0 0 0 0 0 0 0 0 24 20 208 84 0 0
+node "myOut2" 1 10716 594 170 m1 0 0 0 0 0 0 0 0 0 0 0 0 228 122 0 0 0 0
+node "myOut1" 0 18800 450 217 m1 0 0 0 0 0 0 0 0 0 0 0 0 400 100 0 0 0 0
+node "myVdd" 0 8178 122 201 m1 0 0 0 0 0 0 0 0 0 0 0 0 174 70 0 0 0 0
+cap "dff1_0/myVdd" "myGnd" 4950
+cap "dff1_0/not_3/myVdd" "dff1_0/myClk" 2160
+cap "dff1_0/not_3/myVdd" "dff1_0/not_3/myGnd" 3780
+cap "dff1_0/myVdd" "dff1_0/myD" 2700
+cap "dff1_0/myVdd" "dff1_0/myClr" 2700
+merge "dff1_0/myGnd" "myGnd" -627 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -33 -28 0 0
+merge "not_1/myOut" "not_0/myA" -376 0 0 0 0 0 0 0 0 0 0 0 0 -8 -20 0 0 0 0
+merge "not_0/myA" "m1_710_50#"
+merge "not_1/myVdd" "not_0/myVdd" -3528 0 0 0 0 0 0 0 0 0 0 0 0 -12 -22 -24 -20 0 0
+merge "not_0/myVdd" "dff1_0/not_3/myVdd"
+merge "dff1_0/not_3/myVdd" "m1_701_67#"
+merge "not_0/myOut" "dff1_0/myClk" -940 0 0 0 0 0 0 0 0 0 0 0 0 -20 -26 0 0 0 0
+merge "dff1_0/myClk" "m1_639_51#"
+merge "not_1/myGnd" "not_0/myGnd" -720 0 0 0 0 0 0 0 0 0 0 0 0 -4 -18 -28 -22 0 0
+merge "not_0/myGnd" "dff1_0/not_3/myGnd"
+merge "dff1_0/not_3/myGnd" "m1_612_24#"
+merge "dff1_0/myOut1" "myOut1" -470 0 0 0 0 0 0 0 0 0 0 0 0 -10 -22 0 0 0 0
+merge "dff1_0/myOut2" "myOut2" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "not_1/myA" "myClk" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "dff1_0/myClr" "myClr" -2268 0 0 0 0 0 0 0 0 0 0 0 0 -24 -20 0 0 0 0
+merge "dff1_0/myD" "myD" -1482 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -18 -18 0 0
+merge "dff1_0/myVdd" "myVdd" -6580 0 0 0 0 0 0 0 0 0 0 0 0 -140 -72 0 0 0 0

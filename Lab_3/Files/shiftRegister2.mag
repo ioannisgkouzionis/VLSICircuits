@@ -1,0 +1,95 @@
+magic
+tech scmos
+timestamp 1415298653
+<< polysilicon >>
+rect 138 407 155 409
+rect 278 407 280 409
+rect 3 366 21 368
+rect 135 366 151 368
+rect 278 366 280 368
+rect 55 354 66 356
+rect 190 353 208 355
+rect 130 293 150 295
+rect 209 293 231 295
+rect 269 293 273 295
+rect -2 94 9 96
+rect 138 94 146 96
+<< metal1 >>
+rect 3 439 202 442
+rect 3 414 6 439
+rect 44 414 47 429
+rect 100 425 103 436
+rect 100 419 103 421
+rect 199 419 202 439
+rect 240 418 243 443
+rect 143 408 146 417
+rect 22 357 25 364
+rect 22 354 51 357
+rect 152 354 155 364
+rect 152 351 186 354
+rect 27 330 30 334
+rect 27 327 88 330
+rect 260 327 263 335
+rect 69 313 76 316
+rect 194 313 213 316
+rect 154 292 205 295
+rect -15 94 -6 97
+rect -15 -9 -12 94
+rect 127 93 134 96
+rect 127 -9 130 93
+rect -17 -12 164 -9
+<< metal2 >>
+rect 229 433 272 436
+rect 48 429 146 432
+rect 3 418 58 421
+rect 143 421 146 429
+rect 229 422 232 433
+rect 188 419 232 422
+rect -4 334 26 337
+rect 264 335 287 338
+rect -1 323 277 326
+rect -1 313 65 316
+rect 134 313 190 316
+<< polycontact >>
+rect 21 364 25 368
+rect 151 364 155 368
+rect 51 354 55 358
+rect 186 351 190 355
+rect 150 292 154 296
+rect 205 292 209 296
+rect -6 94 -2 98
+rect 134 92 138 96
+<< m2contact >>
+rect 44 429 48 433
+rect 58 418 62 422
+rect 142 417 146 421
+rect 184 419 188 423
+rect 26 334 30 338
+rect 260 335 264 339
+rect 65 313 69 317
+rect 190 313 194 317
+use shiftregistermodule  shiftregistermodule_0
+timestamp 1415295142
+transform 0 1 0 -1 0 316
+box -111 0 317 139
+use shiftregistermodule  shiftregistermodule_1
+timestamp 1415295142
+transform 0 1 140 -1 0 316
+box -111 0 317 139
+<< labels >>
+rlabel metal1 160 -10 160 -10 1 clk
+rlabel metal1 242 425 242 425 1 in1
+rlabel metal2 1 324 1 324 1 gnd
+rlabel metal2 0 314 0 314 1 vdd
+rlabel polysilicon 279 367 279 367 7 S0
+rlabel polysilicon 279 408 279 408 7 S1
+rlabel metal2 269 434 269 434 1 sl
+rlabel metal2 8 419 8 419 1 sr
+rlabel metal1 4 433 4 433 1 q2
+rlabel metal2 142 430 142 430 1 q1
+rlabel polysilicon 271 294 271 294 1 clr
+rlabel metal1 241 441 241 441 5 in1
+rlabel metal1 102 434 102 434 1 in2
+rlabel metal2 0 335 0 335 1 mux2
+rlabel metal2 278 336 278 336 1 mux1
+<< end >>

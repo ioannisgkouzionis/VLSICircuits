@@ -1,0 +1,288 @@
+h vdd
+l gnd
+vector sh sl sr
+vector Q q2 q1
+vector SR_IN in2 in1
+vector S S1 S0
+analyzer clk clr S SR_IN q2 q1 mux2 mux1
+l clk
+h clr
+setvector sh 01
+setvector S 00
+setvector SR_IN 00
+s
+h clk
+h clr
+setvector sh 01
+setvector S 00
+setvector SR_IN 00
+s
+l clk
+h clr
+setvector sh 01
+setvector S 00
+setvector SR_IN 00
+s
+h clk
+h clr
+setvector sh 01
+setvector S 00
+setvector SR_IN 00
+s
+l clk
+l clr
+setvector sh 01
+setvector S 11
+setvector SR_IN 00
+s
+h clk
+l clr
+setvector sh 01
+setvector S 11
+setvector SR_IN 11
+s
+l clk
+l clr
+setvector sh 01
+setvector S 01
+setvector SR_IN 11
+s
+h clk
+l clr
+setvector sh 01
+setvector S 01
+setvector SR_IN 11
+s
+l clk
+l clr
+setvector sh 01
+setvector S 01
+setvector SR_IN 11
+s
+h clk
+l clr
+setvector sh 01
+setvector S 01
+setvector SR_IN 11
+s
+l clk
+l clr
+setvector sh 01
+setvector S 01
+setvector SR_IN 11
+s
+h clk
+l clr
+setvector sh 01
+setvector S 01
+setvector SR_IN 11
+s
+l clk
+l clr
+setvector sh 01
+setvector S 01
+setvector SR_IN 11
+s
+h clk
+l clr
+setvector sh 01
+setvector S 01
+setvector SR_IN 11
+s
+l clk
+l clr
+setvector S 01
+setvector SR_IN 11
+s
+h clk
+l clr
+setvector S 01
+setvector SR_IN 11
+s
+l clk
+l clr
+setvector sh 01
+setvector S 01
+setvector SR_IN 11
+s
+h clk
+l clr
+setvector sh 01
+setvector S 01
+setvector SR_IN 11
+s
+l clk
+l clr
+setvector sh 01
+setvector S 01
+setvector SR_IN 11
+s
+h clk
+l clr
+setvector sh 01
+setvector S 01
+setvector SR_IN 11
+s
+l clk
+l clr
+setvector sh 01
+setvector S 01
+setvector SR_IN 11
+s
+h clk
+l clr
+setvector sh 01
+setvector S 01
+setvector SR_IN 11
+s
+l clk
+l clr
+setvector sh 01
+setvector S 11
+setvector SR_IN 10
+s
+h clk
+l clr
+setvector sh 01
+setvector S 11
+setvector SR_IN 10
+s
+l clk
+l clr
+setvector sh 01
+setvector S 10
+setvector SR_IN 11
+s
+h clk
+l clr
+setvector sh 01
+setvector S 10
+setvector SR_IN 10
+s
+l clk
+l clr
+setvector sh 01
+setvector S 10
+setvector SR_IN 11
+s
+h clk
+l clr
+setvector sh 01
+setvector S 10
+setvector SR_IN 10
+s
+l clk
+l clr
+setvector sh 01
+setvector S 10
+setvector SR_IN 11
+s
+h clk
+l clr
+setvector sh 01
+setvector S 10
+setvector SR_IN 10
+s
+l clk
+l clr
+setvector sh 01
+setvector S 10
+setvector SR_IN 11
+s
+h clk
+l clr
+setvector sh 01
+setvector S 10
+setvector SR_IN 10
+s
+l clk
+l clr
+setvector sh 01
+setvector S 10
+setvector SR_IN 11
+s
+h clk
+l clr
+setvector sh 01
+setvector S 10
+setvector SR_IN 10
+l SL
+h SR
+s
+l clk
+l clr
+setvector sh 01
+setvector S 10
+setvector SR_IN 11
+s
+h clk
+l clr
+setvector sh 01
+setvector S 10
+setvector SR_IN 10
+l SL
+h SR
+s
+l clk
+l clr
+setvector sh 01
+setvector S 10
+setvector SR_IN 11
+s
+h clk
+l clr
+setvector sh 01
+setvector S 10
+setvector SR_IN 10
+s
+l clk
+l clr
+setvector sh 01
+setvector S 10
+setvector SR_IN 11
+s
+h clk
+l clr
+setvector sh 01
+setvector S 10
+setvector SR_IN 10
+s
+l clk
+l clr
+setvector sh 01
+setvector S 10
+setvector SR_IN 11
+s
+h clk
+l clr
+setvector sh 01
+setvector S 10
+setvector SR_IN 10
+s
+l clk
+l clr
+setvector sh 01
+setvector S 00
+setvector SR_IN 10
+s
+h clk
+l clr
+setvector sh 01
+setvector S 00
+setvector SR_IN 10
+s
+l clk
+h clr
+setvector sh 01
+setvector S 00
+setvector SR_IN 10
+s
+h clk
+h clr
+setvector sh 01
+setvector S 00
+setvector SR_IN 10
+s
+s
+stepsize 2
+s

@@ -1,0 +1,36 @@
+* SPICE3 file created from gate.ext - technology: scmos
+
+.option scale=1u
+
+M1000 myQ a_3_46# myD Vdd pfet w=5 l=3
++ ad=60 pd=34 as=55 ps=32 
+M1001 myQ myC myD Gnd nfet w=4 l=3
++ ad=52 pd=34 as=48 ps=32 
+M1002 a_3_46# myC myVdd Vdd pfet w=5 l=3
++ ad=55 pd=32 as=60 ps=34 
+M1003 a_3_46# myC myGnd Gnd nfet w=4 l=3
++ ad=48 pd=32 as=44 ps=30 
+C0 myVdd gnd! 4.4fF
+C1 myC gnd! 13.6fF
+C2 myQ gnd! 4.5fF
+C3 myD gnd! 3.8fF
+C4 a_3_46# gnd! 25.2fF
+
+.include ../usc-spice.usc-spice
+
+Vgnd1 myGnd 0 DC 0V
+Vgnd2 gnd! 0 DC 0V
+
+VVdd myVdd 0 DC 2.8V
+
+Vin1 myD 0 pulse(0 2.8v 0ns 0.1ns 0.1ns 100ns 200ns)
+Vin2 myC 0 pulse(0 2.8v 0ns 0.1ns 0.1ns 32ns 64ns)
+
+.tran 1ns 1400ns
+.probe
+.control
+run
+plot myC myD+4 myQ+8
+.endc
+.end
+

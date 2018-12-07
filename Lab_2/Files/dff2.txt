@@ -1,0 +1,84 @@
+h myVdd
+l myGnd
+
+analyzer myClk myClr myD myOut2 myOut1
+
+l myClk
+h myD
+h myClr
+s 100
+
+h myClk
+h myD
+h myClr
+s 100
+
+l myClk
+h myD
+h myClr
+s 100
+
+h myClk
+l myD
+h myClr
+s 100
+
+l myClk
+l myD
+l myClr
+s 100
+
+h myClk
+l myD
+l myClr
+s 100
+
+l myCLk
+l myD
+l myClr
+s 100
+
+h myClk
+h myD
+l myClr
+s 100
+
+l myClk
+h myD
+l myClr
+s 100
+
+h myClk
+h myD
+l myClr
+s 100
+
+l myClk
+h myD
+h myClr
+s 100
+
+h myClk
+l myD
+h myClr
+s 100
+
+l myClk
+l myD
+h myClr
+s 100
+
+h myClk
+l myD
+h myClr
+s 100
+
+l myClk
+h myD
+h myClr
+s 100
+
+h myClk
+h myD
+h myClr
+s 100

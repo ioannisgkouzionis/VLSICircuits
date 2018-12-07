@@ -1,0 +1,155 @@
+* SPICE3 file created from poly_delay20.ext - technology: scmos
+
+M1000 output inverter_19/in.t1 Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=520p ps=440u 
+M1001 output inverter_19/in.t1 GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=380p ps=360u 
+M1002 inverter_19/in.t0 inverter_18/in.t1 Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1003 inverter_19/in.t0 inverter_18/in.t1 GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1004 inverter_18/in.t0 inverter_17/in.t1 Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1005 inverter_18/in.t0 inverter_17/in.t1 GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1006 inverter_17/in.t0 inverter_16/in.t1 Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1007 inverter_17/in.t0 inverter_16/in.t1 GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1008 inverter_16/in.t0 inverter_15/in.t1 Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1009 inverter_16/in.t0 inverter_15/in.t1 GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1010 inverter_15/in.t0 inverter_14/in.t1 Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1011 inverter_15/in.t0 inverter_14/in.t1 GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1012 inverter_14/in.t0 inverter_13/in.t1 Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1013 inverter_14/in.t0 inverter_13/in.t1 GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1014 inverter_13/in.t0 inverter_12/in.t1 Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1015 inverter_13/in.t0 inverter_12/in.t1 GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1016 inverter_12/in.t0 inverter_11/in.t1 Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1017 inverter_12/in.t0 inverter_11/in.t1 GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1018 inverter_11/in.t0 inverter_9/out.t1 Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1019 inverter_11/in.t0 inverter_9/out.t1 GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1020 inverter_9/out.t0 inverter_9/in.t1 Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1021 inverter_9/out.t0 inverter_9/in.t1 GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1022 inverter_9/in.t0 inverter_8/in.t1 Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1023 inverter_9/in.t0 inverter_8/in.t1 GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1024 inverter_8/in.t0 inverter_7/in.t1 Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1025 inverter_8/in.t0 inverter_7/in.t1 GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1026 inverter_7/in.t0 inverter_6/in.t1 Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1027 inverter_7/in.t0 inverter_6/in.t1 GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1028 inverter_6/in.t0 inverter_5/in.t1 Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1029 inverter_6/in.t0 inverter_5/in.t1 GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1030 inverter_5/in.t0 inverter_4/in.t1 Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1031 inverter_5/in.t0 inverter_4/in.t1 GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1032 inverter_4/in.t0 inverter_3/in.t1 Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1033 inverter_4/in.t0 inverter_3/in.t1 GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1034 inverter_3/in.t0 inverter_2/in.t1 Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1035 inverter_3/in.t0 inverter_2/in.t1 GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1036 inverter_2/in.t0 inverter_1/in.t1 Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1037 inverter_2/in.t0 inverter_1/in.t1 GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1038 inverter_1/in.t0 input Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1039 inverter_1/in.t0 input GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+R0 inverter_19/in.t0 inverter_19/in.t1 23930
+R1 inverter_18/in.t0 inverter_18/in.t1 23930
+R2 inverter_17/in.t0 inverter_17/in.t1 23930
+R3 inverter_16/in.t0 inverter_16/in.t1 23930
+R4 inverter_15/in.t0 inverter_15/in.t1 23930
+R5 inverter_14/in.t0 inverter_14/in.t1 23930
+R6 inverter_13/in.t0 inverter_13/in.t1 23930
+R7 inverter_12/in.t0 inverter_12/in.t1 23930
+R8 inverter_11/in.t0 inverter_11/in.t1 23930
+R9 inverter_9/out.t0 inverter_9/out.t1 23930
+R10 inverter_9/in.t0 inverter_9/in.t1 23930
+R11 inverter_8/in.t0 inverter_8/in.t1 23930
+R12 inverter_7/in.t0 inverter_7/in.t1 23930
+R13 inverter_6/in.t0 inverter_6/in.t1 23930
+R14 inverter_5/in.t0 inverter_5/in.t1 23930
+R15 inverter_4/in.t0 inverter_4/in.t1 23930
+R16 inverter_3/in.t0 inverter_3/in.t1 23930
+R17 inverter_2/in.t0 inverter_2/in.t1 23930
+R18 inverter_1/in.t0 inverter_1/in.t1 23930
+C0 inverter_1/in.t1 gnd! 236.3fF
+C1 inverter_1/in.t0 gnd! 248.0fF
+C2 inverter_2/in.t1 gnd! 236.3fF
+C3 inverter_2/in.t0 gnd! 248.0fF
+C4 inverter_3/in.t1 gnd! 236.3fF
+C5 inverter_3/in.t0 gnd! 248.0fF
+C6 inverter_4/in.t1 gnd! 236.3fF
+C7 inverter_4/in.t0 gnd! 248.0fF
+C8 inverter_5/in.t1 gnd! 236.3fF
+C9 inverter_5/in.t0 gnd! 248.0fF
+C10 inverter_6/in.t1 gnd! 236.3fF
+C11 inverter_6/in.t0 gnd! 248.0fF
+C12 inverter_7/in.t1 gnd! 236.3fF
+C13 inverter_7/in.t0 gnd! 248.0fF
+C14 inverter_8/in.t1 gnd! 236.3fF
+C15 inverter_8/in.t0 gnd! 248.0fF
+C16 inverter_9/in.t1 gnd! 236.3fF
+C17 inverter_9/in.t0 gnd! 248.0fF
+C18 inverter_9/out.t1 gnd! 236.3fF
+C19 inverter_9/out.t0 gnd! 248.0fF
+C20 inverter_11/in.t1 gnd! 236.3fF
+C21 inverter_11/in.t0 gnd! 248.0fF
+C22 inverter_12/in.t1 gnd! 236.3fF
+C23 inverter_12/in.t0 gnd! 248.0fF
+C24 inverter_13/in.t1 gnd! 236.3fF
+C25 inverter_13/in.t0 gnd! 248.0fF
+C26 inverter_14/in.t1 gnd! 236.3fF
+C27 inverter_14/in.t0 gnd! 248.0fF
+C28 inverter_15/in.t1 gnd! 236.2fF
+C29 inverter_15/in.t0 gnd! 247.9fF
+C30 inverter_16/in.t1 gnd! 236.3fF
+C31 inverter_16/in.t0 gnd! 248.0fF
+C32 inverter_17/in.t1 gnd! 236.3fF
+C33 inverter_17/in.t0 gnd! 248.0fF
+C34 inverter_18/in.t1 gnd! 236.3fF
+C35 inverter_18/in.t0 gnd! 248.0fF
+C36 inverter_19/in.t1 gnd! 236.3fF
+C37 inverter_19/in.t0 gnd! 248.0fF
+C38 input gnd! 5.2fF
+C39 Vdd gnd! 5401.6fF
+
+.include ../usc-spice.usc-spice
+
+Vgnd1 GND 0 DC 0VZ
+Vgnd2 gnd! 0 DC 0V
+VVdd Vdd 0 DC 2.8V
+Vin input 0 pulse(0 2.8 0ns 0.1ns 0.1ns 5000ns 10000ns)
+.tran 5ns 20000ns
+.probe
+.control
+run
+plot input output+4
+.endc
+.end

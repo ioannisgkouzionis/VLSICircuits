@@ -1,0 +1,606 @@
+timestamp 1357833981
+version 7.4
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use inverter inverter_0 1 0 5 0 1 10
+use inverter inverter_1 1 0 829 0 1 10
+use inverter inverter_2 1 0 1652 0 1 10
+use inverter inverter_3 1 0 2476 0 1 10
+use inverter inverter_4 1 0 3299 0 1 10
+use inverter inverter_5 1 0 4123 0 1 10
+use inverter inverter_6 1 0 4946 0 1 10
+use inverter inverter_7 1 0 5770 0 1 10
+use inverter inverter_8 1 0 6593 0 1 10
+use inverter inverter_9 1 0 7417 0 1 10
+use inverter inverter_10 1 0 8240 0 1 10
+use inverter inverter_11 1 0 9064 0 1 10
+use inverter inverter_12 1 0 9887 0 1 10
+use inverter inverter_13 1 0 10711 0 1 10
+use inverter inverter_14 1 0 11534 0 1 10
+use inverter inverter_15 1 0 12358 0 1 10
+use inverter inverter_16 1 0 13181 0 1 10
+use inverter inverter_17 1 0 14005 0 1 10
+use inverter inverter_18 1 0 14828 0 1 10
+use inverter inverter_19 1 0 15652 0 1 10
+use inverter inverter_20 1 0 16475 0 1 10
+use inverter inverter_21 1 0 17299 0 1 10
+use inverter inverter_22 1 0 18122 0 1 10
+use inverter inverter_23 1 0 18946 0 1 10
+use inverter inverter_24 1 0 19769 0 1 10
+use inverter inverter_25 1 0 20593 0 1 10
+use inverter inverter_26 1 0 21416 0 1 10
+use inverter inverter_27 1 0 22240 0 1 10
+use inverter inverter_28 1 0 23063 0 1 10
+use inverter inverter_29 1 0 23887 0 1 10
+use inverter inverter_30 1 0 24710 0 1 10
+use inverter inverter_31 1 0 25534 0 1 10
+use inverter inverter_32 1 0 26357 0 1 10
+use inverter inverter_33 1 0 27181 0 1 10
+use inverter inverter_34 1 0 28004 0 1 10
+use inverter inverter_35 1 0 28828 0 1 10
+use inverter inverter_36 1 0 29651 0 1 10
+use inverter inverter_37 1 0 30475 0 1 10
+use inverter inverter_38 1 0 31298 0 1 10
+use inverter inverter_39 1 0 32122 0 1 10
+use inverter inverter_40 1 0 32945 0 1 10
+use inverter inverter_41 1 0 33769 0 1 10
+use inverter inverter_42 1 0 34592 0 1 10
+use inverter inverter_43 1 0 35416 0 1 10
+use inverter inverter_44 1 0 36239 0 1 10
+use inverter inverter_45 1 0 37063 0 1 10
+use inverter inverter_46 1 0 37886 0 1 10
+use inverter inverter_47 1 0 38710 0 1 10
+use inverter inverter_48 1 0 39533 0 1 10
+use inverter inverter_49 1 0 40357 0 1 10
+node "GND!" 0 5.73236e+06 0 -3 m1 0 0 0 0 0 0 0 0 0 0 0 0 121965 81316 0 0 0 0
+node "output" 0 846 40363 10 m1 0 0 0 0 0 0 0 0 0 0 0 0 18 18 0 0 0 0
+node "Vdd!" 0 5.73207e+06 0 20 m1 0 0 0 0 0 0 0 0 0 0 0 0 121965 81316 0 0 0 0
+node "a_39539_10#" 9771 195874 39539 10 pc 0 0 0 0 1646 1646 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_38716_10#" 9759 195636 38716 10 pc 0 0 0 0 1644 1644 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_37892_10#" 9771 195874 37892 10 pc 0 0 0 0 1646 1646 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_37069_10#" 9759 195636 37069 10 pc 0 0 0 0 1644 1644 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_36245_10#" 9771 195874 36245 10 pc 0 0 0 0 1646 1646 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_35422_10#" 9759 195636 35422 10 pc 0 0 0 0 1644 1644 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_34598_10#" 9771 195874 34598 10 pc 0 0 0 0 1646 1646 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_33775_10#" 9759 195636 33775 10 pc 0 0 0 0 1644 1644 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_32951_10#" 9771 195874 32951 10 pc 0 0 0 0 1646 1646 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_32128_10#" 9759 195636 32128 10 pc 0 0 0 0 1644 1644 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_31304_10#" 9771 195874 31304 10 pc 0 0 0 0 1646 1646 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_30481_10#" 9759 195636 30481 10 pc 0 0 0 0 1644 1644 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_29657_10#" 9771 195874 29657 10 pc 0 0 0 0 1646 1646 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_28834_10#" 9759 195636 28834 10 pc 0 0 0 0 1644 1644 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_28010_10#" 9771 195874 28010 10 pc 0 0 0 0 1646 1646 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_27187_10#" 9759 195636 27187 10 pc 0 0 0 0 1644 1644 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_26363_10#" 9771 195874 26363 10 pc 0 0 0 0 1646 1646 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_25540_10#" 9759 195636 25540 10 pc 0 0 0 0 1644 1644 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_24716_10#" 9771 195874 24716 10 pc 0 0 0 0 1646 1646 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_23893_10#" 9759 195636 23893 10 pc 0 0 0 0 1644 1644 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_23069_10#" 9771 195874 23069 10 pc 0 0 0 0 1646 1646 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_22246_10#" 9759 195636 22246 10 pc 0 0 0 0 1644 1644 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_21422_10#" 9771 195874 21422 10 pc 0 0 0 0 1646 1646 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_20599_10#" 9759 195636 20599 10 pc 0 0 0 0 1644 1644 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_19775_10#" 9771 195874 19775 10 pc 0 0 0 0 1646 1646 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_18952_10#" 9759 195636 18952 10 pc 0 0 0 0 1644 1644 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_18128_10#" 9771 195874 18128 10 pc 0 0 0 0 1646 1646 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_17305_10#" 9759 195636 17305 10 pc 0 0 0 0 1644 1644 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_16481_10#" 9771 195874 16481 10 pc 0 0 0 0 1646 1646 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_15658_10#" 9759 195636 15658 10 pc 0 0 0 0 1644 1644 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_14834_10#" 9771 195874 14834 10 pc 0 0 0 0 1646 1646 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_14011_10#" 9759 195636 14011 10 pc 0 0 0 0 1644 1644 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_13187_10#" 9771 195874 13187 10 pc 0 0 0 0 1646 1646 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_12364_10#" 9759 195636 12364 10 pc 0 0 0 0 1644 1644 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_11540_10#" 9771 195874 11540 10 pc 0 0 0 0 1646 1646 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_10717_10#" 9759 195636 10717 10 pc 0 0 0 0 1644 1644 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_9893_10#" 9771 195874 9893 10 pc 0 0 0 0 1646 1646 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_9070_10#" 9759 195636 9070 10 pc 0 0 0 0 1644 1644 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_8246_10#" 9771 195874 8246 10 pc 0 0 0 0 1646 1646 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_7423_10#" 9759 195636 7423 10 pc 0 0 0 0 1644 1644 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_6599_10#" 9771 195874 6599 10 pc 0 0 0 0 1646 1646 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_5776_10#" 9759 195636 5776 10 pc 0 0 0 0 1644 1644 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_4952_10#" 9771 195874 4952 10 pc 0 0 0 0 1646 1646 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_4129_10#" 9759 195636 4129 10 pc 0 0 0 0 1644 1644 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_3305_10#" 9771 195874 3305 10 pc 0 0 0 0 1646 1646 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_2482_10#" 9759 195636 2482 10 pc 0 0 0 0 1644 1644 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_1658_10#" 9771 195874 1658 10 pc 0 0 0 0 1646 1646 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_835_10#" 9759 195636 835 10 pc 0 0 0 0 1644 1644 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_11_10#" 9771 195874 11 10 pc 0 0 0 0 1646 1646 0 0 0 0 0 0 16 16 0 0 0 0
+node "input" 84 1986 5 24 p 0 0 0 0 14 18 0 0 0 0 0 0 0 0 0 0 0 0
+cap "Vdd!" "input" 180
+merge "inverter_42/in" "inverter_41/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_41/out" "a_33775_10#"
+merge "inverter_49/GND" "inverter_48/GND" -22231 0 0 0 0 0 0 0 0 0 0 0 0 -473 -659 0 0 0 0
+merge "inverter_48/GND" "inverter_47/GND"
+merge "inverter_47/GND" "inverter_46/GND"
+merge "inverter_46/GND" "inverter_45/GND"
+merge "inverter_45/GND" "inverter_44/GND"
+merge "inverter_44/GND" "inverter_43/GND"
+merge "inverter_43/GND" "inverter_42/GND"
+merge "inverter_42/GND" "inverter_41/GND"
+merge "inverter_41/GND" "inverter_40/GND"
+merge "inverter_40/GND" "inverter_39/GND"
+merge "inverter_39/GND" "inverter_38/GND"
+merge "inverter_38/GND" "inverter_37/GND"
+merge "inverter_37/GND" "inverter_36/GND"
+merge "inverter_36/GND" "inverter_35/GND"
+merge "inverter_35/GND" "inverter_34/GND"
+merge "inverter_34/GND" "inverter_33/GND"
+merge "inverter_33/GND" "inverter_32/GND"
+merge "inverter_32/GND" "inverter_31/GND"
+merge "inverter_31/GND" "inverter_30/GND"
+merge "inverter_30/GND" "inverter_29/GND"
+merge "inverter_29/GND" "inverter_28/GND"
+merge "inverter_28/GND" "inverter_27/GND"
+merge "inverter_27/GND" "inverter_26/GND"
+merge "inverter_26/GND" "inverter_25/GND"
+merge "inverter_25/GND" "inverter_24/GND"
+merge "inverter_24/GND" "inverter_23/GND"
+merge "inverter_23/GND" "inverter_22/GND"
+merge "inverter_22/GND" "inverter_21/GND"
+merge "inverter_21/GND" "inverter_20/GND"
+merge "inverter_20/GND" "inverter_19/GND"
+merge "inverter_19/GND" "inverter_18/GND"
+merge "inverter_18/GND" "inverter_17/GND"
+merge "inverter_17/GND" "inverter_16/GND"
+merge "inverter_16/GND" "inverter_15/GND"
+merge "inverter_15/GND" "inverter_14/GND"
+merge "inverter_14/GND" "inverter_13/GND"
+merge "inverter_13/GND" "inverter_12/GND"
+merge "inverter_12/GND" "inverter_11/GND"
+merge "inverter_11/GND" "inverter_10/GND"
+merge "inverter_10/GND" "inverter_9/GND"
+merge "inverter_9/GND" "inverter_8/GND"
+merge "inverter_8/GND" "inverter_7/GND"
+merge "inverter_7/GND" "inverter_6/GND"
+merge "inverter_6/GND" "inverter_5/GND"
+merge "inverter_5/GND" "inverter_4/GND"
+merge "inverter_4/GND" "inverter_3/GND"
+merge "inverter_3/GND" "inverter_2/GND"
+merge "inverter_2/GND" "inverter_1/GND"
+merge "inverter_1/GND" "inverter_0/GND"
+merge "inverter_0/GND" "GND!"
+merge "inverter_49/in" "inverter_48/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_48/out" "a_39539_10#"
+merge "inverter_22/in" "inverter_21/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_21/out" "a_17305_10#"
+merge "inverter_49/Vdd" "inverter_48/Vdd" -21150 0 0 0 0 0 0 0 0 0 0 0 0 -450 -600 0 0 0 0
+merge "inverter_48/Vdd" "inverter_47/Vdd"
+merge "inverter_47/Vdd" "inverter_46/Vdd"
+merge "inverter_46/Vdd" "inverter_45/Vdd"
+merge "inverter_45/Vdd" "inverter_44/Vdd"
+merge "inverter_44/Vdd" "inverter_43/Vdd"
+merge "inverter_43/Vdd" "inverter_42/Vdd"
+merge "inverter_42/Vdd" "inverter_41/Vdd"
+merge "inverter_41/Vdd" "inverter_40/Vdd"
+merge "inverter_40/Vdd" "inverter_39/Vdd"
+merge "inverter_39/Vdd" "inverter_38/Vdd"
+merge "inverter_38/Vdd" "inverter_37/Vdd"
+merge "inverter_37/Vdd" "inverter_36/Vdd"
+merge "inverter_36/Vdd" "inverter_35/Vdd"
+merge "inverter_35/Vdd" "inverter_34/Vdd"
+merge "inverter_34/Vdd" "inverter_33/Vdd"
+merge "inverter_33/Vdd" "inverter_32/Vdd"
+merge "inverter_32/Vdd" "inverter_31/Vdd"
+merge "inverter_31/Vdd" "inverter_30/Vdd"
+merge "inverter_30/Vdd" "inverter_29/Vdd"
+merge "inverter_29/Vdd" "inverter_28/Vdd"
+merge "inverter_28/Vdd" "inverter_27/Vdd"
+merge "inverter_27/Vdd" "inverter_26/Vdd"
+merge "inverter_26/Vdd" "inverter_25/Vdd"
+merge "inverter_25/Vdd" "inverter_24/Vdd"
+merge "inverter_24/Vdd" "inverter_23/Vdd"
+merge "inverter_23/Vdd" "inverter_22/Vdd"
+merge "inverter_22/Vdd" "inverter_21/Vdd"
+merge "inverter_21/Vdd" "inverter_20/Vdd"
+merge "inverter_20/Vdd" "inverter_19/Vdd"
+merge "inverter_19/Vdd" "inverter_18/Vdd"
+merge "inverter_18/Vdd" "inverter_17/Vdd"
+merge "inverter_17/Vdd" "inverter_16/Vdd"
+merge "inverter_16/Vdd" "inverter_15/Vdd"
+merge "inverter_15/Vdd" "inverter_14/Vdd"
+merge "inverter_14/Vdd" "inverter_13/Vdd"
+merge "inverter_13/Vdd" "inverter_12/Vdd"
+merge "inverter_12/Vdd" "inverter_11/Vdd"
+merge "inverter_11/Vdd" "inverter_10/Vdd"
+merge "inverter_10/Vdd" "inverter_9/Vdd"
+merge "inverter_9/Vdd" "inverter_8/Vdd"
+merge "inverter_8/Vdd" "inverter_7/Vdd"
+merge "inverter_7/Vdd" "inverter_6/Vdd"
+merge "inverter_6/Vdd" "inverter_5/Vdd"
+merge "inverter_5/Vdd" "inverter_4/Vdd"
+merge "inverter_4/Vdd" "inverter_3/Vdd"
+merge "inverter_3/Vdd" "inverter_2/Vdd"
+merge "inverter_2/Vdd" "inverter_1/Vdd"
+merge "inverter_1/Vdd" "inverter_0/Vdd"
+merge "inverter_0/Vdd" "Vdd!"
+merge "inverter_33/in" "inverter_32/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_32/out" "a_26363_10#"
+merge "inverter_44/in" "inverter_43/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_43/out" "a_35422_10#"
+merge "inverter_4/in" "inverter_3/out" -906 0 0 0 0 -2 -8 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_3/out" "a_2482_10#"
+merge "inverter_15/in" "inverter_14/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_14/out" "a_11540_10#"
+merge "inverter_7/in" "inverter_6/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_6/out" "a_4952_10#"
+merge "inverter_17/in" "inverter_16/out" -1144 0 0 0 0 -4 -10 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_16/out" "a_13187_10#"
+merge "inverter_19/in" "inverter_18/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_18/out" "a_14834_10#"
+merge "inverter_18/in" "inverter_17/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_17/out" "a_14011_10#"
+merge "inverter_29/in" "inverter_28/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_28/out" "a_23069_10#"
+merge "inverter_21/in" "inverter_20/out" -906 0 0 0 0 -2 -8 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_20/out" "a_16481_10#"
+merge "inverter_11/in" "inverter_10/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_10/out" "a_8246_10#"
+merge "inverter_40/in" "inverter_39/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_39/out" "a_32128_10#"
+merge "inverter_25/in" "inverter_24/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_24/out" "a_19775_10#"
+merge "inverter_23/in" "inverter_22/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_22/out" "a_18128_10#"
+merge "inverter_32/in" "inverter_31/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_31/out" "a_25540_10#"
+merge "inverter_46/in" "inverter_45/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_45/out" "a_37069_10#"
+merge "inverter_39/in" "inverter_38/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_38/out" "a_31304_10#"
+merge "inverter_27/in" "inverter_26/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_26/out" "a_21422_10#"
+merge "inverter_3/in" "inverter_2/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_2/out" "a_1658_10#"
+merge "inverter_14/in" "inverter_13/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_13/out" "a_10717_10#"
+merge "inverter_31/in" "inverter_30/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_30/out" "a_24716_10#"
+merge "inverter_36/in" "inverter_35/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_35/out" "a_28834_10#"
+merge "inverter_1/in" "inverter_0/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_0/out" "a_11_10#"
+merge "inverter_8/in" "inverter_7/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_7/out" "a_5776_10#"
+merge "inverter_16/in" "inverter_15/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_15/out" "a_12364_10#"
+merge "inverter_47/in" "inverter_46/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_46/out" "a_37892_10#"
+merge "inverter_35/in" "inverter_34/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_34/out" "a_28010_10#"
+merge "inverter_37/in" "inverter_36/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_36/out" "a_29657_10#"
+merge "inverter_20/in" "inverter_19/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_19/out" "a_15658_10#"
+merge "inverter_10/in" "inverter_9/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_9/out" "a_7423_10#"
+merge "inverter_41/in" "inverter_40/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_40/out" "a_32951_10#"
+merge "inverter_43/in" "inverter_42/out" -1066 0 0 0 0 -2 -10 0 0 0 0 0 0 -4 -14 0 0 0 0
+merge "inverter_42/out" "a_34598_10#"
+merge "inverter_24/in" "inverter_23/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_23/out" "a_18952_10#"
+merge "inverter_49/out" "output" -141 0 0 0 0 0 0 0 0 0 0 0 0 -3 -8 0 0 0 0
+merge "inverter_45/in" "inverter_44/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_44/out" "a_36245_10#"
+merge "inverter_26/in" "inverter_25/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -14 0 0 0 0
+merge "inverter_25/out" "a_20599_10#"
+merge "inverter_28/in" "inverter_27/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_27/out" "a_22246_10#"
+merge "inverter_30/in" "inverter_29/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_29/out" "a_23893_10#"
+merge "inverter_2/in" "inverter_1/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_1/out" "a_835_10#"
+merge "inverter_6/in" "inverter_5/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_5/out" "a_4129_10#"
+merge "inverter_34/in" "inverter_33/out" -1382 0 0 0 0 -6 -12 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_33/out" "a_27187_10#"
+merge "inverter_5/in" "inverter_4/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_4/out" "a_3305_10#"
+merge "inverter_38/in" "inverter_37/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_37/out" "a_30481_10#"
+merge "inverter_12/in" "inverter_11/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_11/out" "a_9070_10#"
+merge "inverter_13/in" "inverter_12/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_12/out" "a_9893_10#"
+merge "inverter_48/in" "inverter_47/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -10 0 0 0 0
+merge "inverter_47/out" "a_38716_10#"
+merge "inverter_9/in" "inverter_8/out" -746 0 0 0 0 -2 -6 0 0 0 0 0 0 -4 -14 0 0 0 0
+merge "inverter_8/out" "a_6599_10#"
+merge "inverter_0/in" "input" -558 0 0 0 0 -2 -6 0 0 0 0 0 0 0 0 0 0 0 0
+killnode "inverter_1/in"
+rnode "inverter_1/in.t1" 0 95020.4 830 13 0
+rnode "inverter_1/in.t0" 0 106280 7 4 0
+resist "inverter_1/in.t0" "inverter_1/in.t1" 9745
+killnode "inverter_2/in"
+rnode "inverter_2/in.t1" 0 94919.7 1653 13 0
+rnode "inverter_2/in.t0" 0 106180 831 4 0
+resist "inverter_2/in.t0" "inverter_2/in.t1" 9733
+killnode "inverter_3/in"
+rnode "inverter_3/in.t1" 0 95020.4 2477 13 0
+rnode "inverter_3/in.t0" 0 106280 1654 4 0
+resist "inverter_3/in.t0" "inverter_3/in.t1" 9745
+killnode "inverter_4/in"
+rnode "inverter_4/in.t1" 0 94825.3 3300 13 0
+rnode "inverter_4/in.t0" 0 106075 2478 4 0
+resist "inverter_4/in.t0" "inverter_4/in.t1" 9733
+killnode "inverter_5/in"
+rnode "inverter_5/in.t1" 0 95020.4 4124 13 0
+rnode "inverter_5/in.t0" 0 106280 3301 4 0
+resist "inverter_5/in.t0" "inverter_5/in.t1" 9745
+killnode "inverter_6/in"
+rnode "inverter_6/in.t1" 0 94919.7 4947 13 0
+rnode "inverter_6/in.t0" 0 106180 4125 4 0
+resist "inverter_6/in.t0" "inverter_6/in.t1" 9733
+killnode "inverter_7/in"
+rnode "inverter_7/in.t1" 0 95020.4 5771 13 0
+rnode "inverter_7/in.t0" 0 106280 4948 4 0
+resist "inverter_7/in.t0" "inverter_7/in.t1" 9745
+killnode "inverter_8/in"
+rnode "inverter_8/in.t1" 0 94919.7 6594 13 0
+rnode "inverter_8/in.t0" 0 106180 5772 4 0
+resist "inverter_8/in.t0" "inverter_8/in.t1" 9733
+killnode "inverter_9/in"
+rnode "inverter_9/in.t1" 0 95020.4 7418 13 0
+rnode "inverter_9/in.t0" 0 106280 6595 4 0
+resist "inverter_9/in.t0" "inverter_9/in.t1" 9745
+killnode "inverter_9/out"
+rnode "inverter_9/out.t1" 0 94919.7 8241 13 0
+rnode "inverter_9/out.t0" 0 106180 7419 4 0
+resist "inverter_9/out.t0" "inverter_9/out.t1" 9733
+killnode "inverter_11/in"
+rnode "inverter_11/in.t1" 0 95020.4 9065 13 0
+rnode "inverter_11/in.t0" 0 106280 8242 4 0
+resist "inverter_11/in.t0" "inverter_11/in.t1" 9745
+killnode "inverter_12/in"
+rnode "inverter_12/in.t1" 0 94919.7 9888 13 0
+rnode "inverter_12/in.t0" 0 106180 9066 4 0
+resist "inverter_12/in.t0" "inverter_12/in.t1" 9733
+killnode "inverter_13/in"
+rnode "inverter_13/in.t1" 0 95020.4 10712 13 0
+rnode "inverter_13/in.t0" 0 106280 9889 4 0
+resist "inverter_13/in.t0" "inverter_13/in.t1" 9745
+killnode "inverter_14/in"
+rnode "inverter_14/in.t1" 0 94919.7 11535 13 0
+rnode "inverter_14/in.t0" 0 106180 10713 4 0
+resist "inverter_14/in.t0" "inverter_14/in.t1" 9733
+killnode "inverter_15/in"
+rnode "inverter_15/in.t1" 0 95020.4 12359 13 0
+rnode "inverter_15/in.t0" 0 106280 11536 4 0
+resist "inverter_15/in.t0" "inverter_15/in.t1" 9745
+killnode "inverter_16/in"
+rnode "inverter_16/in.t1" 0 94919.7 13182 13 0
+rnode "inverter_16/in.t0" 0 106180 12360 4 0
+resist "inverter_16/in.t0" "inverter_16/in.t1" 9733
+killnode "inverter_17/in"
+rnode "inverter_17/in.t1" 0 94831.6 14006 13 0
+rnode "inverter_17/in.t0" 0 106068 13183 4 0
+resist "inverter_17/in.t0" "inverter_17/in.t1" 9745
+killnode "inverter_18/in"
+rnode "inverter_18/in.t1" 0 94919.7 14829 13 0
+rnode "inverter_18/in.t0" 0 106180 14007 4 0
+resist "inverter_18/in.t0" "inverter_18/in.t1" 9733
+killnode "inverter_19/in"
+rnode "inverter_19/in.t1" 0 95020.4 15653 13 0
+rnode "inverter_19/in.t0" 0 106280 14830 4 0
+resist "inverter_19/in.t0" "inverter_19/in.t1" 9745
+killnode "inverter_20/in"
+rnode "inverter_20/in.t1" 0 94919.7 16476 13 0
+rnode "inverter_20/in.t0" 0 106180 15654 4 0
+resist "inverter_20/in.t0" "inverter_20/in.t1" 9733
+killnode "inverter_21/in"
+rnode "inverter_21/in.t1" 0 94926 17300 13 0
+rnode "inverter_21/in.t0" 0 106174 16477 4 0
+resist "inverter_21/in.t0" "inverter_21/in.t1" 9745
+killnode "inverter_22/in"
+rnode "inverter_22/in.t1" 0 94919.7 18123 13 0
+rnode "inverter_22/in.t0" 0 106180 17301 4 0
+resist "inverter_22/in.t0" "inverter_22/in.t1" 9733
+killnode "inverter_23/in"
+rnode "inverter_23/in.t1" 0 95020.4 18947 13 0
+rnode "inverter_23/in.t0" 0 106280 18124 4 0
+resist "inverter_23/in.t0" "inverter_23/in.t1" 9745
+killnode "inverter_24/in"
+rnode "inverter_24/in.t1" 0 94919.7 19770 13 0
+rnode "inverter_24/in.t0" 0 106180 18948 4 0
+resist "inverter_24/in.t0" "inverter_24/in.t1" 9733
+killnode "inverter_25/in"
+rnode "inverter_25/in.t1" 0 95020.4 20594 13 0
+rnode "inverter_25/in.t0" 0 106280 19771 4 0
+resist "inverter_25/in.t0" "inverter_25/in.t1" 9745
+killnode "inverter_26/in"
+rnode "inverter_26/in.t1" 0 94919.7 21417 13 0
+rnode "inverter_26/in.t0" 0 106180 20595 4 0
+resist "inverter_26/in.t0" "inverter_26/in.t1" 9733
+killnode "inverter_27/in"
+rnode "inverter_27/in.t1" 0 95020.4 22241 13 0
+rnode "inverter_27/in.t0" 0 106280 21418 4 0
+resist "inverter_27/in.t0" "inverter_27/in.t1" 9745
+killnode "inverter_28/in"
+rnode "inverter_28/in.t1" 0 94919.7 23064 13 0
+rnode "inverter_28/in.t0" 0 106180 22242 4 0
+resist "inverter_28/in.t0" "inverter_28/in.t1" 9733
+killnode "inverter_29/in"
+rnode "inverter_29/in.t1" 0 95020.4 23888 13 0
+rnode "inverter_29/in.t0" 0 106280 23065 4 0
+resist "inverter_29/in.t0" "inverter_29/in.t1" 9745
+killnode "inverter_30/in"
+rnode "inverter_30/in.t1" 0 94919.7 24711 13 0
+rnode "inverter_30/in.t0" 0 106180 23889 4 0
+resist "inverter_30/in.t0" "inverter_30/in.t1" 9733
+killnode "inverter_31/in"
+rnode "inverter_31/in.t1" 0 95020.4 25535 13 0
+rnode "inverter_31/in.t0" 0 106280 24712 4 0
+resist "inverter_31/in.t0" "inverter_31/in.t1" 9745
+killnode "inverter_32/in"
+rnode "inverter_32/in.t1" 0 94919.7 26358 13 0
+rnode "inverter_32/in.t0" 0 106180 25536 4 0
+resist "inverter_32/in.t0" "inverter_32/in.t1" 9733
+killnode "inverter_33/in"
+rnode "inverter_33/in.t1" 0 95020.4 27182 13 0
+rnode "inverter_33/in.t0" 0 106280 26359 4 0
+resist "inverter_33/in.t0" "inverter_33/in.t1" 9745
+killnode "inverter_34/in"
+rnode "inverter_34/in.t1" 0 94589.3 28005 13 0
+rnode "inverter_34/in.t0" 0 105811 27183 4 0
+resist "inverter_34/in.t0" "inverter_34/in.t1" 9733
+killnode "inverter_35/in"
+rnode "inverter_35/in.t1" 0 95020.4 28829 13 0
+rnode "inverter_35/in.t0" 0 106280 28006 4 0
+resist "inverter_35/in.t0" "inverter_35/in.t1" 9745
+killnode "inverter_36/in"
+rnode "inverter_36/in.t1" 0 94919.7 29652 13 0
+rnode "inverter_36/in.t0" 0 106180 28830 4 0
+resist "inverter_36/in.t0" "inverter_36/in.t1" 9733
+killnode "inverter_37/in"
+rnode "inverter_37/in.t1" 0 95020.4 30476 13 0
+rnode "inverter_37/in.t0" 0 106280 29653 4 0
+resist "inverter_37/in.t0" "inverter_37/in.t1" 9745
+killnode "inverter_38/in"
+rnode "inverter_38/in.t1" 0 94919.7 31299 13 0
+rnode "inverter_38/in.t0" 0 106180 30477 4 0
+resist "inverter_38/in.t0" "inverter_38/in.t1" 9733
+killnode "inverter_39/in"
+rnode "inverter_39/in.t1" 0 95020.4 32123 13 0
+rnode "inverter_39/in.t0" 0 106280 31300 4 0
+resist "inverter_39/in.t0" "inverter_39/in.t1" 9745
+killnode "inverter_40/in"
+rnode "inverter_40/in.t1" 0 94919.7 32946 13 0
+rnode "inverter_40/in.t0" 0 106180 32124 4 0
+resist "inverter_40/in.t0" "inverter_40/in.t1" 9733
+killnode "inverter_41/in"
+rnode "inverter_41/in.t1" 0 95020.4 33770 13 0
+rnode "inverter_41/in.t0" 0 106280 32947 4 0
+resist "inverter_41/in.t0" "inverter_41/in.t1" 9745
+killnode "inverter_42/in"
+rnode "inverter_42/in.t1" 0 94919.7 34593 13 0
+rnode "inverter_42/in.t0" 0 106180 33771 4 0
+resist "inverter_42/in.t0" "inverter_42/in.t1" 9733
+killnode "inverter_43/in"
+rnode "inverter_43/in.t1" 0 94878.8 35417 13 0
+rnode "inverter_43/in.t0" 0 106121 34594 4 0
+resist "inverter_43/in.t0" "inverter_43/in.t1" 9745
+killnode "inverter_44/in"
+rnode "inverter_44/in.t1" 0 94919.7 36240 13 0
+rnode "inverter_44/in.t0" 0 106180 35418 4 0
+resist "inverter_44/in.t0" "inverter_44/in.t1" 9733
+killnode "inverter_45/in"
+rnode "inverter_45/in.t1" 0 95020.4 37064 13 0
+rnode "inverter_45/in.t0" 0 106280 36241 4 0
+resist "inverter_45/in.t0" "inverter_45/in.t1" 9745
+killnode "inverter_46/in"
+rnode "inverter_46/in.t1" 0 94919.7 37887 13 0
+rnode "inverter_46/in.t0" 0 106180 37065 4 0
+resist "inverter_46/in.t0" "inverter_46/in.t1" 9733
+killnode "inverter_47/in"
+rnode "inverter_47/in.t1" 0 95020.4 38711 13 0
+rnode "inverter_47/in.t0" 0 106280 37888 4 0
+resist "inverter_47/in.t0" "inverter_47/in.t1" 9745
+killnode "inverter_48/in"
+rnode "inverter_48/in.t1" 0 94919.7 39534 13 0
+rnode "inverter_48/in.t0" 0 106180 38712 4 0
+resist "inverter_48/in.t0" "inverter_48/in.t1" 9733
+killnode "inverter_49/in"
+rnode "inverter_49/in.t1" 0 95020.4 40358 13 0
+rnode "inverter_49/in.t0" 0 106280 39535 4 0
+resist "inverter_49/in.t0" "inverter_49/in.t1" 9745
+fet nfet 5 3 6 4 6 10 Gnd! "input" 4 0 "GND!" 3 0 "inverter_1/in.t0" 3 0
+fet pfet 5 17 6 18 12 16 Vdd! "input" 4 0 "Vdd!" 6 0 "inverter_1/in.t0" 6 0
+fet nfet 829 3 830 4 6 10 Gnd! "inverter_1/in.t1" 4 0 "GND!" 3 0 "inverter_2/in.t0" 3 0
+fet pfet 829 17 830 18 12 16 Vdd! "inverter_1/in.t1" 4 0 "Vdd!" 6 0 "inverter_2/in.t0" 6 0
+fet nfet 1652 3 1653 4 6 10 Gnd! "inverter_2/in.t1" 4 0 "GND!" 3 0 "inverter_3/in.t0" 3 0
+fet pfet 1652 17 1653 18 12 16 Vdd! "inverter_2/in.t1" 4 0 "Vdd!" 6 0 "inverter_3/in.t0" 6 0
+fet nfet 2476 3 2477 4 6 10 Gnd! "inverter_3/in.t1" 4 0 "GND!" 3 0 "inverter_4/in.t0" 3 0
+fet pfet 2476 17 2477 18 12 16 Vdd! "inverter_3/in.t1" 4 0 "Vdd!" 6 0 "inverter_4/in.t0" 6 0
+fet nfet 3299 3 3300 4 6 10 Gnd! "inverter_4/in.t1" 4 0 "GND!" 3 0 "inverter_5/in.t0" 3 0
+fet pfet 3299 17 3300 18 12 16 Vdd! "inverter_4/in.t1" 4 0 "Vdd!" 6 0 "inverter_5/in.t0" 6 0
+fet nfet 4123 3 4124 4 6 10 Gnd! "inverter_5/in.t1" 4 0 "GND!" 3 0 "inverter_6/in.t0" 3 0
+fet pfet 4123 17 4124 18 12 16 Vdd! "inverter_5/in.t1" 4 0 "Vdd!" 6 0 "inverter_6/in.t0" 6 0
+fet nfet 4946 3 4947 4 6 10 Gnd! "inverter_6/in.t1" 4 0 "GND!" 3 0 "inverter_7/in.t0" 3 0
+fet pfet 4946 17 4947 18 12 16 Vdd! "inverter_6/in.t1" 4 0 "Vdd!" 6 0 "inverter_7/in.t0" 6 0
+fet nfet 5770 3 5771 4 6 10 Gnd! "inverter_7/in.t1" 4 0 "GND!" 3 0 "inverter_8/in.t0" 3 0
+fet pfet 5770 17 5771 18 12 16 Vdd! "inverter_7/in.t1" 4 0 "Vdd!" 6 0 "inverter_8/in.t0" 6 0
+fet nfet 6593 3 6594 4 6 10 Gnd! "inverter_8/in.t1" 4 0 "GND!" 3 0 "inverter_9/in.t0" 3 0
+fet pfet 6593 17 6594 18 12 16 Vdd! "inverter_8/in.t1" 4 0 "Vdd!" 6 0 "inverter_9/in.t0" 6 0
+fet nfet 7417 3 7418 4 6 10 Gnd! "inverter_9/in.t1" 4 0 "GND!" 3 0 "inverter_9/out.t0" 3 0
+fet pfet 7417 17 7418 18 12 16 Vdd! "inverter_9/in.t1" 4 0 "Vdd!" 6 0 "inverter_9/out.t0" 6 0
+fet nfet 8240 3 8241 4 6 10 Gnd! "inverter_9/out.t1" 4 0 "GND!" 3 0 "inverter_11/in.t0" 3 0
+fet pfet 8240 17 8241 18 12 16 Vdd! "inverter_9/out.t1" 4 0 "Vdd!" 6 0 "inverter_11/in.t0" 6 0
+fet nfet 9064 3 9065 4 6 10 Gnd! "inverter_11/in.t1" 4 0 "GND!" 3 0 "inverter_12/in.t0" 3 0
+fet pfet 9064 17 9065 18 12 16 Vdd! "inverter_11/in.t1" 4 0 "Vdd!" 6 0 "inverter_12/in.t0" 6 0
+fet nfet 9887 3 9888 4 6 10 Gnd! "inverter_12/in.t1" 4 0 "GND!" 3 0 "inverter_13/in.t0" 3 0
+fet pfet 9887 17 9888 18 12 16 Vdd! "inverter_12/in.t1" 4 0 "Vdd!" 6 0 "inverter_13/in.t0" 6 0
+fet nfet 10711 3 10712 4 6 10 Gnd! "inverter_13/in.t1" 4 0 "GND!" 3 0 "inverter_14/in.t0" 3 0
+fet pfet 10711 17 10712 18 12 16 Vdd! "inverter_13/in.t1" 4 0 "Vdd!" 6 0 "inverter_14/in.t0" 6 0
+fet nfet 11534 3 11535 4 6 10 Gnd! "inverter_14/in.t1" 4 0 "GND!" 3 0 "inverter_15/in.t0" 3 0
+fet pfet 11534 17 11535 18 12 16 Vdd! "inverter_14/in.t1" 4 0 "Vdd!" 6 0 "inverter_15/in.t0" 6 0
+fet nfet 12358 3 12359 4 6 10 Gnd! "inverter_15/in.t1" 4 0 "GND!" 3 0 "inverter_16/in.t0" 3 0
+fet pfet 12358 17 12359 18 12 16 Vdd! "inverter_15/in.t1" 4 0 "Vdd!" 6 0 "inverter_16/in.t0" 6 0
+fet nfet 13181 3 13182 4 6 10 Gnd! "inverter_16/in.t1" 4 0 "GND!" 3 0 "inverter_17/in.t0" 3 0
+fet pfet 13181 17 13182 18 12 16 Vdd! "inverter_16/in.t1" 4 0 "Vdd!" 6 0 "inverter_17/in.t0" 6 0
+fet nfet 14005 3 14006 4 6 10 Gnd! "inverter_17/in.t1" 4 0 "GND!" 3 0 "inverter_18/in.t0" 3 0
+fet pfet 14005 17 14006 18 12 16 Vdd! "inverter_17/in.t1" 4 0 "Vdd!" 6 0 "inverter_18/in.t0" 6 0
+fet nfet 14828 3 14829 4 6 10 Gnd! "inverter_18/in.t1" 4 0 "GND!" 3 0 "inverter_19/in.t0" 3 0
+fet pfet 14828 17 14829 18 12 16 Vdd! "inverter_18/in.t1" 4 0 "Vdd!" 6 0 "inverter_19/in.t0" 6 0
+fet nfet 15652 3 15653 4 6 10 Gnd! "inverter_19/in.t1" 4 0 "GND!" 3 0 "inverter_20/in.t0" 3 0
+fet pfet 15652 17 15653 18 12 16 Vdd! "inverter_19/in.t1" 4 0 "Vdd!" 6 0 "inverter_20/in.t0" 6 0
+fet nfet 16475 3 16476 4 6 10 Gnd! "inverter_20/in.t1" 4 0 "GND!" 3 0 "inverter_21/in.t0" 3 0
+fet pfet 16475 17 16476 18 12 16 Vdd! "inverter_20/in.t1" 4 0 "Vdd!" 6 0 "inverter_21/in.t0" 6 0
+fet nfet 17299 3 17300 4 6 10 Gnd! "inverter_21/in.t1" 4 0 "GND!" 3 0 "inverter_22/in.t0" 3 0
+fet pfet 17299 17 17300 18 12 16 Vdd! "inverter_21/in.t1" 4 0 "Vdd!" 6 0 "inverter_22/in.t0" 6 0
+fet nfet 18122 3 18123 4 6 10 Gnd! "inverter_22/in.t1" 4 0 "GND!" 3 0 "inverter_23/in.t0" 3 0
+fet pfet 18122 17 18123 18 12 16 Vdd! "inverter_22/in.t1" 4 0 "Vdd!" 6 0 "inverter_23/in.t0" 6 0
+fet nfet 18946 3 18947 4 6 10 Gnd! "inverter_23/in.t1" 4 0 "GND!" 3 0 "inverter_24/in.t0" 3 0
+fet pfet 18946 17 18947 18 12 16 Vdd! "inverter_23/in.t1" 4 0 "Vdd!" 6 0 "inverter_24/in.t0" 6 0
+fet nfet 19769 3 19770 4 6 10 Gnd! "inverter_24/in.t1" 4 0 "GND!" 3 0 "inverter_25/in.t0" 3 0
+fet pfet 19769 17 19770 18 12 16 Vdd! "inverter_24/in.t1" 4 0 "Vdd!" 6 0 "inverter_25/in.t0" 6 0
+fet nfet 20593 3 20594 4 6 10 Gnd! "inverter_25/in.t1" 4 0 "GND!" 3 0 "inverter_26/in.t0" 3 0
+fet pfet 20593 17 20594 18 12 16 Vdd! "inverter_25/in.t1" 4 0 "Vdd!" 6 0 "inverter_26/in.t0" 6 0
+fet nfet 21416 3 21417 4 6 10 Gnd! "inverter_26/in.t1" 4 0 "GND!" 3 0 "inverter_27/in.t0" 3 0
+fet pfet 21416 17 21417 18 12 16 Vdd! "inverter_26/in.t1" 4 0 "Vdd!" 6 0 "inverter_27/in.t0" 6 0
+fet nfet 22240 3 22241 4 6 10 Gnd! "inverter_27/in.t1" 4 0 "GND!" 3 0 "inverter_28/in.t0" 3 0
+fet pfet 22240 17 22241 18 12 16 Vdd! "inverter_27/in.t1" 4 0 "Vdd!" 6 0 "inverter_28/in.t0" 6 0
+fet nfet 23063 3 23064 4 6 10 Gnd! "inverter_28/in.t1" 4 0 "GND!" 3 0 "inverter_29/in.t0" 3 0
+fet pfet 23063 17 23064 18 12 16 Vdd! "inverter_28/in.t1" 4 0 "Vdd!" 6 0 "inverter_29/in.t0" 6 0
+fet nfet 23887 3 23888 4 6 10 Gnd! "inverter_29/in.t1" 4 0 "GND!" 3 0 "inverter_30/in.t0" 3 0
+fet pfet 23887 17 23888 18 12 16 Vdd! "inverter_29/in.t1" 4 0 "Vdd!" 6 0 "inverter_30/in.t0" 6 0
+fet nfet 24710 3 24711 4 6 10 Gnd! "inverter_30/in.t1" 4 0 "GND!" 3 0 "inverter_31/in.t0" 3 0
+fet pfet 24710 17 24711 18 12 16 Vdd! "inverter_30/in.t1" 4 0 "Vdd!" 6 0 "inverter_31/in.t0" 6 0
+fet nfet 25534 3 25535 4 6 10 Gnd! "inverter_31/in.t1" 4 0 "GND!" 3 0 "inverter_32/in.t0" 3 0
+fet pfet 25534 17 25535 18 12 16 Vdd! "inverter_31/in.t1" 4 0 "Vdd!" 6 0 "inverter_32/in.t0" 6 0
+fet nfet 26357 3 26358 4 6 10 Gnd! "inverter_32/in.t1" 4 0 "GND!" 3 0 "inverter_33/in.t0" 3 0
+fet pfet 26357 17 26358 18 12 16 Vdd! "inverter_32/in.t1" 4 0 "Vdd!" 6 0 "inverter_33/in.t0" 6 0
+fet nfet 27181 3 27182 4 6 10 Gnd! "inverter_33/in.t1" 4 0 "GND!" 3 0 "inverter_34/in.t0" 3 0
+fet pfet 27181 17 27182 18 12 16 Vdd! "inverter_33/in.t1" 4 0 "Vdd!" 6 0 "inverter_34/in.t0" 6 0
+fet nfet 28004 3 28005 4 6 10 Gnd! "inverter_34/in.t1" 4 0 "GND!" 3 0 "inverter_35/in.t0" 3 0
+fet pfet 28004 17 28005 18 12 16 Vdd! "inverter_34/in.t1" 4 0 "Vdd!" 6 0 "inverter_35/in.t0" 6 0
+fet nfet 28828 3 28829 4 6 10 Gnd! "inverter_35/in.t1" 4 0 "GND!" 3 0 "inverter_36/in.t0" 3 0
+fet pfet 28828 17 28829 18 12 16 Vdd! "inverter_35/in.t1" 4 0 "Vdd!" 6 0 "inverter_36/in.t0" 6 0
+fet nfet 29651 3 29652 4 6 10 Gnd! "inverter_36/in.t1" 4 0 "GND!" 3 0 "inverter_37/in.t0" 3 0
+fet pfet 29651 17 29652 18 12 16 Vdd! "inverter_36/in.t1" 4 0 "Vdd!" 6 0 "inverter_37/in.t0" 6 0
+fet nfet 30475 3 30476 4 6 10 Gnd! "inverter_37/in.t1" 4 0 "GND!" 3 0 "inverter_38/in.t0" 3 0
+fet pfet 30475 17 30476 18 12 16 Vdd! "inverter_37/in.t1" 4 0 "Vdd!" 6 0 "inverter_38/in.t0" 6 0
+fet nfet 31298 3 31299 4 6 10 Gnd! "inverter_38/in.t1" 4 0 "GND!" 3 0 "inverter_39/in.t0" 3 0
+fet pfet 31298 17 31299 18 12 16 Vdd! "inverter_38/in.t1" 4 0 "Vdd!" 6 0 "inverter_39/in.t0" 6 0
+fet nfet 32122 3 32123 4 6 10 Gnd! "inverter_39/in.t1" 4 0 "GND!" 3 0 "inverter_40/in.t0" 3 0
+fet pfet 32122 17 32123 18 12 16 Vdd! "inverter_39/in.t1" 4 0 "Vdd!" 6 0 "inverter_40/in.t0" 6 0
+fet nfet 32945 3 32946 4 6 10 Gnd! "inverter_40/in.t1" 4 0 "GND!" 3 0 "inverter_41/in.t0" 3 0
+fet pfet 32945 17 32946 18 12 16 Vdd! "inverter_40/in.t1" 4 0 "Vdd!" 6 0 "inverter_41/in.t0" 6 0
+fet nfet 33769 3 33770 4 6 10 Gnd! "inverter_41/in.t1" 4 0 "GND!" 3 0 "inverter_42/in.t0" 3 0
+fet pfet 33769 17 33770 18 12 16 Vdd! "inverter_41/in.t1" 4 0 "Vdd!" 6 0 "inverter_42/in.t0" 6 0
+fet nfet 34592 3 34593 4 6 10 Gnd! "inverter_42/in.t1" 4 0 "GND!" 3 0 "inverter_43/in.t0" 3 0
+fet pfet 34592 17 34593 18 12 16 Vdd! "inverter_42/in.t1" 4 0 "Vdd!" 6 0 "inverter_43/in.t0" 6 0
+fet nfet 35416 3 35417 4 6 10 Gnd! "inverter_43/in.t1" 4 0 "GND!" 3 0 "inverter_44/in.t0" 3 0
+fet pfet 35416 17 35417 18 12 16 Vdd! "inverter_43/in.t1" 4 0 "Vdd!" 6 0 "inverter_44/in.t0" 6 0
+fet nfet 36239 3 36240 4 6 10 Gnd! "inverter_44/in.t1" 4 0 "GND!" 3 0 "inverter_45/in.t0" 3 0
+fet pfet 36239 17 36240 18 12 16 Vdd! "inverter_44/in.t1" 4 0 "Vdd!" 6 0 "inverter_45/in.t0" 6 0
+fet nfet 37063 3 37064 4 6 10 Gnd! "inverter_45/in.t1" 4 0 "GND!" 3 0 "inverter_46/in.t0" 3 0
+fet pfet 37063 17 37064 18 12 16 Vdd! "inverter_45/in.t1" 4 0 "Vdd!" 6 0 "inverter_46/in.t0" 6 0
+fet nfet 37886 3 37887 4 6 10 Gnd! "inverter_46/in.t1" 4 0 "GND!" 3 0 "inverter_47/in.t0" 3 0
+fet pfet 37886 17 37887 18 12 16 Vdd! "inverter_46/in.t1" 4 0 "Vdd!" 6 0 "inverter_47/in.t0" 6 0
+fet nfet 38710 3 38711 4 6 10 Gnd! "inverter_47/in.t1" 4 0 "GND!" 3 0 "inverter_48/in.t0" 3 0
+fet pfet 38710 17 38711 18 12 16 Vdd! "inverter_47/in.t1" 4 0 "Vdd!" 6 0 "inverter_48/in.t0" 6 0
+fet nfet 39533 3 39534 4 6 10 Gnd! "inverter_48/in.t1" 4 0 "GND!" 3 0 "inverter_49/in.t0" 3 0
+fet pfet 39533 17 39534 18 12 16 Vdd! "inverter_48/in.t1" 4 0 "Vdd!" 6 0 "inverter_49/in.t0" 6 0
+fet nfet 40357 3 40358 4 6 10 Gnd! "inverter_49/in.t1" 4 0 "GND!" 3 0 "output" 3 0
+fet pfet 40357 17 40358 18 12 16 Vdd! "inverter_49/in.t1" 4 0 "Vdd!" 6 0 "output" 6 0

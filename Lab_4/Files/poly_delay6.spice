@@ -1,0 +1,61 @@
+* SPICE3 file created from poly_delay6.ext - technology: scmos
+
+M1000 output inverter_1/in.t1 Vdd Vdd pfet w=6u l=2u
++ ad=26p pd=22u as=156p ps=132u 
+M1001 output inverter_1/in.t1 GND Gnd nfet w=3u l=2u
++ ad=19p pd=18u as=114p ps=108u 
+M1002 inverter_1/in.t0 inverter_5/in.t1 Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1003 inverter_1/in.t0 inverter_5/in.t2 GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1004 inverter_5/in.t0 inverter_4/in.t1 Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1005 inverter_5/in.t0 inverter_4/in.t2 GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1006 inverter_4/in.t0 inverter_3/in.t1 Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1007 inverter_4/in.t0 inverter_3/in.t2 GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1008 inverter_3/in.t0 inverter_2/in.t1 Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1009 inverter_3/in.t0 inverter_2/in.t2 GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1010 inverter_2/in.t0 input Vdd Vdd pfet w=6u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+M1011 inverter_2/in.t0 input GND Gnd nfet w=3u l=2u
++ ad=0p pd=0u as=0p ps=0u 
+R0 inverter_1/in.t0 inverter_1/in.t1 95212
+R1 inverter_5/in.t0 inverter_5/in.t2 95546
+R2 inverter_5/in.t2 inverter_5/in.t1 95
+R3 inverter_4/in.t0 inverter_4/in.t2 95558
+R4 inverter_4/in.t2 inverter_4/in.t1 95
+R5 inverter_3/in.t0 inverter_3/in.t2 95546
+R6 inverter_3/in.t2 inverter_3/in.t1 95
+R7 inverter_2/in.t0 inverter_2/in.t2 94771
+R8 inverter_2/in.t2 inverter_2/in.t1 95
+C0 inverter_2/in.t0 gnd! 955.7fF
+C1 inverter_2/in.t2 gnd! 941.2fF
+C2 inverter_3/in.t0 gnd! 964.3fF
+C3 inverter_3/in.t2 gnd! 948.5fF
+C4 inverter_4/in.t0 gnd! 964.1fF
+C5 inverter_4/in.t2 gnd! 948.8fF
+C6 inverter_5/in.t0 gnd! 964.3fF
+C7 inverter_5/in.t2 gnd! 948.5fF
+C8 inverter_1/in.t1 gnd! 946.4fF
+C9 inverter_1/in.t0 gnd! 961.1fF
+C10 input gnd! 5.5fF
+C11 Vdd gnd! 5647.5fF
+
+.include ../usc-spice.usc-spice
+
+Vgnd1 GND 0 DC 0VZ
+Vgnd2 gnd! 0 DC 0V
+VVdd Vdd 0 DC 2.8V
+Vin input 0 pulse(0 2.8 0ns 0.1ns 0.1ns 5000ns 10000ns)
+.tran 5ns 20000ns
+.probe
+.control
+run
+plot input output+4
+.endc
+.end

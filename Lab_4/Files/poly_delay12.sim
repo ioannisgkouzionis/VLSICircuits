@@ -1,0 +1,53 @@
+| units: 100 tech: scmos format: MIT
+p inverter_11/in Vdd! output 2 6 40095 17
+n inverter_11/in GND! output 2 3 40095 3
+p inverter_9/out Vdd! inverter_11/in 2 6 36450 17
+n inverter_9/out GND! inverter_11/in 2 3 36450 3
+p inverter_9/in Vdd! inverter_9/out 2 6 32806 17
+n inverter_9/in GND! inverter_9/out 2 3 32806 3
+p inverter_8/in Vdd! inverter_9/in 2 6 29161 17
+n inverter_8/in GND! inverter_9/in 2 3 29161 3
+p inverter_7/in Vdd! inverter_8/in 2 6 25517 17
+n inverter_7/in GND! inverter_8/in 2 3 25517 3
+p inverter_6/in Vdd! inverter_7/in 2 6 21872 17
+n inverter_6/in GND! inverter_7/in 2 3 21872 3
+p inverter_5/in Vdd! inverter_6/in 2 6 18228 17
+n inverter_5/in GND! inverter_6/in 2 3 18228 3
+p inverter_4/in Vdd! inverter_5/in 2 6 14583 17
+n inverter_4/in GND! inverter_5/in 2 3 14583 3
+p inverter_3/in Vdd! inverter_4/in 2 6 10939 17
+n inverter_3/in GND! inverter_4/in 2 3 10939 3
+p inverter_2/in Vdd! inverter_3/in 2 6 7294 17
+n inverter_2/in GND! inverter_3/in 2 3 7294 3
+p inverter_1/in Vdd! inverter_2/in 2 6 3650 17
+n inverter_1/in GND! inverter_2/in 2 3 3650 3
+p input Vdd! inverter_1/in 2 6 5 17
+n input GND! inverter_1/in 2 3 5 3
+C input GND 5.2
+R input 322
+C inverter_1/in GND 872.7
+R inverter_1/in 43887
+C inverter_2/in GND 872.5
+R inverter_2/in 43875
+C inverter_3/in GND 872.7
+R inverter_3/in 43887
+C inverter_4/in GND 872.5
+R inverter_4/in 43875
+C inverter_5/in GND 872.7
+R inverter_5/in 43887
+C inverter_6/in GND 872.5
+R inverter_6/in 43875
+C inverter_7/in GND 872.7
+R inverter_7/in 43887
+C inverter_8/in GND 872.5
+R inverter_8/in 43875
+C inverter_9/in GND 872.5
+R inverter_9/in 43864
+C inverter_9/out GND 872.5
+R inverter_9/out 43875
+R GND! 1967
+R output 176
+C Vdd! GND 5658.1
+R Vdd! 3862
+C inverter_11/in GND 872.7
+R inverter_11/in 43887

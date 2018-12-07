@@ -1,0 +1,38 @@
+timestamp 1477235084
+version 8.0
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+node "a_45_n9#" 31 0 45 -9 ndiff 42 26 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n23_n9#" 175 8695 -23 -9 ndiff 175 78 0 0 0 0 0 0 0 0 0 0 255 136 0 0 0 0
+node "myGnd" 184 28247 24 -9 ndiff 196 84 0 0 0 0 0 0 0 0 0 0 671 250 0 0 0 0
+node "myOut" 136 6345 97 -8 ndiff 77 36 77 36 0 0 0 0 0 0 0 0 195 88 0 0 0 0
+node "a_45_15#" 69 0 45 15 pdiff 0 0 42 26 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "myVdd" 410 17108 24 15 pdiff 0 0 196 84 0 0 0 0 0 0 0 0 460 238 0 0 0 0
+node "a_n23_15#" 390 5452 -23 15 pdiff 0 0 175 78 0 0 0 0 0 0 0 0 185 108 0 0 0 0
+node "a_n10_n9#" 792 37364 -10 -9 ndiff 175 78 168 76 164 88 0 0 0 0 0 0 804 424 0 0 0 0
+node "myCin" 1114 33950 2 -16 p 0 0 0 0 420 286 0 0 0 0 0 0 32 24 0 0 0 0
+node "myA" 239 11640 20 -12 p 0 0 0 0 160 88 0 0 0 0 0 0 60 38 0 0 0 0
+node "myB" 1150 35947 -13 -12 p 0 0 0 0 442 298 0 0 0 0 0 0 35 24 0 0 0 0
+cap "myGnd" "myCin" 300
+cap "myA" "a_n10_n9#" 720
+cap "a_n10_n9#" "myCin" 1260
+cap "myB" "a_n23_15#" 270
+cap "myB" "myVdd" 720
+cap "myB" "myA" 360
+cap "myVdd" "myCin" 360
+cap "myB" "a_n10_n9#" 540
+cap "a_n23_n9#" "myCin" 300
+device mosfet nfet 93 -8 94 -7 4 7 "Gnd!" "a_n10_n9#" 8 0 "myGnd" 7 0 "myOut" 7 0
+device mosfet nfet 51 -9 52 -8 4 7 "Gnd!" "myCin" 8 0 "a_45_n9#" 7 0 "a_n10_n9#" 7 0
+device mosfet nfet 42 -9 43 -8 3 7 "Gnd!" "myB" 6 0 "myGnd" 7 0 "a_45_n9#" 7 0
+device mosfet nfet 20 -9 21 -8 4 7 "Gnd!" "myA" 8 0 "a_n23_n9#" 7 0 "myGnd" 7 0
+device mosfet nfet 2 -9 3 -8 3 7 "Gnd!" "myCin" 6 0 "a_n10_n9#" 7 0 "a_n23_n9#" 7 0
+device mosfet nfet -13 -9 -12 -8 3 7 "Gnd!" "myB" 6 0 "a_n23_n9#" 7 0 "a_n10_n9#" 7 0
+device mosfet pfet 93 15 94 16 4 7 "Vdd!" "a_n10_n9#" 8 0 "myVdd" 7 0 "myOut" 7 0
+device mosfet pfet 51 15 52 16 4 7 "Vdd!" "myCin" 8 0 "a_45_15#" 7 0 "a_n10_n9#" 7 0
+device mosfet pfet 42 15 43 16 3 7 "Vdd!" "myB" 6 0 "myVdd" 7 0 "a_45_15#" 7 0
+device mosfet pfet 20 15 21 16 4 7 "Vdd!" "myA" 8 0 "a_n23_15#" 7 0 "myVdd" 7 0
+device mosfet pfet 2 15 3 16 3 7 "Vdd!" "myCin" 6 0 "a_n10_n9#" 7 0 "a_n23_15#" 7 0
+device mosfet pfet -13 15 -12 16 3 7 "Vdd!" "myB" 6 0 "a_n23_15#" 7 0 "a_n10_n9#" 7 0

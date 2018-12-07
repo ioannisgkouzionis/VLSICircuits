@@ -1,0 +1,28 @@
+* SPICE3 file created from /home/user/vlsi/erg1/work/not.ext - technology: scmos
+
+.option scale=1u
+
+M1000 myOut myA myVdd Vdd pfet w=5 l=3
++ ad=55 pd=32 as=60 ps=34 
+M1001 myOut myA myGnd Gnd nfet w=4 l=3
++ ad=48 pd=32 as=44 ps=30 
+C0 myOut gnd! 3.9fF
+C1 myA gnd! 10.3fF
+
+
+.include ../usc-spice.usc-spice
+
+Vgnd1 myGnd 0 DC 0V
+Vgnd2 gnd! 0 DC 0V
+
+VVdd myVdd 0 DC 2.8V
+
+Vin1 myA 0 pulse(0 2.8v 0ns 0.1ns 0.1ns 64ns 128ns)
+
+.tran 1ns 1000ns
+.probe
+.control
+run
+plot myA myOut+4
+.endc
+.end

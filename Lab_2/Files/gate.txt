@@ -1,0 +1,28 @@
+h myVdd
+l myGnd
+
+ana myD myC myQ myVdd myGnd
+
+h myD
+h myC
+s 100
+
+h myD
+l myC
+s 100
+
+l myD
+h myC
+s 100
+
+l myD
+l myC
+s 100
+
+l myD
+h myC
+s 100
+
+h myD
+l myC
+s 100

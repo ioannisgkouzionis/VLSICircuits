@@ -1,0 +1,30 @@
+* SPICE3 file created from antistrofeas2.ext - technology: scmos
+
+.option scale=1u
+
+M1000 out Vout Vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=52 ps=44 
+M1001 out Vout GND Gnd nfet w=3 l=2
++ ad=19 pd=18 as=38 ps=36 
+M1002 Vout Vin Vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1003 Vout Vin GND Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+C0 Vin gnd! 5.0fF
+C1 out gnd! 3.2fF
+C2 Vdd gnd! 6.5fF
+C3 Vout gnd! 10.9fF
+
+.include ../usc-spice.usc-spice
+
+Vgnd1 GND 0 DC 0V
+Vgnd2 gnd! 0 DC 0V
+VVdd Vdd 0 DC 2.8V
+Vin Vin 0 pulse(0 2.8 0ns 0.1ns 0.1ns 10ns 20ns)
+.tran 5ns 40ns
+.probe
+.control
+run
+plot Vin out+4
+.endc
+.end

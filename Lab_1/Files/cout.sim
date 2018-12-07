@@ -1,0 +1,33 @@
+| units: 100 tech: scmos format: MIT
+p myB a_n23_15# a_n10_n9# 3 7 -13 15
+p myCin a_n10_n9# a_n23_15# 3 7 2 15
+p myA a_n23_15# myVdd 4 7 20 15
+p myB myVdd a_45_15# 3 7 42 15
+p myCin a_45_15# a_n10_n9# 4 7 51 15
+p a_n10_n9# myVdd myOut 4 7 93 15
+n myB a_n23_n9# a_n10_n9# 3 7 -13 -9
+n myCin a_n10_n9# a_n23_n9# 3 7 2 -9
+n myA a_n23_n9# myGnd 4 7 20 -9
+n myB myGnd a_45_n9# 3 7 42 -9
+n myCin a_45_n9# a_n10_n9# 4 7 51 -9
+n a_n10_n9# myGnd myOut 4 7 93 -8
+R a_45_n9# 31
+C a_n23_n9# GND 8.7
+R a_n23_n9# 175
+C myGnd GND 28.2
+R myGnd 184
+C myOut GND 6.3
+R myOut 136
+R a_45_15# 69
+C myVdd GND 17.1
+R myVdd 410
+C a_n23_15# GND 5.5
+R a_n23_15# 390
+C a_n10_n9# GND 37.4
+R a_n10_n9# 792
+C myCin GND 34.0
+R myCin 1114
+C myA GND 11.6
+R myA 239
+C myB GND 35.9
+R myB 1150

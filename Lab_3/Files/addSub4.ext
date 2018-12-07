@@ -1,0 +1,129 @@
+timestamp 1479555546
+version 8.0
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+node "a_157_16#" 159 0 157 16 pdiff 0 0 96 44 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_134_16#" 369 8460 134 16 pdiff 0 0 108 60 0 0 0 0 0 0 0 0 218 150 0 0 0 0
+node "a_88_20#" 159 0 88 20 pdiff 0 0 96 44 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_65_20#" 369 8460 65 20 pdiff 0 0 108 60 0 0 0 0 0 0 0 0 218 150 0 0 0 0
+node "SUM" 250 32007 145 16 pdiff 52 40 60 32 0 0 0 0 0 0 0 0 728 490 0 0 0 0
+node "a_145_37#" 252 4512 145 37 ndiff 68 56 0 0 0 0 0 0 0 0 0 0 140 98 0 0 0 0
+node "a_76_37#" 252 4512 76 37 ndiff 68 56 0 0 0 0 0 0 0 0 0 0 140 98 0 0 0 0
+node "a_175_55#" 709 12839 175 55 ndiff 31 26 54 30 98 98 0 0 0 0 0 0 108 76 0 0 0 0
+node "a_145_55#" 709 12839 145 55 ndiff 31 26 54 30 98 98 0 0 0 0 0 0 108 76 0 0 0 0
+node "a_102_55#" 661 11887 102 55 pc 31 26 54 30 90 90 0 0 0 0 0 0 108 76 0 0 0 0
+node "a_72_55#" 661 11887 72 55 pc 31 26 54 30 90 90 0 0 0 0 0 0 108 76 0 0 0 0
+node "a_88_37#" 998 19851 88 37 ndiff 52 40 60 32 134 134 0 0 0 0 0 0 210 144 0 0 0 0
+node "a_29_101#" 159 0 29 101 pdiff 0 0 96 44 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_6_101#" 369 8460 6 101 pdiff 0 0 108 60 0 0 0 0 0 0 0 0 218 150 0 0 0 0
+node "a_131_107#" 71 0 131 107 pdiff 0 0 30 22 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_87_107#" 363 3384 87 107 pdiff 0 0 102 58 0 0 0 0 0 0 0 0 116 82 0 0 0 0
+node "Cout" 136 12972 156 107 pdiff 25 22 42 26 0 0 0 0 0 0 0 0 311 212 0 0 0 0
+node "a_131_123#" 44 0 131 123 ndiff 15 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "A" 1183 37351 114 83 pc 0 0 0 0 206 206 0 0 0 0 0 0 419 284 0 0 0 0
+node "a_96_107#" 838 13593 96 107 pdiff 53 46 90 54 62 58 0 0 0 0 0 0 281 190 0 0 0 0
+node "a_87_123#" 227 3290 87 123 ndiff 59 50 0 0 0 0 0 0 0 0 0 0 116 82 0 0 0 0
+node "C" 2389 64608 104 105 p 0 0 0 0 416 412 0 0 0 0 0 0 526 360 0 0 0 0
+node "XORB" 2395 47654 29 118 ndiff 52 40 60 32 368 368 0 0 0 0 0 0 279 190 0 0 0 0
+node "a_17_118#" 252 4512 17 118 ndiff 68 56 0 0 0 0 0 0 0 0 0 0 140 98 0 0 0 0
+node "gnd" 1983 57631 6 118 ndiff 431 362 0 0 0 0 0 0 0 0 0 0 1308 854 915 610 0 0
+node "a_43_136#" 661 11887 43 136 pc 31 26 54 30 90 90 0 0 0 0 0 0 108 76 0 0 0 0
+node "vdd" 2630 78929 17 101 pdiff 0 0 606 334 0 0 0 0 0 0 0 0 1947 1268 128 90 0 0
+node "a_13_136#" 661 11887 13 136 pc 31 26 54 30 90 90 0 0 0 0 0 0 108 76 0 0 0 0
+node "AddSub" 811 13500 57 99 p 0 0 0 0 136 140 0 0 0 0 0 0 0 0 0 0 0 0
+node "B" 811 13500 27 99 p 0 0 0 0 136 140 0 0 0 0 0 0 0 0 0 0 0 0
+cap "a_13_136#" "vdd" 180
+cap "AddSub" "XORB" 180
+cap "a_88_37#" "a_102_55#" 180
+cap "C" "a_145_37#" 180
+cap "A" "a_88_37#" 180
+cap "a_13_136#" "gnd" 180
+cap "gnd" "a_145_55#" 180
+cap "gnd" "a_88_37#" 585
+cap "XORB" "a_96_107#" 180
+cap "C" "a_87_123#" 420
+cap "vdd" "AddSub" 180
+cap "a_43_136#" "XORB" 180
+cap "vdd" "a_175_55#" 180
+cap "vdd" "a_72_55#" 180
+cap "AddSub" "gnd" 180
+cap "a_145_55#" "a_145_37#" 180
+cap "vdd" "a_96_107#" 405
+cap "vdd" "XORB" 540
+cap "B" "vdd" 180
+cap "gnd" "SUM" 2250
+cap "XORB" "a_76_37#" 180
+cap "gnd" "a_175_55#" 180
+cap "gnd" "a_72_55#" 810
+cap "XORB" "a_87_107#" 180
+cap "a_96_107#" "A" 180
+cap "XORB" "A" 360
+cap "C" "a_96_107#" 360
+cap "gnd" "a_96_107#" 603
+cap "XORB" "C" 180
+cap "gnd" "XORB" 585
+cap "a_43_136#" "gnd" 180
+cap "B" "gnd" 180
+cap "a_145_55#" "SUM" 180
+cap "a_88_37#" "SUM" 180
+cap "a_102_55#" "a_76_37#" 180
+cap "vdd" "A" 180
+cap "vdd" "C" 540
+cap "vdd" "gnd" 2970
+cap "gnd" "a_65_20#" 801
+cap "gnd" "a_102_55#" 180
+cap "C" "A" 180
+cap "gnd" "A" 585
+cap "gnd" "C" 2760
+cap "a_43_136#" "a_17_118#" 180
+cap "B" "a_17_118#" 180
+device mosfet pfet 185 16 186 17 2 6 "Vdd!" "a_175_55#" 4 0 "vdd" 6 0 "a_134_16#" 6 0
+device mosfet pfet 173 16 174 17 2 6 "Vdd!" "C" 4 0 "a_157_16#" 6 0 "vdd" 6 0
+device mosfet pfet 155 16 156 17 2 6 "Vdd!" "a_145_55#" 4 0 "SUM" 6 0 "a_157_16#" 6 0
+device mosfet pfet 143 16 144 17 2 6 "Vdd!" "a_88_37#" 4 0 "a_134_16#" 6 0 "SUM" 6 0
+device mosfet nfet 185 37 186 38 2 3 "Gnd!" "a_175_55#" 4 0 "a_145_37#" 3 0 "gnd" 3 0
+device mosfet nfet 173 37 174 38 2 3 "Gnd!" "C" 4 0 "SUM" 3 0 "a_145_37#" 3 0
+device mosfet pfet 116 20 117 21 2 6 "Vdd!" "A" 4 0 "a_88_37#" 6 0 "a_65_20#" 6 0
+device mosfet pfet 104 20 105 21 2 6 "Vdd!" "a_102_55#" 4 0 "a_88_20#" 6 0 "a_88_37#" 6 0
+device mosfet pfet 86 20 87 21 2 6 "Vdd!" "XORB" 4 0 "vdd" 6 0 "a_88_20#" 6 0
+device mosfet pfet 74 20 75 21 2 6 "Vdd!" "a_72_55#" 4 0 "a_65_20#" 6 0 "vdd" 6 0
+device mosfet nfet 155 37 156 38 2 3 "Gnd!" "a_145_55#" 4 0 "a_145_37#" 3 0 "SUM" 3 0
+device mosfet nfet 143 37 144 38 2 3 "Gnd!" "a_88_37#" 4 0 "gnd" 3 0 "a_145_37#" 3 0
+device mosfet nfet 116 37 117 38 2 3 "Gnd!" "A" 4 0 "a_76_37#" 3 0 "gnd" 3 0
+device mosfet nfet 104 37 105 38 2 3 "Gnd!" "a_102_55#" 4 0 "a_88_37#" 3 0 "a_76_37#" 3 0
+device mosfet nfet 86 37 87 38 2 3 "Gnd!" "XORB" 4 0 "a_76_37#" 3 0 "a_88_37#" 3 0
+device mosfet nfet 74 37 75 38 2 3 "Gnd!" "a_72_55#" 4 0 "gnd" 3 0 "a_76_37#" 3 0
+device mosfet nfet 173 55 174 56 2 3 "Gnd!" "C" 4 0 "gnd" 3 0 "a_175_55#" 3 0
+device mosfet nfet 143 55 144 56 2 3 "Gnd!" "a_88_37#" 4 0 "gnd" 3 0 "a_145_55#" 3 0
+device mosfet nfet 116 55 117 56 2 3 "Gnd!" "A" 4 0 "a_102_55#" 3 0 "gnd" 3 0
+device mosfet nfet 86 55 87 56 2 3 "Gnd!" "XORB" 4 0 "a_72_55#" 3 0 "gnd" 3 0
+device mosfet pfet 173 69 174 70 2 6 "Vdd!" "C" 4 0 "vdd" 6 0 "a_175_55#" 6 0
+device mosfet pfet 143 69 144 70 2 6 "Vdd!" "a_88_37#" 4 0 "vdd" 6 0 "a_145_55#" 6 0
+device mosfet pfet 116 69 117 70 2 6 "Vdd!" "A" 4 0 "a_102_55#" 6 0 "vdd" 6 0
+device mosfet pfet 86 69 87 70 2 6 "Vdd!" "XORB" 4 0 "a_72_55#" 6 0 "vdd" 6 0
+device mosfet pfet 57 101 58 102 2 6 "Vdd!" "AddSub" 4 0 "XORB" 6 0 "a_6_101#" 6 0
+device mosfet pfet 45 101 46 102 2 6 "Vdd!" "a_43_136#" 4 0 "a_29_101#" 6 0 "XORB" 6 0
+device mosfet pfet 27 101 28 102 2 6 "Vdd!" "B" 4 0 "vdd" 6 0 "a_29_101#" 6 0
+device mosfet pfet 15 101 16 102 2 6 "Vdd!" "a_13_136#" 4 0 "a_6_101#" 6 0 "vdd" 6 0
+device mosfet pfet 154 107 155 108 2 6 "Vdd!" "a_96_107#" 4 0 "vdd" 6 0 "Cout" 6 0
+device mosfet pfet 136 107 137 108 2 6 "Vdd!" "C" 4 0 "a_131_107#" 6 0 "a_96_107#" 6 0
+device mosfet pfet 129 107 130 108 2 6 "Vdd!" "XORB" 4 0 "vdd" 6 0 "a_131_107#" 6 0
+device mosfet pfet 116 107 117 108 2 6 "Vdd!" "A" 4 0 "a_87_107#" 6 0 "vdd" 6 0
+device mosfet pfet 104 107 105 108 2 6 "Vdd!" "C" 4 0 "a_96_107#" 6 0 "a_87_107#" 6 0
+device mosfet pfet 94 107 95 108 2 6 "Vdd!" "XORB" 4 0 "a_87_107#" 6 0 "a_96_107#" 6 0
+device mosfet nfet 57 118 58 119 2 3 "Gnd!" "AddSub" 4 0 "a_17_118#" 3 0 "gnd" 3 0
+device mosfet nfet 154 123 155 124 2 3 "Gnd!" "a_96_107#" 4 0 "gnd" 3 0 "Cout" 3 0
+device mosfet nfet 136 123 137 124 2 3 "Gnd!" "C" 4 0 "a_131_123#" 3 0 "a_96_107#" 3 0
+device mosfet nfet 129 123 130 124 2 3 "Gnd!" "XORB" 4 0 "gnd" 3 0 "a_131_123#" 3 0
+device mosfet nfet 116 123 117 124 2 3 "Gnd!" "A" 4 0 "a_87_123#" 3 0 "gnd" 3 0
+device mosfet nfet 104 123 105 124 2 3 "Gnd!" "C" 4 0 "a_96_107#" 3 0 "a_87_123#" 3 0
+device mosfet nfet 94 123 95 124 2 3 "Gnd!" "XORB" 4 0 "a_87_123#" 3 0 "a_96_107#" 3 0
+device mosfet nfet 45 118 46 119 2 3 "Gnd!" "a_43_136#" 4 0 "XORB" 3 0 "a_17_118#" 3 0
+device mosfet nfet 27 118 28 119 2 3 "Gnd!" "B" 4 0 "a_17_118#" 3 0 "XORB" 3 0
+device mosfet nfet 15 118 16 119 2 3 "Gnd!" "a_13_136#" 4 0 "gnd" 3 0 "a_17_118#" 3 0
+device mosfet nfet 57 136 58 137 2 3 "Gnd!" "AddSub" 4 0 "a_43_136#" 3 0 "gnd" 3 0
+device mosfet nfet 27 136 28 137 2 3 "Gnd!" "B" 4 0 "a_13_136#" 3 0 "gnd" 3 0
+device mosfet pfet 57 150 58 151 2 6 "Vdd!" "AddSub" 4 0 "a_43_136#" 6 0 "vdd" 6 0
+device mosfet pfet 27 150 28 151 2 6 "Vdd!" "B" 4 0 "a_13_136#" 6 0 "vdd" 6 0

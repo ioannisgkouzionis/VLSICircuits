@@ -1,0 +1,36 @@
+magic
+tech scmos
+timestamp 1415310808
+<< polysilicon >>
+rect 32 127 34 129
+<< metal1 >>
+rect -32 127 28 130
+rect -32 100 -29 127
+rect -35 97 -29 100
+rect -20 54 -17 75
+rect -42 51 -17 54
+rect -61 23 18 26
+rect -108 19 -92 22
+rect -108 6 -105 19
+rect 15 11 18 23
+rect 15 8 31 11
+rect -108 3 -2 6
+rect 293 4 296 77
+<< metal2 >>
+rect 2 3 15 5
+rect 2 2 292 3
+rect 11 0 292 2
+<< polycontact >>
+rect 28 127 32 131
+<< m2contact >>
+rect -2 2 2 6
+rect 292 0 296 4
+use mux4x1  mux4x1_0
+timestamp 1415310006
+transform 0 1 -93 -1 0 103
+box -19 -8 92 59
+use flipflop  flipflop_0
+timestamp 1414520249
+transform 1 0 87 0 1 87
+box -107 -87 209 46
+<< end >>

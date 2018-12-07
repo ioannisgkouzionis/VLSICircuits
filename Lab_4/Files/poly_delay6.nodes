@@ -1,0 +1,10 @@
+94 input 500 2400 p;
+94 inverter_2/in 796000 0 p;
+94 inverter_3/in 1598300 0 p;
+94 inverter_4/in 2400600 0 p;
+94 inverter_5/in 3202900 0 p;
+94 GND! -300 -300 m1;
+94 output 4003000 900 m1;
+94 Vdd! 0 1900 pdc;
+94 inverter_1/in 4002500 -100 p;
+94 Gnd! 4002500 900 space;

@@ -1,0 +1,959 @@
+* SPICE3 file created from shiftreg.ext - technology: scmos
+
+.option scale=1u
+.option RSHUNT=100MEG
+
+M1000 shiftregistermodule_0/flipflop_0/gate_3/Gout q0 vdd Vdd pfet w=6 l=2
++ ad=75 pd=52 as=2976 ps=2464 
+M1001 shiftregistermodule_0/flipflop_0/gate_3/Gout q0 gnd Gnd nfet w=3 l=2
++ ad=47 pd=42 as=1824 ps=1728 
+M1002 shiftregistermodule_0/flipflop_0/gate_0/S CLK vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1003 shiftregistermodule_0/flipflop_0/gate_0/S CLK gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1004 shiftregistermodule_0/flipflop_0/gate_3/Gout CLK shiftregistermodule_0/flipflop_0/gate_3/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=98 ps=60 
+M1005 shiftregistermodule_0/flipflop_0/gate_3/Gout shiftregistermodule_0/flipflop_0/gate_2/S shiftregistermodule_0/flipflop_0/gate_3/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=56 ps=48 
+M1006 shiftregistermodule_0/flipflop_0/gate_2/S CLK vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1007 shiftregistermodule_0/flipflop_0/gate_2/S CLK gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1008 shiftregistermodule_0/flipflop_0/gate_1/Gout shiftregistermodule_0/flipflop_0/gate_2/Gin vdd Vdd pfet w=6 l=2
++ ad=75 pd=52 as=0 ps=0 
+M1009 shiftregistermodule_0/flipflop_0/gate_1/Gout shiftregistermodule_0/flipflop_0/gate_2/Gin gnd Gnd nfet w=3 l=2
++ ad=47 pd=42 as=0 ps=0 
+M1010 shiftregistermodule_0/flipflop_0/gate_1/Gout shiftregistermodule_0/flipflop_0/gate_1/S shiftregistermodule_0/flipflop_0/gate_1/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=98 ps=60 
+M1011 shiftregistermodule_0/flipflop_0/gate_1/Gout shiftregistermodule_0/flipflop_0/gate_0/S shiftregistermodule_0/flipflop_0/gate_1/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=56 ps=48 
+M1012 shiftregistermodule_0/flipflop_0/gate_1/S shiftregistermodule_0/flipflop_0/gate_0/S vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1013 shiftregistermodule_0/flipflop_0/gate_1/S shiftregistermodule_0/flipflop_0/gate_0/S GND Gnd nfet w=3 l=2
++ ad=19 pd=18 as=152 ps=144 
+M1014 shiftregistermodule_0/flipflop_0/qb q0 vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1015 shiftregistermodule_0/flipflop_0/qb q0 gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1016 q0 shiftregistermodule_0/flipflop_0/gate_3/Gin vdd Vdd pfet w=6 l=2
++ ad=124 pd=82 as=0 ps=0 
+M1017 q0 shiftregistermodule_0/flipflop_0/gate_3/Gin gnd Gnd nfet w=3 l=2
++ ad=75 pd=66 as=0 ps=0 
+M1018 shiftregistermodule_0/flipflop_0/gate_3/Gin shiftregistermodule_0/flipflop_0/gate_2/S shiftregistermodule_0/flipflop_0/gate_2/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=75 ps=52 
+M1019 shiftregistermodule_0/flipflop_0/gate_3/Gin CLK shiftregistermodule_0/flipflop_0/gate_2/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=47 ps=42 
+M1020 shiftregistermodule_0/flipflop_0/gate_2/Gin shiftregistermodule_0/flipflop_0/gate_1/Gin vdd Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1021 shiftregistermodule_0/flipflop_0/gate_2/Gin shiftregistermodule_0/flipflop_0/gate_1/Gin gnd Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1022 shiftregistermodule_0/flipflop_0/gate_1/Gin shiftregistermodule_0/flipflop_0/gate_0/S shiftregistermodule_0/flipflop_0/gate_0/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=75 ps=52 
+M1023 shiftregistermodule_0/flipflop_0/gate_1/Gin shiftregistermodule_0/flipflop_0/gate_1/S shiftregistermodule_0/flipflop_0/gate_0/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=47 ps=42 
+M1024 shiftregistermodule_0/flipflop_0/gate_0/Gin shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out vdd Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1025 shiftregistermodule_0/flipflop_0/gate_0/Gin shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out gnd Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1026 shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 vdd Vdd pfet w=6 l=2
++ ad=48 pd=28 as=0 ps=0 
+M1027 vdd shiftregistermodule_0/mux4x1_0/out shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1028 shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/a_n19_2# shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 gnd Gnd nfet w=3 l=2
++ ad=24 pd=22 as=0 ps=0 
+M1029 shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out shiftregistermodule_0/mux4x1_0/out shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/a_n19_2# Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1030 shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 CLR vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1031 shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 CLR gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1032 q0 S1 shiftregistermodule_0/mux4x1_0/gate_5/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=147 ps=90 
+M1033 q0 shiftregistermodule_0/mux4x1_0/gate_0/S shiftregistermodule_0/mux4x1_0/gate_5/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=84 ps=72 
+M1034 shiftregistermodule_0/mux4x1_0/gate_5/Gin shiftregistermodule_0/mux4x1_0/gate_0/S q1 Vdd pfet w=6 l=2
++ ad=0 pd=0 as=173 ps=112 
+M1035 shiftregistermodule_0/mux4x1_0/gate_5/Gin S1 q1 Gnd nfet w=3 l=2
++ ad=0 pd=0 as=103 ps=90 
+M1036 shiftregistermodule_0/mux4x1_0/gate_4/Gin S1 sr Vdd pfet w=6 l=2
++ ad=147 pd=90 as=49 ps=30 
+M1037 shiftregistermodule_0/mux4x1_0/gate_4/Gin shiftregistermodule_0/mux4x1_0/gate_0/S sr Gnd nfet w=3 l=2
++ ad=84 pd=72 as=28 ps=24 
+M1038 shiftregistermodule_0/mux4x1_0/gate_4/Gin shiftregistermodule_0/mux4x1_0/gate_0/S in0 Vdd pfet w=6 l=2
++ ad=0 pd=0 as=49 ps=30 
+M1039 shiftregistermodule_0/mux4x1_0/gate_4/Gin S1 in0 Gnd nfet w=3 l=2
++ ad=0 pd=0 as=28 ps=24 
+M1040 shiftregistermodule_0/mux4x1_0/gate_0/S S1 vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1041 shiftregistermodule_0/mux4x1_0/gate_0/S S1 gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1042 shiftregistermodule_0/mux4x1_0/gate_4/S S0 vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1043 shiftregistermodule_0/mux4x1_0/gate_4/S S0 gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1044 shiftregistermodule_0/mux4x1_0/out S0 shiftregistermodule_0/mux4x1_0/gate_5/Gin Vdd pfet w=6 l=2
++ ad=98 pd=60 as=0 ps=0 
+M1045 shiftregistermodule_0/mux4x1_0/out shiftregistermodule_0/mux4x1_0/gate_4/S shiftregistermodule_0/mux4x1_0/gate_5/Gin Gnd nfet w=3 l=2
++ ad=56 pd=48 as=0 ps=0 
+M1046 shiftregistermodule_0/mux4x1_0/out shiftregistermodule_0/mux4x1_0/gate_4/S shiftregistermodule_0/mux4x1_0/gate_4/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1047 shiftregistermodule_0/mux4x1_0/out S0 shiftregistermodule_0/mux4x1_0/gate_4/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1048 shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_3/Gout q1 vdd Vdd pfet w=6 l=2
++ ad=75 pd=52 as=0 ps=0 
+M1049 shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_3/Gout q1 gnd Gnd nfet w=3 l=2
++ ad=47 pd=42 as=0 ps=0 
+M1050 shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_0/S CLK vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1051 shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_0/S CLK gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1052 shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_3/Gout CLK shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_3/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=98 ps=60 
+M1053 shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_3/Gout shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_2/S shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_3/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=56 ps=48 
+M1054 shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_2/S CLK vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1055 shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_2/S CLK gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1056 shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/Gout shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_2/Gin vdd Vdd pfet w=6 l=2
++ ad=75 pd=52 as=0 ps=0 
+M1057 shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/Gout shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_2/Gin gnd Gnd nfet w=3 l=2
++ ad=47 pd=42 as=0 ps=0 
+M1058 shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/Gout shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/S shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=98 ps=60 
+M1059 shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/Gout shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_0/S shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=56 ps=48 
+M1060 shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/S shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_0/S vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1061 shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/S shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_0/S GND Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1062 shiftRegister_2/shiftregistermodule_1/flipflop_0/qb q1 vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1063 shiftRegister_2/shiftregistermodule_1/flipflop_0/qb q1 gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1064 q1 shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_3/Gin vdd Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1065 q1 shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_3/Gin gnd Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1066 shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_3/Gin shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_2/S shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_2/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=75 ps=52 
+M1067 shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_3/Gin CLK shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_2/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=47 ps=42 
+M1068 shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_2/Gin shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/Gin vdd Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1069 shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_2/Gin shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/Gin gnd Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1070 shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/Gin shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_0/S shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_0/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=75 ps=52 
+M1071 shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/Gin shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/S shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_0/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=47 ps=42 
+M1072 shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_0/Gin shiftRegister_2/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out vdd Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1073 shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_0/Gin shiftRegister_2/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out gnd Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1074 shiftRegister_2/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out shiftRegister_2/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 vdd Vdd pfet w=6 l=2
++ ad=48 pd=28 as=0 ps=0 
+M1075 vdd shiftRegister_2/shiftregistermodule_1/mux4x1_0/out shiftRegister_2/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1076 shiftRegister_2/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/a_n19_2# shiftRegister_2/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 gnd Gnd nfet w=3 l=2
++ ad=24 pd=22 as=0 ps=0 
+M1077 shiftRegister_2/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out shiftRegister_2/shiftregistermodule_1/mux4x1_0/out shiftRegister_2/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/a_n19_2# Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1078 shiftRegister_2/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 CLR vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1079 shiftRegister_2/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 CLR gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1080 q1 S1 shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_5/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=147 ps=90 
+M1081 q1 shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_0/S shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_5/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=84 ps=72 
+M1082 shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_5/Gin shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_0/S q2 Vdd pfet w=6 l=2
++ ad=0 pd=0 as=173 ps=112 
+M1083 shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_5/Gin S1 q2 Gnd nfet w=3 l=2
++ ad=0 pd=0 as=103 ps=90 
+M1084 shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_4/Gin S1 q0 Vdd pfet w=6 l=2
++ ad=147 pd=90 as=0 ps=0 
+M1085 shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_4/Gin shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_0/S q0 Gnd nfet w=3 l=2
++ ad=84 pd=72 as=0 ps=0 
+M1086 shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_4/Gin shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_0/S in1 Vdd pfet w=6 l=2
++ ad=0 pd=0 as=49 ps=30 
+M1087 shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_4/Gin S1 in1 Gnd nfet w=3 l=2
++ ad=0 pd=0 as=28 ps=24 
+M1088 shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_0/S S1 vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1089 shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_0/S S1 gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1090 shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_4/S S0 vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1091 shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_4/S S0 gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1092 shiftRegister_2/shiftregistermodule_1/mux4x1_0/out S0 shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_5/Gin Vdd pfet w=6 l=2
++ ad=98 pd=60 as=0 ps=0 
+M1093 shiftRegister_2/shiftregistermodule_1/mux4x1_0/out shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_4/S shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_5/Gin Gnd nfet w=3 l=2
++ ad=56 pd=48 as=0 ps=0 
+M1094 shiftRegister_2/shiftregistermodule_1/mux4x1_0/out shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_4/S shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_4/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1095 shiftRegister_2/shiftregistermodule_1/mux4x1_0/out S0 shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_4/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1096 shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_3/Gout q2 vdd Vdd pfet w=6 l=2
++ ad=75 pd=52 as=0 ps=0 
+M1097 shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_3/Gout q2 gnd Gnd nfet w=3 l=2
++ ad=47 pd=42 as=0 ps=0 
+M1098 shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_0/S CLK vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1099 shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_0/S CLK gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1100 shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_3/Gout CLK shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_3/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=98 ps=60 
+M1101 shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_3/Gout shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_2/S shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_3/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=56 ps=48 
+M1102 shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_2/S CLK vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1103 shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_2/S CLK gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1104 shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/Gout shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_2/Gin vdd Vdd pfet w=6 l=2
++ ad=75 pd=52 as=0 ps=0 
+M1105 shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/Gout shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_2/Gin gnd Gnd nfet w=3 l=2
++ ad=47 pd=42 as=0 ps=0 
+M1106 shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/Gout shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/S shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=98 ps=60 
+M1107 shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/Gout shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_0/S shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=56 ps=48 
+M1108 shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/S shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_0/S vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1109 shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/S shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_0/S GND Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1110 shiftRegister_2/shiftregistermodule_0/flipflop_0/qb q2 vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1111 shiftRegister_2/shiftregistermodule_0/flipflop_0/qb q2 gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1112 q2 shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_3/Gin vdd Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1113 q2 shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_3/Gin gnd Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1114 shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_3/Gin shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_2/S shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_2/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=75 ps=52 
+M1115 shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_3/Gin CLK shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_2/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=47 ps=42 
+M1116 shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_2/Gin shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/Gin vdd Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1117 shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_2/Gin shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/Gin gnd Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1118 shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/Gin shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_0/S shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_0/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=75 ps=52 
+M1119 shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/Gin shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/S shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_0/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=47 ps=42 
+M1120 shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_0/Gin shiftRegister_2/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out vdd Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1121 shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_0/Gin shiftRegister_2/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out gnd Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1122 shiftRegister_2/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out shiftRegister_2/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 vdd Vdd pfet w=6 l=2
++ ad=48 pd=28 as=0 ps=0 
+M1123 vdd shiftRegister_2/shiftregistermodule_0/mux4x1_0/out shiftRegister_2/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1124 shiftRegister_2/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/a_n19_2# shiftRegister_2/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 gnd Gnd nfet w=3 l=2
++ ad=24 pd=22 as=0 ps=0 
+M1125 shiftRegister_2/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out shiftRegister_2/shiftregistermodule_0/mux4x1_0/out shiftRegister_2/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/a_n19_2# Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1126 shiftRegister_2/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 CLR vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1127 shiftRegister_2/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 CLR gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1128 q2 S1 shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_5/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=147 ps=90 
+M1129 q2 shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_0/S shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_5/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=84 ps=72 
+M1130 shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_5/Gin shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_0/S q3 Vdd pfet w=6 l=2
++ ad=0 pd=0 as=173 ps=112 
+M1131 shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_5/Gin S1 q3 Gnd nfet w=3 l=2
++ ad=0 pd=0 as=103 ps=90 
+M1132 shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_4/Gin S1 q1 Vdd pfet w=6 l=2
++ ad=147 pd=90 as=0 ps=0 
+M1133 shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_4/Gin shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_0/S q1 Gnd nfet w=3 l=2
++ ad=84 pd=72 as=0 ps=0 
+M1134 shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_4/Gin shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_0/S in2 Vdd pfet w=6 l=2
++ ad=0 pd=0 as=49 ps=30 
+M1135 shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_4/Gin S1 in2 Gnd nfet w=3 l=2
++ ad=0 pd=0 as=28 ps=24 
+M1136 shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_0/S S1 vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1137 shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_0/S S1 gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1138 shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_4/S S0 vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1139 shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_4/S S0 gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1140 shiftRegister_2/shiftregistermodule_0/mux4x1_0/out S0 shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_5/Gin Vdd pfet w=6 l=2
++ ad=98 pd=60 as=0 ps=0 
+M1141 shiftRegister_2/shiftregistermodule_0/mux4x1_0/out shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_4/S shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_5/Gin Gnd nfet w=3 l=2
++ ad=56 pd=48 as=0 ps=0 
+M1142 shiftRegister_2/shiftregistermodule_0/mux4x1_0/out shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_4/S shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_4/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1143 shiftRegister_2/shiftregistermodule_0/mux4x1_0/out S0 shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_4/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1144 shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_3/Gout q3 vdd Vdd pfet w=6 l=2
++ ad=75 pd=52 as=0 ps=0 
+M1145 shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_3/Gout q3 gnd Gnd nfet w=3 l=2
++ ad=47 pd=42 as=0 ps=0 
+M1146 shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_0/S CLK vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1147 shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_0/S CLK gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1148 shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_3/Gout CLK shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_3/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=98 ps=60 
+M1149 shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_3/Gout shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_2/S shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_3/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=56 ps=48 
+M1150 shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_2/S CLK vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1151 shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_2/S CLK gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1152 shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/Gout shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_2/Gin vdd Vdd pfet w=6 l=2
++ ad=75 pd=52 as=0 ps=0 
+M1153 shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/Gout shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_2/Gin gnd Gnd nfet w=3 l=2
++ ad=47 pd=42 as=0 ps=0 
+M1154 shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/Gout shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/S shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=98 ps=60 
+M1155 shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/Gout shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_0/S shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=56 ps=48 
+M1156 shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/S shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_0/S vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1157 shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/S shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_0/S GND Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1158 shiftRegister_1/shiftregistermodule_1/flipflop_0/qb q3 vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1159 shiftRegister_1/shiftregistermodule_1/flipflop_0/qb q3 gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1160 q3 shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_3/Gin vdd Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1161 q3 shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_3/Gin gnd Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1162 shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_3/Gin shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_2/S shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_2/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=75 ps=52 
+M1163 shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_3/Gin CLK shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_2/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=47 ps=42 
+M1164 shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_2/Gin shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/Gin vdd Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1165 shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_2/Gin shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/Gin gnd Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1166 shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/Gin shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_0/S shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_0/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=75 ps=52 
+M1167 shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/Gin shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/S shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_0/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=47 ps=42 
+M1168 shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_0/Gin shiftRegister_1/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out vdd Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1169 shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_0/Gin shiftRegister_1/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out gnd Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1170 shiftRegister_1/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out shiftRegister_1/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 vdd Vdd pfet w=6 l=2
++ ad=48 pd=28 as=0 ps=0 
+M1171 vdd shiftRegister_1/shiftregistermodule_1/mux4x1_0/out shiftRegister_1/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1172 shiftRegister_1/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/a_n19_2# shiftRegister_1/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 gnd Gnd nfet w=3 l=2
++ ad=24 pd=22 as=0 ps=0 
+M1173 shiftRegister_1/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out shiftRegister_1/shiftregistermodule_1/mux4x1_0/out shiftRegister_1/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/a_n19_2# Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1174 shiftRegister_1/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 CLR vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1175 shiftRegister_1/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 CLR gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1176 q3 S1 shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_5/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=147 ps=90 
+M1177 q3 shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_0/S shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_5/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=84 ps=72 
+M1178 shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_5/Gin shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_0/S q4 Vdd pfet w=6 l=2
++ ad=0 pd=0 as=173 ps=112 
+M1179 shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_5/Gin S1 q4 Gnd nfet w=3 l=2
++ ad=0 pd=0 as=103 ps=90 
+M1180 shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_4/Gin S1 q2 Vdd pfet w=6 l=2
++ ad=147 pd=90 as=0 ps=0 
+M1181 shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_4/Gin shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_0/S q2 Gnd nfet w=3 l=2
++ ad=84 pd=72 as=0 ps=0 
+M1182 shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_4/Gin shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_0/S in3 Vdd pfet w=6 l=2
++ ad=0 pd=0 as=49 ps=30 
+M1183 shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_4/Gin S1 in3 Gnd nfet w=3 l=2
++ ad=0 pd=0 as=28 ps=24 
+M1184 shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_0/S S1 vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1185 shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_0/S S1 gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1186 shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_4/S S0 vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1187 shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_4/S S0 gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1188 shiftRegister_1/shiftregistermodule_1/mux4x1_0/out S0 shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_5/Gin Vdd pfet w=6 l=2
++ ad=98 pd=60 as=0 ps=0 
+M1189 shiftRegister_1/shiftregistermodule_1/mux4x1_0/out shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_4/S shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_5/Gin Gnd nfet w=3 l=2
++ ad=56 pd=48 as=0 ps=0 
+M1190 shiftRegister_1/shiftregistermodule_1/mux4x1_0/out shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_4/S shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_4/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1191 shiftRegister_1/shiftregistermodule_1/mux4x1_0/out S0 shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_4/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1192 shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_3/Gout q4 vdd Vdd pfet w=6 l=2
++ ad=75 pd=52 as=0 ps=0 
+M1193 shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_3/Gout q4 gnd Gnd nfet w=3 l=2
++ ad=47 pd=42 as=0 ps=0 
+M1194 shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_0/S CLK vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1195 shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_0/S CLK gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1196 shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_3/Gout CLK shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_3/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=98 ps=60 
+M1197 shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_3/Gout shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_2/S shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_3/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=56 ps=48 
+M1198 shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_2/S CLK vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1199 shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_2/S CLK gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1200 shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/Gout shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_2/Gin vdd Vdd pfet w=6 l=2
++ ad=75 pd=52 as=0 ps=0 
+M1201 shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/Gout shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_2/Gin gnd Gnd nfet w=3 l=2
++ ad=47 pd=42 as=0 ps=0 
+M1202 shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/Gout shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/S shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=98 ps=60 
+M1203 shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/Gout shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_0/S shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=56 ps=48 
+M1204 shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/S shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_0/S vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1205 shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/S shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_0/S GND Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1206 shiftRegister_1/shiftregistermodule_0/flipflop_0/qb q4 vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1207 shiftRegister_1/shiftregistermodule_0/flipflop_0/qb q4 gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1208 q4 shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_3/Gin vdd Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1209 q4 shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_3/Gin gnd Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1210 shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_3/Gin shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_2/S shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_2/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=75 ps=52 
+M1211 shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_3/Gin CLK shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_2/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=47 ps=42 
+M1212 shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_2/Gin shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/Gin vdd Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1213 shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_2/Gin shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/Gin gnd Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1214 shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/Gin shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_0/S shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_0/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=75 ps=52 
+M1215 shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/Gin shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/S shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_0/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=47 ps=42 
+M1216 shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_0/Gin shiftRegister_1/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out vdd Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1217 shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_0/Gin shiftRegister_1/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out gnd Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1218 shiftRegister_1/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out shiftRegister_1/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 vdd Vdd pfet w=6 l=2
++ ad=48 pd=28 as=0 ps=0 
+M1219 vdd shiftRegister_1/shiftregistermodule_0/mux4x1_0/out shiftRegister_1/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1220 shiftRegister_1/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/a_n19_2# shiftRegister_1/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 gnd Gnd nfet w=3 l=2
++ ad=24 pd=22 as=0 ps=0 
+M1221 shiftRegister_1/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out shiftRegister_1/shiftregistermodule_0/mux4x1_0/out shiftRegister_1/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/a_n19_2# Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1222 shiftRegister_1/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 CLR vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1223 shiftRegister_1/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 CLR gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1224 q4 S1 shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_5/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=147 ps=90 
+M1225 q4 shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_0/S shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_5/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=84 ps=72 
+M1226 shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_5/Gin shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_0/S q5 Vdd pfet w=6 l=2
++ ad=0 pd=0 as=173 ps=112 
+M1227 shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_5/Gin S1 q5 Gnd nfet w=3 l=2
++ ad=0 pd=0 as=103 ps=90 
+M1228 shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_4/Gin S1 q3 Vdd pfet w=6 l=2
++ ad=147 pd=90 as=0 ps=0 
+M1229 shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_4/Gin shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_0/S q3 Gnd nfet w=3 l=2
++ ad=84 pd=72 as=0 ps=0 
+M1230 shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_4/Gin shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_0/S in4 Vdd pfet w=6 l=2
++ ad=0 pd=0 as=49 ps=30 
+M1231 shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_4/Gin S1 in4 Gnd nfet w=3 l=2
++ ad=0 pd=0 as=28 ps=24 
+M1232 shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_0/S S1 vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1233 shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_0/S S1 gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1234 shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_4/S S0 vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1235 shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_4/S S0 gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1236 shiftRegister_1/shiftregistermodule_0/mux4x1_0/out S0 shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_5/Gin Vdd pfet w=6 l=2
++ ad=98 pd=60 as=0 ps=0 
+M1237 shiftRegister_1/shiftregistermodule_0/mux4x1_0/out shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_4/S shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_5/Gin Gnd nfet w=3 l=2
++ ad=56 pd=48 as=0 ps=0 
+M1238 shiftRegister_1/shiftregistermodule_0/mux4x1_0/out shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_4/S shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_4/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1239 shiftRegister_1/shiftregistermodule_0/mux4x1_0/out S0 shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_4/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1240 shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_3/Gout q5 vdd Vdd pfet w=6 l=2
++ ad=75 pd=52 as=0 ps=0 
+M1241 shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_3/Gout q5 gnd Gnd nfet w=3 l=2
++ ad=47 pd=42 as=0 ps=0 
+M1242 shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_0/S CLK vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1243 shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_0/S CLK gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1244 shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_3/Gout CLK shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_3/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=98 ps=60 
+M1245 shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_3/Gout shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_2/S shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_3/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=56 ps=48 
+M1246 shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_2/S CLK vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1247 shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_2/S CLK gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1248 shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/Gout shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_2/Gin vdd Vdd pfet w=6 l=2
++ ad=75 pd=52 as=0 ps=0 
+M1249 shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/Gout shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_2/Gin gnd Gnd nfet w=3 l=2
++ ad=47 pd=42 as=0 ps=0 
+M1250 shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/Gout shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/S shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=98 ps=60 
+M1251 shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/Gout shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_0/S shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=56 ps=48 
+M1252 shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/S shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_0/S vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1253 shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/S shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_0/S GND Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1254 shiftRegister_0/shiftregistermodule_1/flipflop_0/qb q5 vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1255 shiftRegister_0/shiftregistermodule_1/flipflop_0/qb q5 gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1256 q5 shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_3/Gin vdd Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1257 q5 shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_3/Gin gnd Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1258 shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_3/Gin shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_2/S shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_2/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=75 ps=52 
+M1259 shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_3/Gin CLK shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_2/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=47 ps=42 
+M1260 shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_2/Gin shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/Gin vdd Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1261 shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_2/Gin shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/Gin gnd Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1262 shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/Gin shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_0/S shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_0/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=75 ps=52 
+M1263 shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/Gin shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/S shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_0/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=47 ps=42 
+M1264 shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_0/Gin shiftRegister_0/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out vdd Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1265 shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_0/Gin shiftRegister_0/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out gnd Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1266 shiftRegister_0/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out shiftRegister_0/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 vdd Vdd pfet w=6 l=2
++ ad=48 pd=28 as=0 ps=0 
+M1267 vdd shiftRegister_0/shiftregistermodule_1/mux4x1_0/out shiftRegister_0/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1268 shiftRegister_0/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/a_n19_2# shiftRegister_0/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 gnd Gnd nfet w=3 l=2
++ ad=24 pd=22 as=0 ps=0 
+M1269 shiftRegister_0/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out shiftRegister_0/shiftregistermodule_1/mux4x1_0/out shiftRegister_0/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/a_n19_2# Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1270 shiftRegister_0/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 CLR vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1271 shiftRegister_0/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 CLR gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1272 q5 S1 shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_5/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=147 ps=90 
+M1273 q5 shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_0/S shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_5/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=84 ps=72 
+M1274 shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_5/Gin shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_0/S q6 Vdd pfet w=6 l=2
++ ad=0 pd=0 as=173 ps=112 
+M1275 shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_5/Gin S1 q6 Gnd nfet w=3 l=2
++ ad=0 pd=0 as=103 ps=90 
+M1276 shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_4/Gin S1 q4 Vdd pfet w=6 l=2
++ ad=147 pd=90 as=0 ps=0 
+M1277 shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_4/Gin shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_0/S q4 Gnd nfet w=3 l=2
++ ad=84 pd=72 as=0 ps=0 
+M1278 shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_4/Gin shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_0/S in5 Vdd pfet w=6 l=2
++ ad=0 pd=0 as=49 ps=30 
+M1279 shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_4/Gin S1 in5 Gnd nfet w=3 l=2
++ ad=0 pd=0 as=28 ps=24 
+M1280 shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_0/S S1 vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1281 shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_0/S S1 gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1282 shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_4/S S0 vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1283 shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_4/S S0 gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1284 shiftRegister_0/shiftregistermodule_1/mux4x1_0/out S0 shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_5/Gin Vdd pfet w=6 l=2
++ ad=98 pd=60 as=0 ps=0 
+M1285 shiftRegister_0/shiftregistermodule_1/mux4x1_0/out shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_4/S shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_5/Gin Gnd nfet w=3 l=2
++ ad=56 pd=48 as=0 ps=0 
+M1286 shiftRegister_0/shiftregistermodule_1/mux4x1_0/out shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_4/S shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_4/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1287 shiftRegister_0/shiftregistermodule_1/mux4x1_0/out S0 shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_4/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1288 shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_3/Gout q6 vdd Vdd pfet w=6 l=2
++ ad=75 pd=52 as=0 ps=0 
+M1289 shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_3/Gout q6 gnd Gnd nfet w=3 l=2
++ ad=47 pd=42 as=0 ps=0 
+M1290 shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_0/S CLK vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1291 shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_0/S CLK gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1292 shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_3/Gout CLK shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_3/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=98 ps=60 
+M1293 shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_3/Gout shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_2/S shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_3/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=56 ps=48 
+M1294 shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_2/S CLK vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1295 shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_2/S CLK gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1296 shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/Gout shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_2/Gin vdd Vdd pfet w=6 l=2
++ ad=75 pd=52 as=0 ps=0 
+M1297 shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/Gout shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_2/Gin gnd Gnd nfet w=3 l=2
++ ad=47 pd=42 as=0 ps=0 
+M1298 shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/Gout shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/S shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=98 ps=60 
+M1299 shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/Gout shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_0/S shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=56 ps=48 
+M1300 shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/S shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_0/S vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1301 shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/S shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_0/S GND Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1302 shiftRegister_0/shiftregistermodule_0/flipflop_0/qb q6 vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1303 shiftRegister_0/shiftregistermodule_0/flipflop_0/qb q6 gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1304 q6 shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_3/Gin vdd Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1305 q6 shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_3/Gin gnd Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1306 shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_3/Gin shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_2/S shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_2/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=75 ps=52 
+M1307 shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_3/Gin CLK shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_2/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=47 ps=42 
+M1308 shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_2/Gin shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/Gin vdd Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1309 shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_2/Gin shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/Gin gnd Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1310 shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/Gin shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_0/S shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_0/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=75 ps=52 
+M1311 shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/Gin shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/S shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_0/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=47 ps=42 
+M1312 shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_0/Gin shiftRegister_0/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out vdd Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1313 shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_0/Gin shiftRegister_0/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out gnd Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1314 shiftRegister_0/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out shiftRegister_0/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 vdd Vdd pfet w=6 l=2
++ ad=48 pd=28 as=0 ps=0 
+M1315 vdd shiftRegister_0/shiftregistermodule_0/mux4x1_0/out shiftRegister_0/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1316 shiftRegister_0/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/a_n19_2# shiftRegister_0/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 gnd Gnd nfet w=3 l=2
++ ad=24 pd=22 as=0 ps=0 
+M1317 shiftRegister_0/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out shiftRegister_0/shiftregistermodule_0/mux4x1_0/out shiftRegister_0/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/a_n19_2# Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1318 shiftRegister_0/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 CLR vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1319 shiftRegister_0/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 CLR gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1320 q6 S1 shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_5/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=147 ps=90 
+M1321 q6 shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_0/S shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_5/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=84 ps=72 
+M1322 shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_5/Gin shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_0/S q7 Vdd pfet w=6 l=2
++ ad=0 pd=0 as=124 ps=82 
+M1323 shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_5/Gin S1 q7 Gnd nfet w=3 l=2
++ ad=0 pd=0 as=75 ps=66 
+M1324 shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_4/Gin S1 q5 Vdd pfet w=6 l=2
++ ad=147 pd=90 as=0 ps=0 
+M1325 shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_4/Gin shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_0/S q5 Gnd nfet w=3 l=2
++ ad=84 pd=72 as=0 ps=0 
+M1326 shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_4/Gin shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_0/S in6 Vdd pfet w=6 l=2
++ ad=0 pd=0 as=49 ps=30 
+M1327 shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_4/Gin S1 in6 Gnd nfet w=3 l=2
++ ad=0 pd=0 as=28 ps=24 
+M1328 shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_0/S S1 vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1329 shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_0/S S1 gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1330 shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_4/S S0 vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1331 shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_4/S S0 gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1332 shiftRegister_0/shiftregistermodule_0/mux4x1_0/out S0 shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_5/Gin Vdd pfet w=6 l=2
++ ad=98 pd=60 as=0 ps=0 
+M1333 shiftRegister_0/shiftregistermodule_0/mux4x1_0/out shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_4/S shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_5/Gin Gnd nfet w=3 l=2
++ ad=56 pd=48 as=0 ps=0 
+M1334 shiftRegister_0/shiftregistermodule_0/mux4x1_0/out shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_4/S shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_4/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1335 shiftRegister_0/shiftregistermodule_0/mux4x1_0/out S0 shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_4/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1336 shiftregistermodule_1/flipflop_0/gate_3/Gout q7 vdd Vdd pfet w=6 l=2
++ ad=75 pd=52 as=0 ps=0 
+M1337 shiftregistermodule_1/flipflop_0/gate_3/Gout q7 gnd Gnd nfet w=3 l=2
++ ad=47 pd=42 as=0 ps=0 
+M1338 shiftregistermodule_1/flipflop_0/gate_0/S CLK vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1339 shiftregistermodule_1/flipflop_0/gate_0/S CLK gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1340 shiftregistermodule_1/flipflop_0/gate_3/Gout CLK shiftregistermodule_1/flipflop_0/gate_3/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=98 ps=60 
+M1341 shiftregistermodule_1/flipflop_0/gate_3/Gout shiftregistermodule_1/flipflop_0/gate_2/S shiftregistermodule_1/flipflop_0/gate_3/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=56 ps=48 
+M1342 shiftregistermodule_1/flipflop_0/gate_2/S CLK vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1343 shiftregistermodule_1/flipflop_0/gate_2/S CLK gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1344 shiftregistermodule_1/flipflop_0/gate_1/Gout shiftregistermodule_1/flipflop_0/gate_2/Gin vdd Vdd pfet w=6 l=2
++ ad=75 pd=52 as=0 ps=0 
+M1345 shiftregistermodule_1/flipflop_0/gate_1/Gout shiftregistermodule_1/flipflop_0/gate_2/Gin gnd Gnd nfet w=3 l=2
++ ad=47 pd=42 as=0 ps=0 
+M1346 shiftregistermodule_1/flipflop_0/gate_1/Gout shiftregistermodule_1/flipflop_0/gate_1/S shiftregistermodule_1/flipflop_0/gate_1/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=98 ps=60 
+M1347 shiftregistermodule_1/flipflop_0/gate_1/Gout shiftregistermodule_1/flipflop_0/gate_0/S shiftregistermodule_1/flipflop_0/gate_1/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=56 ps=48 
+M1348 shiftregistermodule_1/flipflop_0/gate_1/S shiftregistermodule_1/flipflop_0/gate_0/S vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1349 shiftregistermodule_1/flipflop_0/gate_1/S shiftregistermodule_1/flipflop_0/gate_0/S GND Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1350 shiftregistermodule_1/flipflop_0/qb q7 vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1351 shiftregistermodule_1/flipflop_0/qb q7 gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1352 q7 shiftregistermodule_1/flipflop_0/gate_3/Gin vdd Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1353 q7 shiftregistermodule_1/flipflop_0/gate_3/Gin gnd Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1354 shiftregistermodule_1/flipflop_0/gate_3/Gin shiftregistermodule_1/flipflop_0/gate_2/S shiftregistermodule_1/flipflop_0/gate_2/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=75 ps=52 
+M1355 shiftregistermodule_1/flipflop_0/gate_3/Gin CLK shiftregistermodule_1/flipflop_0/gate_2/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=47 ps=42 
+M1356 shiftregistermodule_1/flipflop_0/gate_2/Gin shiftregistermodule_1/flipflop_0/gate_1/Gin vdd Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1357 shiftregistermodule_1/flipflop_0/gate_2/Gin shiftregistermodule_1/flipflop_0/gate_1/Gin gnd Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1358 shiftregistermodule_1/flipflop_0/gate_1/Gin shiftregistermodule_1/flipflop_0/gate_0/S shiftregistermodule_1/flipflop_0/gate_0/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=75 ps=52 
+M1359 shiftregistermodule_1/flipflop_0/gate_1/Gin shiftregistermodule_1/flipflop_0/gate_1/S shiftregistermodule_1/flipflop_0/gate_0/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=47 ps=42 
+M1360 shiftregistermodule_1/flipflop_0/gate_0/Gin shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out vdd Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1361 shiftregistermodule_1/flipflop_0/gate_0/Gin shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out gnd Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1362 shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 vdd Vdd pfet w=6 l=2
++ ad=48 pd=28 as=0 ps=0 
+M1363 vdd shiftregistermodule_1/mux4x1_0/out shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1364 shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/a_n19_2# shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 gnd Gnd nfet w=3 l=2
++ ad=24 pd=22 as=0 ps=0 
+M1365 shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out shiftregistermodule_1/mux4x1_0/out shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/a_n19_2# Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1366 shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 CLR vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1367 shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 CLR gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1368 q7 S1 shiftregistermodule_1/mux4x1_0/gate_5/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=147 ps=90 
+M1369 q7 shiftregistermodule_1/mux4x1_0/gate_0/S shiftregistermodule_1/mux4x1_0/gate_5/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=84 ps=72 
+M1370 shiftregistermodule_1/mux4x1_0/gate_5/Gin shiftregistermodule_1/mux4x1_0/gate_0/S sl Vdd pfet w=6 l=2
++ ad=0 pd=0 as=49 ps=30 
+M1371 shiftregistermodule_1/mux4x1_0/gate_5/Gin S1 sl Gnd nfet w=3 l=2
++ ad=0 pd=0 as=28 ps=24 
+M1372 shiftregistermodule_1/mux4x1_0/gate_4/Gin S1 q6 Vdd pfet w=6 l=2
++ ad=147 pd=90 as=0 ps=0 
+M1373 shiftregistermodule_1/mux4x1_0/gate_4/Gin shiftregistermodule_1/mux4x1_0/gate_0/S q6 Gnd nfet w=3 l=2
++ ad=84 pd=72 as=0 ps=0 
+M1374 shiftregistermodule_1/mux4x1_0/gate_4/Gin shiftregistermodule_1/mux4x1_0/gate_0/S in7 Vdd pfet w=6 l=2
++ ad=0 pd=0 as=49 ps=30 
+M1375 shiftregistermodule_1/mux4x1_0/gate_4/Gin S1 in7 Gnd nfet w=3 l=2
++ ad=0 pd=0 as=28 ps=24 
+M1376 shiftregistermodule_1/mux4x1_0/gate_0/S S1 vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1377 shiftregistermodule_1/mux4x1_0/gate_0/S S1 gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1378 shiftregistermodule_1/mux4x1_0/gate_4/S S0 vdd Vdd pfet w=6 l=2
++ ad=26 pd=22 as=0 ps=0 
+M1379 shiftregistermodule_1/mux4x1_0/gate_4/S S0 gnd Gnd nfet w=3 l=2
++ ad=19 pd=18 as=0 ps=0 
+M1380 shiftregistermodule_1/mux4x1_0/out S0 shiftregistermodule_1/mux4x1_0/gate_5/Gin Vdd pfet w=6 l=2
++ ad=98 pd=60 as=0 ps=0 
+M1381 shiftregistermodule_1/mux4x1_0/out shiftregistermodule_1/mux4x1_0/gate_4/S shiftregistermodule_1/mux4x1_0/gate_5/Gin Gnd nfet w=3 l=2
++ ad=56 pd=48 as=0 ps=0 
+M1382 shiftregistermodule_1/mux4x1_0/out shiftregistermodule_1/mux4x1_0/gate_4/S shiftregistermodule_1/mux4x1_0/gate_4/Gin Vdd pfet w=6 l=2
++ ad=0 pd=0 as=0 ps=0 
+M1383 shiftregistermodule_1/mux4x1_0/out S0 shiftregistermodule_1/mux4x1_0/gate_4/Gin Gnd nfet w=3 l=2
++ ad=0 pd=0 as=0 ps=0 
+C0 vdd S0 2.8fF
+C1 gnd S0 2.8fF
+C2 q1 q2 10.4fF
+C3 q5 q6 10.4fF
+C4 q3 q4 10.0fF
+C5 gnd vdd 18.6fF
+C6 shiftregistermodule_1/mux4x1_0/gate_4/S gnd! 20.0fF
+C7 in7 gnd! 2.8fF
+C8 shiftregistermodule_1/mux4x1_0/gate_4/Gin gnd! 9.0fF
+C9 sl gnd! 3.2fF
+C10 shiftregistermodule_1/mux4x1_0/gate_0/S gnd! 35.0fF
+C11 shiftregistermodule_1/mux4x1_0/gate_5/Gin gnd! 10.6fF
+C12 shiftregistermodule_1/mux4x1_0/out gnd! 28.8fF
+C13 shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 gnd! 10.0fF
+C14 shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out gnd! 11.0fF
+C15 shiftregistermodule_1/flipflop_0/gate_0/S gnd! 42.4fF
+C16 shiftregistermodule_1/flipflop_0/gate_0/Gin gnd! 6.6fF
+C17 shiftregistermodule_1/flipflop_0/gate_3/Gin gnd! 31.6fF
+C18 shiftregistermodule_1/flipflop_0/gate_2/S gnd! 36.9fF
+C19 shiftregistermodule_1/flipflop_0/gate_2/Gin gnd! 19.5fF
+C20 shiftregistermodule_1/flipflop_0/gate_1/S gnd! 19.1fF
+C21 shiftregistermodule_1/flipflop_0/gate_1/Gin gnd! 23.3fF
+C22 shiftregistermodule_1/flipflop_0/gate_1/Gout gnd! 4.4fF
+C23 shiftregistermodule_1/flipflop_0/gate_3/Gout gnd! 5.5fF
+C24 shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_4/S gnd! 20.0fF
+C25 in6 gnd! 2.5fF
+C26 shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_4/Gin gnd! 9.0fF
+C27 q7 gnd! 69.9fF
+C28 shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_0/S gnd! 35.0fF
+C29 shiftRegister_0/shiftregistermodule_0/mux4x1_0/gate_5/Gin gnd! 10.6fF
+C30 shiftRegister_0/shiftregistermodule_0/mux4x1_0/out gnd! 28.8fF
+C31 shiftRegister_0/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 gnd! 10.0fF
+C32 shiftRegister_0/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out gnd! 11.0fF
+C33 shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_0/S gnd! 42.4fF
+C34 shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_0/Gin gnd! 6.6fF
+C35 shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_3/Gin gnd! 31.6fF
+C36 shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_2/S gnd! 36.9fF
+C37 shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_2/Gin gnd! 19.5fF
+C38 shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/S gnd! 19.1fF
+C39 shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/Gin gnd! 23.3fF
+C40 shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_1/Gout gnd! 4.4fF
+C41 shiftRegister_0/shiftregistermodule_0/flipflop_0/gate_3/Gout gnd! 5.5fF
+C42 shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_4/S gnd! 20.0fF
+C43 in5 gnd! 2.8fF
+C44 shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_4/Gin gnd! 9.0fF
+C45 q6 gnd! 83.9fF
+C46 shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_0/S gnd! 35.0fF
+C47 shiftRegister_0/shiftregistermodule_1/mux4x1_0/gate_5/Gin gnd! 10.6fF
+C48 shiftRegister_0/shiftregistermodule_1/mux4x1_0/out gnd! 28.8fF
+C49 shiftRegister_0/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 gnd! 10.0fF
+C50 shiftRegister_0/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out gnd! 11.0fF
+C51 shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_0/S gnd! 42.4fF
+C52 shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_0/Gin gnd! 6.6fF
+C53 shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_3/Gin gnd! 31.6fF
+C54 shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_2/S gnd! 36.9fF
+C55 shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_2/Gin gnd! 19.5fF
+C56 shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/S gnd! 19.1fF
+C57 shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/Gin gnd! 23.3fF
+C58 shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_1/Gout gnd! 4.4fF
+C59 shiftRegister_0/shiftregistermodule_1/flipflop_0/gate_3/Gout gnd! 5.5fF
+C60 shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_4/S gnd! 20.0fF
+C61 in4 gnd! 2.7fF
+C62 shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_4/Gin gnd! 9.0fF
+C63 q5 gnd! 83.9fF
+C64 shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_0/S gnd! 35.0fF
+C65 shiftRegister_1/shiftregistermodule_0/mux4x1_0/gate_5/Gin gnd! 10.6fF
+C66 shiftRegister_1/shiftregistermodule_0/mux4x1_0/out gnd! 28.8fF
+C67 shiftRegister_1/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 gnd! 10.0fF
+C68 shiftRegister_1/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out gnd! 11.0fF
+C69 shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_0/S gnd! 42.4fF
+C70 shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_0/Gin gnd! 6.6fF
+C71 shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_3/Gin gnd! 31.6fF
+C72 shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_2/S gnd! 36.9fF
+C73 shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_2/Gin gnd! 19.5fF
+C74 shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/S gnd! 19.1fF
+C75 shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/Gin gnd! 23.3fF
+C76 shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_1/Gout gnd! 4.4fF
+C77 shiftRegister_1/shiftregistermodule_0/flipflop_0/gate_3/Gout gnd! 5.5fF
+C78 shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_4/S gnd! 20.0fF
+C79 in3 gnd! 2.7fF
+C80 shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_4/Gin gnd! 9.0fF
+C81 q4 gnd! 83.2fF
+C82 shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_0/S gnd! 35.0fF
+C83 shiftRegister_1/shiftregistermodule_1/mux4x1_0/gate_5/Gin gnd! 10.6fF
+C84 shiftRegister_1/shiftregistermodule_1/mux4x1_0/out gnd! 28.8fF
+C85 shiftRegister_1/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 gnd! 10.0fF
+C86 shiftRegister_1/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out gnd! 11.0fF
+C87 shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_0/S gnd! 42.4fF
+C88 shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_0/Gin gnd! 6.6fF
+C89 shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_3/Gin gnd! 31.6fF
+C90 shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_2/S gnd! 36.9fF
+C91 shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_2/Gin gnd! 19.5fF
+C92 shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/S gnd! 19.1fF
+C93 shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/Gin gnd! 23.3fF
+C94 shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_1/Gout gnd! 4.4fF
+C95 shiftRegister_1/shiftregistermodule_1/flipflop_0/gate_3/Gout gnd! 5.5fF
+C96 shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_4/S gnd! 20.0fF
+C97 in2 gnd! 2.7fF
+C98 shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_4/Gin gnd! 9.0fF
+C99 q3 gnd! 82.9fF
+C100 shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_0/S gnd! 35.0fF
+C101 shiftRegister_2/shiftregistermodule_0/mux4x1_0/gate_5/Gin gnd! 10.6fF
+C102 shiftRegister_2/shiftregistermodule_0/mux4x1_0/out gnd! 28.8fF
+C103 shiftRegister_2/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 gnd! 10.0fF
+C104 shiftRegister_2/shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out gnd! 11.0fF
+C105 shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_0/S gnd! 42.4fF
+C106 shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_0/Gin gnd! 6.6fF
+C107 shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_3/Gin gnd! 31.6fF
+C108 shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_2/S gnd! 36.9fF
+C109 shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_2/Gin gnd! 19.5fF
+C110 shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/S gnd! 19.1fF
+C111 shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/Gin gnd! 23.3fF
+C112 shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_1/Gout gnd! 4.4fF
+C113 shiftRegister_2/shiftregistermodule_0/flipflop_0/gate_3/Gout gnd! 5.5fF
+C114 shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_4/S gnd! 20.0fF
+C115 in1 gnd! 3.0fF
+C116 shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_4/Gin gnd! 9.0fF
+C117 q2 gnd! 82.7fF
+C118 shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_0/S gnd! 35.0fF
+C119 shiftRegister_2/shiftregistermodule_1/mux4x1_0/gate_5/Gin gnd! 10.6fF
+C120 shiftRegister_2/shiftregistermodule_1/mux4x1_0/out gnd! 28.8fF
+C121 shiftRegister_2/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/in1 gnd! 10.0fF
+C122 shiftRegister_2/shiftregistermodule_1/flipflop_0/clear_module_0/nand_0/out gnd! 11.0fF
+C123 shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_0/S gnd! 42.4fF
+C124 shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_0/Gin gnd! 6.6fF
+C125 shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_3/Gin gnd! 31.6fF
+C126 shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_2/S gnd! 36.9fF
+C127 shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_2/Gin gnd! 19.5fF
+C128 shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/S gnd! 19.1fF
+C129 shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/Gin gnd! 23.3fF
+C130 shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_1/Gout gnd! 4.4fF
+C131 shiftRegister_2/shiftregistermodule_1/flipflop_0/gate_3/Gout gnd! 5.5fF
+C132 shiftregistermodule_0/mux4x1_0/gate_4/S gnd! 20.0fF
+C133 S0 gnd! 294.7fF
+C134 in0 gnd! 2.7fF
+C135 shiftregistermodule_0/mux4x1_0/gate_4/Gin gnd! 9.0fF
+C136 sr gnd! 2.4fF
+C137 q1 gnd! 83.4fF
+C138 shiftregistermodule_0/mux4x1_0/gate_0/S gnd! 35.0fF
+C139 S1 gnd! 443.9fF
+C140 shiftregistermodule_0/mux4x1_0/gate_5/Gin gnd! 10.6fF
+C141 shiftregistermodule_0/mux4x1_0/out gnd! 28.8fF
+C142 shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/in1 gnd! 10.0fF
+C143 shiftregistermodule_0/flipflop_0/clear_module_0/nand_0/out gnd! 11.0fF
+C144 shiftregistermodule_0/flipflop_0/gate_0/S gnd! 42.4fF
+C145 shiftregistermodule_0/flipflop_0/gate_0/Gin gnd! 6.6fF
+C146 shiftregistermodule_0/flipflop_0/gate_3/Gin gnd! 31.6fF
+C147 shiftregistermodule_0/flipflop_0/gate_2/S gnd! 36.9fF
+C148 shiftregistermodule_0/flipflop_0/gate_2/Gin gnd! 19.5fF
+C149 vdd gnd! 905.6fF
+C150 q0 gnd! 71.8fF
+C151 shiftregistermodule_0/flipflop_0/gate_1/S gnd! 19.1fF
+C152 shiftregistermodule_0/flipflop_0/gate_1/Gin gnd! 23.3fF
+C153 shiftregistermodule_0/flipflop_0/gate_1/Gout gnd! 4.4fF
+C154 gnd gnd! 897.1fF
+C155 shiftregistermodule_0/flipflop_0/gate_3/Gout gnd! 5.5fF
+
+.include ../usc-spice.usc-spice
+
+Vgnd1 GND 0 DC 0V
+Vgnd2 gnd! 0 DC 0V
+
+VVdd Vdd 0 DC 2.8V
+
+Vin1 CLK 0 pulse(0 2.8 2ns 0.1ns 0.1ns 20ns 40ns)
+Vin2 S0 0 pulse(0 2.8 0ns 0.1ns 0.1ns 420ns 750ns)
+Vin3 S1 0 pulse(2.8 0 0ns 0.1ns 0.1ns 420ns 750ns)
+Vin4 IN0 0 pulse(0 2.8 0ns 0.1ns 0.1ns 750ns 750ns)
+Vin5 IN1 0 pulse(0 2.8 0ns 0.1ns 0.1ns 750ns 750ns)
+Vin6 IN2 0 pulse(0 2.8 0ns 0.1ns 0.1ns 750ns 750ns)
+Vin7 IN3 0 pulse(0 2.8 0ns 0.1ns 0.1ns 750ns 750ns)
+Vin8 IN4 0 pulse(0 2.8 0ns 0.1ns 0.1ns 750ns 750ns)
+Vin9 IN5 0 pulse(2.8 0 0ns 0.1ns 0.1ns 750ns 750ns)
+Vin10 IN6 0 pulse(0 2.8 0ns 0.1ns 0.1ns 750ns 750ns)
+Vin11 IN7 0 pulse(0 2.8 0ns 0.1ns 0.1ns 750ns 750ns)
+Vin12 SL 0 pulse(0 0 0ns 0.1ns 0.1ns 750ns 750ns)
+Vin13 SR 0 pulse(2.8 2.8 0ns 0.1ns 0.1ns 750ns 750ns)
+Vin14 CLR 0 pulse(0 2.8 0ns 0.1ns 0.1ns 50ns 750ns)
+
+.tran 5ns 750ns
+.probe
+.control
+run
+plot S0 S1+4 SL+8 SR+12 CLR+16 CLK+20 Q0+24 Q1+28 Q2+32 Q3+36 Q4+40 Q5+44 Q6+48 Q7+52
+.endc
+.end

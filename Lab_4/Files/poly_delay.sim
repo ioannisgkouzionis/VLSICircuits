@@ -1,0 +1,14 @@
+| units: 100 tech: scmos format: MIT
+p inverter_1/in.t1 Vdd! output 2 6 40025 16
+n inverter_1/in.t1 GND! output 2 3 40025 2
+p input Vdd! inverter_1/in.t0 2 6 5 17
+n input GND! inverter_1/in.t0 2 3 5 3
+r inverter_1/in.t0 inverter_1/in.t1 477306
+C inverter_1/in.t1 GND 4758.1
+C inverter_1/in.t0 GND 4771.5
+C input GND 5.5
+R input 334
+R GND! 824
+R output 176
+C Vdd! GND 5645.3
+R Vdd! 1081
